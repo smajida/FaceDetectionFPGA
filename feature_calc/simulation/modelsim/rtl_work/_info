@@ -1,0 +1,215 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/feature_calc/simulation/modelsim
+Eadder_fullbit
+Z1 w1425832421
+Z2 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z5 8C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/feature_calc/adder_fullBit.vhd
+Z6 FC:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/feature_calc/adder_fullBit.vhd
+l0
+L5
+VMlV=1[k_I=mng6X^Qk@l>1
+!s100 5KT3d44V<lFB>N0IRMTJb3
+Z7 OV;C;10.3c;59
+31
+Z8 !s110 1447132327
+!i10b 1
+Z9 !s108 1447132327.261000
+Z10 !s90 -reportprogress|300|-93|-work|work|C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/feature_calc/adder_fullBit.vhd|
+Z11 !s107 C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/feature_calc/adder_fullBit.vhd|
+!i113 1
+Z12 o-93 -work work
+Z13 tExplicit 1
+Abehavior
+R2
+R3
+R4
+DEx4 work 13 adder_fullbit 0 22 MlV=1[k_I=mng6X^Qk@l>1
+l16
+L15
+V@8iScboTDMlgi8bUDZYQN0
+!s100 X^_iRmU5CBd9Z0X_diX6n2
+R7
+31
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Eadder_nbit
+Z14 w1447120251
+R2
+R3
+R4
+R0
+Z15 8C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/feature_calc/adder_nbit.vhd
+Z16 FC:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/feature_calc/adder_nbit.vhd
+l0
+L5
+Va:77@^e2GdTcF3SLB1:Qf0
+!s100 ac83NmB>5^<S`?Z4M`>zA2
+R7
+31
+Z17 !s110 1447132328
+!i10b 1
+Z18 !s108 1447132328.314000
+Z19 !s90 -reportprogress|300|-93|-work|work|C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/feature_calc/adder_nbit.vhd|
+Z20 !s107 C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/feature_calc/adder_nbit.vhd|
+!i113 1
+R12
+R13
+Abehavior
+R2
+R3
+R4
+DEx4 work 10 adder_nbit 0 22 a:77@^e2GdTcF3SLB1:Qf0
+l32
+L18
+VJGH4Yl;1VJzU`mEIG3dHl2
+!s100 ^GP>IlEBmUoH`_g=7l6:S2
+R7
+31
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 1
+R12
+R13
+Efeature_calc
+Z21 w1447131450
+R2
+R3
+R4
+R0
+Z22 8C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/feature_calc/feature_calc.vhd
+Z23 FC:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/feature_calc/feature_calc.vhd
+l0
+L5
+V@VgBc0O;_A7Ve`c78<HXL3
+!s100 K>2]i[MWS=zYaiJ7IReDJ1
+R7
+31
+R8
+!i10b 1
+Z24 !s108 1447132327.786000
+Z25 !s90 -reportprogress|300|-93|-work|work|C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/feature_calc/feature_calc.vhd|
+Z26 !s107 C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/feature_calc/feature_calc.vhd|
+!i113 1
+R12
+R13
+Abehavior
+R2
+R3
+R4
+DEx4 work 12 feature_calc 0 22 @VgBc0O;_A7Ve`c78<HXL3
+l80
+L30
+VR18`GYSLgiDg@CaJ=bEfI2
+!s100 FbFajn2aMG>9e;R;AlV?32
+R7
+31
+R8
+!i10b 1
+R24
+R25
+R26
+!i113 1
+R12
+R13
+Erect_calc
+Z27 w1447129871
+R2
+R3
+R4
+R0
+Z28 8C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/feature_calc/rect_calc.vhd
+Z29 FC:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/feature_calc/rect_calc.vhd
+l0
+L5
+VLmJnZOTSML<VmT<_JlGfc0
+!s100 oOLL<^IdD1SH?FGTNnRVg3
+R7
+31
+R17
+!i10b 1
+Z30 !s108 1447132328.832000
+Z31 !s90 -reportprogress|300|-93|-work|work|C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/feature_calc/rect_calc.vhd|
+Z32 !s107 C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/feature_calc/rect_calc.vhd|
+!i113 1
+R12
+R13
+Abehavior
+R2
+R3
+R4
+DEx4 work 9 rect_calc 0 22 LmJnZOTSML<VmT<_JlGfc0
+l53
+L21
+Vg2kVj=iQ:91Dh_Bb7UBWY2
+!s100 12kFKUXU5HdmLE483;nLk3
+R7
+31
+R17
+!i10b 1
+R30
+R31
+R32
+!i113 1
+R12
+R13
+Etb_feature_calc
+Z33 w1447132293
+R2
+R3
+R4
+R0
+Z34 8C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/feature_calc/tb_feature_calc.vhd
+Z35 FC:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/feature_calc/tb_feature_calc.vhd
+l0
+L5
+VQN1dh?fEOdDeenn;^IEP@1
+!s100 @J2_:;_Ye2WHF=M^?<cKE0
+R7
+31
+Z36 !s110 1447132329
+!i10b 1
+Z37 !s108 1447132329.357000
+Z38 !s90 -reportprogress|300|-93|-work|work|C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/feature_calc/tb_feature_calc.vhd|
+Z39 !s107 C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/feature_calc/tb_feature_calc.vhd|
+!i113 1
+R12
+R13
+Abehavior
+R2
+R3
+R4
+DEx4 work 15 tb_feature_calc 0 22 QN1dh?fEOdDeenn;^IEP@1
+l51
+L8
+V?I0HFdEL2YoNcG9<HOh::3
+!s100 h46zBj@8IS1T;oW32S_BC1
+R7
+31
+R36
+!i10b 1
+R37
+R38
+R39
+!i113 1
+R12
+R13

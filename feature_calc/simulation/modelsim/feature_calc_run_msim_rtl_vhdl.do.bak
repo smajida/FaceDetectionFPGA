@@ -1,0 +1,12 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vcom -93 -work work {C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/feature_calc/adder_fullBit.vhd}
+vcom -93 -work work {C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/feature_calc/feature_calc.vhd}
+vcom -93 -work work {C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/feature_calc/adder_nbit.vhd}
+vcom -93 -work work {C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/feature_calc/rect_calc.vhd}
+

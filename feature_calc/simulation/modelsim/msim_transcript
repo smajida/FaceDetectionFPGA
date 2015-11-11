@@ -1,0 +1,111 @@
+# Reading C:/altera/14.1/modelsim_ase/tcl/vsim/pref.tcl
+# do feature_calc_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.3c Lib Mapping Utility 2014.09 Sep 20 2014
+# vmap -modelsim_quiet work rtl_work 
+# Copying C:/altera/14.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:/altera/14.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/feature_calc/adder_fullBit.vhd}
+# Model Technology ModelSim ALTERA vcom 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 23:12:07 on Nov 09,2015
+# vcom -reportprogress 300 -93 -work work C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/feature_calc/adder_fullBit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity adder_fullBit
+# -- Compiling architecture behavior of adder_fullBit
+# End time: 23:12:07 on Nov 09,2015, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/feature_calc/feature_calc.vhd}
+# Model Technology ModelSim ALTERA vcom 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 23:12:07 on Nov 09,2015
+# vcom -reportprogress 300 -93 -work work C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/feature_calc/feature_calc.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity feature_calc
+# -- Compiling architecture behavior of feature_calc
+# End time: 23:12:08 on Nov 09,2015, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/feature_calc/adder_nbit.vhd}
+# Model Technology ModelSim ALTERA vcom 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 23:12:08 on Nov 09,2015
+# vcom -reportprogress 300 -93 -work work C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/feature_calc/adder_nbit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity adder_nbit
+# -- Compiling architecture behavior of adder_nbit
+# End time: 23:12:08 on Nov 09,2015, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/feature_calc/rect_calc.vhd}
+# Model Technology ModelSim ALTERA vcom 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 23:12:08 on Nov 09,2015
+# vcom -reportprogress 300 -93 -work work C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/feature_calc/rect_calc.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity rect_calc
+# -- Compiling architecture behavior of rect_calc
+# End time: 23:12:09 on Nov 09,2015, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# vcom -93 -work work {C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/feature_calc/tb_feature_calc.vhd}
+# Model Technology ModelSim ALTERA vcom 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 23:12:09 on Nov 09,2015
+# vcom -reportprogress 300 -93 -work work C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/feature_calc/tb_feature_calc.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity tb_feature_calc
+# -- Compiling architecture behavior of tb_feature_calc
+# End time: 23:12:09 on Nov 09,2015, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneiv_hssi -L cycloneiv_pcie_hip -L cycloneiv -L rtl_work -L work -voptargs="+acc"  tb_feature_calc
+# vsim -gui "+altera" -l msim_transcript -do "feature_calc_run_msim_rtl_vhdl.do" 
+# Start time: 23:12:09 on Nov 09,2015
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tb_feature_calc(behavior)
+# Loading work.feature_calc(behavior)
+# Loading work.rect_calc(behavior)
+# Loading work.adder_nbit(behavior)
+# Loading work.adder_fullbit(behavior)
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 1 us
+run
+run
+add wave -position end  sim:/tb_feature_calc/test_feature_calc/result_rect0
+add wave -position end  sim:/tb_feature_calc/test_feature_calc/result_rect1
+add wave -position end  sim:/tb_feature_calc/test_feature_calc/result_rect2
+restart
+run
+run
+run
+add wave -position 17  sim:/tb_feature_calc/test_feature_calc/rect0/sum2
+add wave -position 18  sim:/tb_feature_calc/test_feature_calc/rect1/sum2
+add wave -position 20  sim:/tb_feature_calc/test_feature_calc/rect2/sum2
+restart
+run
+# End time: 23:22:28 on Nov 09,2015, Elapsed time: 0:10:19
+# Errors: 0, Warnings: 0
