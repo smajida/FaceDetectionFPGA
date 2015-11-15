@@ -12,71 +12,102 @@
 # ** Warning: Copied C:/altera/14.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini.
 #          Updated modelsim.ini.
 # 
-# vcom -93 -work work {C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/feature_calc/adder_fullBit.vhd}
+# vcom -93 -work work {C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/feature_calc/feature_calc.vhd}
 # Model Technology ModelSim ALTERA vcom 10.3c Compiler 2014.09 Sep 20 2014
-# Start time: 23:12:07 on Nov 09,2015
-# vcom -reportprogress 300 -93 -work work C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/feature_calc/adder_fullBit.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity adder_fullBit
-# -- Compiling architecture behavior of adder_fullBit
-# End time: 23:12:07 on Nov 09,2015, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vcom -93 -work work {C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/feature_calc/feature_calc.vhd}
-# Model Technology ModelSim ALTERA vcom 10.3c Compiler 2014.09 Sep 20 2014
-# Start time: 23:12:07 on Nov 09,2015
-# vcom -reportprogress 300 -93 -work work C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/feature_calc/feature_calc.vhd 
+# Start time: 16:47:37 on Nov 14,2015
+# vcom -reportprogress 300 -93 -work work C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/feature_calc/feature_calc.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Loading package NUMERIC_STD
 # -- Compiling entity feature_calc
 # -- Compiling architecture behavior of feature_calc
-# End time: 23:12:08 on Nov 09,2015, Elapsed time: 0:00:01
+# End time: 16:47:37 on Nov 14,2015, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vcom -93 -work work {C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/feature_calc/adder_nbit.vhd}
+# vcom -93 -work work {C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/feature_calc/rect_calc.vhd}
 # Model Technology ModelSim ALTERA vcom 10.3c Compiler 2014.09 Sep 20 2014
-# Start time: 23:12:08 on Nov 09,2015
-# vcom -reportprogress 300 -93 -work work C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/feature_calc/adder_nbit.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity adder_nbit
-# -- Compiling architecture behavior of adder_nbit
-# End time: 23:12:08 on Nov 09,2015, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vcom -93 -work work {C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/feature_calc/rect_calc.vhd}
-# Model Technology ModelSim ALTERA vcom 10.3c Compiler 2014.09 Sep 20 2014
-# Start time: 23:12:08 on Nov 09,2015
-# vcom -reportprogress 300 -93 -work work C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/feature_calc/rect_calc.vhd 
+# Start time: 16:47:37 on Nov 14,2015
+# vcom -reportprogress 300 -93 -work work C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/feature_calc/rect_calc.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Loading package NUMERIC_STD
 # -- Compiling entity rect_calc
 # -- Compiling architecture behavior of rect_calc
-# End time: 23:12:09 on Nov 09,2015, Elapsed time: 0:00:01
+# End time: 16:47:38 on Nov 14,2015, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/feature_calc/lpm_add_unsign25bit_to_unsign25bitWithCarry.vhd}
+# Model Technology ModelSim ALTERA vcom 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 16:47:38 on Nov 14,2015
+# vcom -reportprogress 300 -93 -work work C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/feature_calc/lpm_add_unsign25bit_to_unsign25bitWithCarry.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity lpm_add_unsign25bit_to_unsign25bitWithCarry
+# -- Compiling architecture SYN of lpm_add_unsign25bit_to_unsign25bitwithcarry
+# End time: 16:47:39 on Nov 14,2015, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/feature_calc/lpm_mult_sign27bit_sign15bit_to_sign42bit.vhd}
+# Model Technology ModelSim ALTERA vcom 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 16:47:39 on Nov 14,2015
+# vcom -reportprogress 300 -93 -work work C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/feature_calc/lpm_mult_sign27bit_sign15bit_to_sign42bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity lpm_mult_sign27bit_sign15bit_to_sign42bit
+# -- Compiling architecture SYN of lpm_mult_sign27bit_sign15bit_to_sign42bit
+# End time: 16:47:39 on Nov 14,2015, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/feature_calc/lpm_sub_unsign26bit_to_unsign26bit.vhd}
+# Model Technology ModelSim ALTERA vcom 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 16:47:39 on Nov 14,2015
+# vcom -reportprogress 300 -93 -work work C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/feature_calc/lpm_sub_unsign26bit_to_unsign26bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity lpm_sub_unsign26bit_to_unsign26bit
+# -- Compiling architecture SYN of lpm_sub_unsign26bit_to_unsign26bit
+# End time: 16:47:40 on Nov 14,2015, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/feature_calc/lpm_add_sign43bit_to_sign43bitWithCarry.vhd}
+# Model Technology ModelSim ALTERA vcom 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 16:47:40 on Nov 14,2015
+# vcom -reportprogress 300 -93 -work work C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/feature_calc/lpm_add_sign43bit_to_sign43bitWithCarry.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity lpm_add_sign43bit_to_sign43bitWithCarry
+# -- Compiling architecture SYN of lpm_add_sign43bit_to_sign43bitwithcarry
+# End time: 16:47:40 on Nov 14,2015, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/feature_calc/lpm_add_sign42bit_to_sign42bitWithCarry.vhd}
+# Model Technology ModelSim ALTERA vcom 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 16:47:40 on Nov 14,2015
+# vcom -reportprogress 300 -93 -work work C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/feature_calc/lpm_add_sign42bit_to_sign42bitWithCarry.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity lpm_add_sign42bit_to_sign42bitWithCarry
+# -- Compiling architecture SYN of lpm_add_sign42bit_to_sign42bitwithcarry
+# End time: 16:47:41 on Nov 14,2015, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # 
-# vcom -93 -work work {C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/feature_calc/tb_feature_calc.vhd}
+# vcom -93 -work work {C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/feature_calc/tb_feature_calc.vhd}
 # Model Technology ModelSim ALTERA vcom 10.3c Compiler 2014.09 Sep 20 2014
-# Start time: 23:12:09 on Nov 09,2015
-# vcom -reportprogress 300 -93 -work work C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/feature_calc/tb_feature_calc.vhd 
+# Start time: 16:47:41 on Nov 14,2015
+# vcom -reportprogress 300 -93 -work work C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/feature_calc/tb_feature_calc.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Loading package NUMERIC_STD
 # -- Compiling entity tb_feature_calc
 # -- Compiling architecture behavior of tb_feature_calc
-# End time: 23:12:09 on Nov 09,2015, Elapsed time: 0:00:00
+# End time: 16:47:41 on Nov 14,2015, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
-# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneiv_hssi -L cycloneiv_pcie_hip -L cycloneiv -L rtl_work -L work -voptargs="+acc"  tb_feature_calc
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneive -L rtl_work -L work -voptargs="+acc"  tb_feature_calc
 # vsim -gui "+altera" -l msim_transcript -do "feature_calc_run_msim_rtl_vhdl.do" 
-# Start time: 23:12:09 on Nov 09,2015
+# Start time: 16:47:41 on Nov 14,2015
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
@@ -84,8 +115,20 @@
 # Loading work.tb_feature_calc(behavior)
 # Loading work.feature_calc(behavior)
 # Loading work.rect_calc(behavior)
-# Loading work.adder_nbit(behavior)
-# Loading work.adder_fullbit(behavior)
+# Loading work.lpm_add_unsign25bit_to_unsign25bitwithcarry(syn)
+# Loading lpm.lpm_components
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_signed(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading lpm.lpm_add_sub(lpm_syn)
+# Loading lpm.lpm_add_sub_unsigned(lpm_syn)
+# Loading work.lpm_sub_unsign26bit_to_unsign26bit(syn)
+# Loading work.lpm_mult_sign27bit_sign15bit_to_sign42bit(syn)
+# Loading lpm.lpm_hint_evaluation(body)
+# Loading lpm.lpm_mult(lpm_syn)
+# Loading work.lpm_add_sign42bit_to_sign42bitwithcarry(syn)
+# Loading lpm.lpm_add_sub_signed(lpm_syn)
+# Loading work.lpm_add_sign43bit_to_sign43bitwithcarry(syn)
 # 
 # add wave *
 # view structure
@@ -93,19 +136,252 @@
 # view signals
 # .main_pane.objects.interior.cs.body.tree
 # run 1 us
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_feature_calc/test_feature_calc/add1/LPM_ADD_SUB_component/L2/V
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_feature_calc/test_feature_calc/add1/LPM_ADD_SUB_component/L2/V
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_feature_calc/test_feature_calc/add1/LPM_ADD_SUB_component/L2/V
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_feature_calc/test_feature_calc/add0/LPM_ADD_SUB_component/L2/V
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_feature_calc/test_feature_calc/add0/LPM_ADD_SUB_component/L2/V
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_feature_calc/test_feature_calc/add0/LPM_ADD_SUB_component/L2/V
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_feature_calc/test_feature_calc/rect2/mult0/lpm_mult_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_feature_calc/test_feature_calc/rect2/mult0/lpm_mult_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_feature_calc/test_feature_calc/rect2/mult0/lpm_mult_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_feature_calc/test_feature_calc/rect2/sub0/LPM_ADD_SUB_component/L1/U
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_feature_calc/test_feature_calc/rect2/sub0/LPM_ADD_SUB_component/L1/U
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_feature_calc/test_feature_calc/rect2/sub0/LPM_ADD_SUB_component/L1/U
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_feature_calc/test_feature_calc/rect2/sub0/LPM_ADD_SUB_component/L1/U
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_feature_calc/test_feature_calc/rect2/sub0/LPM_ADD_SUB_component/L1/U
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_feature_calc/test_feature_calc/rect2/add1/LPM_ADD_SUB_component/L1/U
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_feature_calc/test_feature_calc/rect2/add1/LPM_ADD_SUB_component/L1/U
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_feature_calc/test_feature_calc/rect2/add1/LPM_ADD_SUB_component/L1/U
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_feature_calc/test_feature_calc/rect2/add0/LPM_ADD_SUB_component/L1/U
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_feature_calc/test_feature_calc/rect2/add0/LPM_ADD_SUB_component/L1/U
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_feature_calc/test_feature_calc/rect2/add0/LPM_ADD_SUB_component/L1/U
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_feature_calc/test_feature_calc/rect1/mult0/lpm_mult_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_feature_calc/test_feature_calc/rect1/mult0/lpm_mult_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_feature_calc/test_feature_calc/rect1/mult0/lpm_mult_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_feature_calc/test_feature_calc/rect1/sub0/LPM_ADD_SUB_component/L1/U
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_feature_calc/test_feature_calc/rect1/sub0/LPM_ADD_SUB_component/L1/U
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_feature_calc/test_feature_calc/rect1/sub0/LPM_ADD_SUB_component/L1/U
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_feature_calc/test_feature_calc/rect1/sub0/LPM_ADD_SUB_component/L1/U
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_feature_calc/test_feature_calc/rect1/sub0/LPM_ADD_SUB_component/L1/U
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_feature_calc/test_feature_calc/rect1/add1/LPM_ADD_SUB_component/L1/U
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_feature_calc/test_feature_calc/rect1/add1/LPM_ADD_SUB_component/L1/U
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_feature_calc/test_feature_calc/rect1/add1/LPM_ADD_SUB_component/L1/U
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_feature_calc/test_feature_calc/rect1/add0/LPM_ADD_SUB_component/L1/U
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_feature_calc/test_feature_calc/rect1/add0/LPM_ADD_SUB_component/L1/U
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_feature_calc/test_feature_calc/rect1/add0/LPM_ADD_SUB_component/L1/U
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_feature_calc/test_feature_calc/rect0/mult0/lpm_mult_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_feature_calc/test_feature_calc/rect0/mult0/lpm_mult_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_feature_calc/test_feature_calc/rect0/mult0/lpm_mult_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_feature_calc/test_feature_calc/rect0/sub0/LPM_ADD_SUB_component/L1/U
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_feature_calc/test_feature_calc/rect0/sub0/LPM_ADD_SUB_component/L1/U
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_feature_calc/test_feature_calc/rect0/sub0/LPM_ADD_SUB_component/L1/U
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_feature_calc/test_feature_calc/rect0/sub0/LPM_ADD_SUB_component/L1/U
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_feature_calc/test_feature_calc/rect0/sub0/LPM_ADD_SUB_component/L1/U
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_feature_calc/test_feature_calc/rect0/add1/LPM_ADD_SUB_component/L1/U
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_feature_calc/test_feature_calc/rect0/add1/LPM_ADD_SUB_component/L1/U
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_feature_calc/test_feature_calc/rect0/add1/LPM_ADD_SUB_component/L1/U
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_feature_calc/test_feature_calc/rect0/add0/LPM_ADD_SUB_component/L1/U
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_feature_calc/test_feature_calc/rect0/add0/LPM_ADD_SUB_component/L1/U
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_feature_calc/test_feature_calc/rect0/add0/LPM_ADD_SUB_component/L1/U
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /tb_feature_calc/test_feature_calc/rect2/sub0/LPM_ADD_SUB_component/L1/U
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /tb_feature_calc/test_feature_calc/rect2/sub0/LPM_ADD_SUB_component/L1/U
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /tb_feature_calc/test_feature_calc/rect2/sub0/LPM_ADD_SUB_component/L1/U
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /tb_feature_calc/test_feature_calc/rect2/sub0/LPM_ADD_SUB_component/L1/U
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /tb_feature_calc/test_feature_calc/rect2/sub0/LPM_ADD_SUB_component/L1/U
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /tb_feature_calc/test_feature_calc/rect2/add1/LPM_ADD_SUB_component/L1/U
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /tb_feature_calc/test_feature_calc/rect2/add1/LPM_ADD_SUB_component/L1/U
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /tb_feature_calc/test_feature_calc/rect2/add1/LPM_ADD_SUB_component/L1/U
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /tb_feature_calc/test_feature_calc/rect2/add0/LPM_ADD_SUB_component/L1/U
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /tb_feature_calc/test_feature_calc/rect2/add0/LPM_ADD_SUB_component/L1/U
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /tb_feature_calc/test_feature_calc/rect2/add0/LPM_ADD_SUB_component/L1/U
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /tb_feature_calc/test_feature_calc/rect1/sub0/LPM_ADD_SUB_component/L1/U
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /tb_feature_calc/test_feature_calc/rect1/sub0/LPM_ADD_SUB_component/L1/U
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /tb_feature_calc/test_feature_calc/rect1/sub0/LPM_ADD_SUB_component/L1/U
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /tb_feature_calc/test_feature_calc/rect1/sub0/LPM_ADD_SUB_component/L1/U
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /tb_feature_calc/test_feature_calc/rect1/sub0/LPM_ADD_SUB_component/L1/U
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /tb_feature_calc/test_feature_calc/rect1/add1/LPM_ADD_SUB_component/L1/U
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /tb_feature_calc/test_feature_calc/rect1/add1/LPM_ADD_SUB_component/L1/U
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /tb_feature_calc/test_feature_calc/rect1/add1/LPM_ADD_SUB_component/L1/U
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /tb_feature_calc/test_feature_calc/rect1/add0/LPM_ADD_SUB_component/L1/U
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /tb_feature_calc/test_feature_calc/rect1/add0/LPM_ADD_SUB_component/L1/U
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /tb_feature_calc/test_feature_calc/rect1/add0/LPM_ADD_SUB_component/L1/U
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /tb_feature_calc/test_feature_calc/rect0/sub0/LPM_ADD_SUB_component/L1/U
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /tb_feature_calc/test_feature_calc/rect0/sub0/LPM_ADD_SUB_component/L1/U
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /tb_feature_calc/test_feature_calc/rect0/sub0/LPM_ADD_SUB_component/L1/U
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /tb_feature_calc/test_feature_calc/rect0/sub0/LPM_ADD_SUB_component/L1/U
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /tb_feature_calc/test_feature_calc/rect0/sub0/LPM_ADD_SUB_component/L1/U
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /tb_feature_calc/test_feature_calc/rect0/add1/LPM_ADD_SUB_component/L1/U
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /tb_feature_calc/test_feature_calc/rect0/add1/LPM_ADD_SUB_component/L1/U
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /tb_feature_calc/test_feature_calc/rect0/add1/LPM_ADD_SUB_component/L1/U
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /tb_feature_calc/test_feature_calc/rect0/add0/LPM_ADD_SUB_component/L1/U
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /tb_feature_calc/test_feature_calc/rect0/add0/LPM_ADD_SUB_component/L1/U
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /tb_feature_calc/test_feature_calc/rect0/add0/LPM_ADD_SUB_component/L1/U
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Instance: /tb_feature_calc/test_feature_calc/rect2/mult0/lpm_mult_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Instance: /tb_feature_calc/test_feature_calc/rect2/mult0/lpm_mult_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Instance: /tb_feature_calc/test_feature_calc/rect1/mult0/lpm_mult_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Instance: /tb_feature_calc/test_feature_calc/rect1/mult0/lpm_mult_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Instance: /tb_feature_calc/test_feature_calc/rect0/mult0/lpm_mult_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Instance: /tb_feature_calc/test_feature_calc/rect0/mult0/lpm_mult_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 3  Instance: /tb_feature_calc/test_feature_calc/add1/LPM_ADD_SUB_component/L2/V
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 3  Instance: /tb_feature_calc/test_feature_calc/add1/LPM_ADD_SUB_component/L2/V
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 3  Instance: /tb_feature_calc/test_feature_calc/add1/LPM_ADD_SUB_component/L2/V
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 3  Instance: /tb_feature_calc/test_feature_calc/rect2/sub0/LPM_ADD_SUB_component/L1/U
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 3  Instance: /tb_feature_calc/test_feature_calc/rect2/sub0/LPM_ADD_SUB_component/L1/U
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 3  Instance: /tb_feature_calc/test_feature_calc/rect2/sub0/LPM_ADD_SUB_component/L1/U
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 3  Instance: /tb_feature_calc/test_feature_calc/rect2/sub0/LPM_ADD_SUB_component/L1/U
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 3  Instance: /tb_feature_calc/test_feature_calc/rect2/sub0/LPM_ADD_SUB_component/L1/U
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 3  Instance: /tb_feature_calc/test_feature_calc/rect1/sub0/LPM_ADD_SUB_component/L1/U
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 3  Instance: /tb_feature_calc/test_feature_calc/rect1/sub0/LPM_ADD_SUB_component/L1/U
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 3  Instance: /tb_feature_calc/test_feature_calc/rect1/sub0/LPM_ADD_SUB_component/L1/U
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 3  Instance: /tb_feature_calc/test_feature_calc/rect1/sub0/LPM_ADD_SUB_component/L1/U
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 3  Instance: /tb_feature_calc/test_feature_calc/rect1/sub0/LPM_ADD_SUB_component/L1/U
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 3  Instance: /tb_feature_calc/test_feature_calc/add0/LPM_ADD_SUB_component/L2/V
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 3  Instance: /tb_feature_calc/test_feature_calc/add0/LPM_ADD_SUB_component/L2/V
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 3  Instance: /tb_feature_calc/test_feature_calc/add0/LPM_ADD_SUB_component/L2/V
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 3  Instance: /tb_feature_calc/test_feature_calc/rect0/sub0/LPM_ADD_SUB_component/L1/U
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 3  Instance: /tb_feature_calc/test_feature_calc/rect0/sub0/LPM_ADD_SUB_component/L1/U
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 3  Instance: /tb_feature_calc/test_feature_calc/rect0/sub0/LPM_ADD_SUB_component/L1/U
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 3  Instance: /tb_feature_calc/test_feature_calc/rect0/sub0/LPM_ADD_SUB_component/L1/U
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 3  Instance: /tb_feature_calc/test_feature_calc/rect0/sub0/LPM_ADD_SUB_component/L1/U
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /tb_feature_calc/test_feature_calc/add1/LPM_ADD_SUB_component/L2/V
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /tb_feature_calc/test_feature_calc/add1/LPM_ADD_SUB_component/L2/V
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /tb_feature_calc/test_feature_calc/add1/LPM_ADD_SUB_component/L2/V
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /tb_feature_calc/test_feature_calc/rect2/mult0/lpm_mult_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /tb_feature_calc/test_feature_calc/rect2/mult0/lpm_mult_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /tb_feature_calc/test_feature_calc/rect1/mult0/lpm_mult_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /tb_feature_calc/test_feature_calc/rect1/mult0/lpm_mult_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /tb_feature_calc/test_feature_calc/rect0/mult0/lpm_mult_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 4  Instance: /tb_feature_calc/test_feature_calc/rect0/mult0/lpm_mult_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 7  Instance: /tb_feature_calc/test_feature_calc/add1/LPM_ADD_SUB_component/L2/V
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 7  Instance: /tb_feature_calc/test_feature_calc/add1/LPM_ADD_SUB_component/L2/V
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 7  Instance: /tb_feature_calc/test_feature_calc/add1/LPM_ADD_SUB_component/L2/V
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 13  Instance: /tb_feature_calc/test_feature_calc/add1/LPM_ADD_SUB_component/L2/V
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 13  Instance: /tb_feature_calc/test_feature_calc/add1/LPM_ADD_SUB_component/L2/V
 run
 run
-add wave -position end  sim:/tb_feature_calc/test_feature_calc/result_rect0
-add wave -position end  sim:/tb_feature_calc/test_feature_calc/result_rect1
-add wave -position end  sim:/tb_feature_calc/test_feature_calc/result_rect2
-restart
 run
-run
-run
-add wave -position 17  sim:/tb_feature_calc/test_feature_calc/rect0/sum2
-add wave -position 18  sim:/tb_feature_calc/test_feature_calc/rect1/sum2
-add wave -position 20  sim:/tb_feature_calc/test_feature_calc/rect2/sum2
-restart
-run
-# End time: 23:22:28 on Nov 09,2015, Elapsed time: 0:10:19
-# Errors: 0, Warnings: 0
+# End time: 20:46:07 on Nov 14,2015, Elapsed time: 3:58:26
+# Errors: 0, Warnings: 122

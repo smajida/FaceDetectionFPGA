@@ -3,18 +3,14 @@ use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
 
 entity rect_calc is
-	generic (
-	WEIGHT_WIDTH			: integer := 16;--TBD
-	RECT_II_DATA_WIDTH	: integer := 18
-	);
 	port(
-	weight: in std_logic_vector((WEIGHT_WIDTH-1) downto 0);--signed input
-	a: in std_logic_vector((RECT_II_DATA_WIDTH-1) downto 0);--signed input
-	b: in std_logic_vector((RECT_II_DATA_WIDTH-1) downto 0);--signed input
-	c: in std_logic_vector((RECT_II_DATA_WIDTH-1) downto 0);--signed input
-	d: in std_logic_vector((RECT_II_DATA_WIDTH-1) downto 0);--signed input
-	--maximum signed multiplier output requires a bit width of (multiplier_bit_width+multplicand_bit_width)
-	result: out std_logic_vector((WEIGHT_WIDTH+RECT_II_DATA_WIDTH-1) downto 0)
+		weight: in std_logic_vector(14 downto 0);--signed input
+		a: in std_logic_vector(24 downto 0);--unsigned input
+		b: in std_logic_vector(24 downto 0);--unsigned input
+		c: in std_logic_vector(24 downto 0);--unsigned input
+		d: in std_logic_vector(24 downto 0);--unsigned input
+		--maximum signed multiplier output requires a bit width of (multiplier_bit_width+multplicand_bit_width)
+		result: out std_logic_vector(41 downto 0)--signed result
 	);
 end rect_calc;
 
@@ -28,50 +24,77 @@ architecture behavior of rect_calc is
 --rect adder2(subtractor) ... adder0_result-adder1_result ... always a positive number since (r0+r3)>(r1+r2) always ... result is signed to facilitate signed multiplicaiton
 --rect multiplier (SLL) ... weight determines a scalar and a sign ... result is a signed
 
-component adder_nbit
-	generic(
-	N_BITS	: integer := 8
-	);
-	port(
-	a: in std_logic_vector((N_BITS-1) downto 0);
-	b: in std_logic_vector((N_BITS-1) downto 0);
-	c_in: in std_logic;
-	c_out: out std_logic;
-	sum: out std_logic_vector((N_BITS-1) downto 0)
+signal result_add0: std_logic_vector(25 downto 0); -- MSbit is carry from add0
+signal result_add1: std_logic_vector(25 downto 0); -- MSbit is carry from add1
+signal result_sub0: std_logic_vector(25 downto 0);
+signal result_sub0_extend: std_logic_vector(26 downto 0);
+
+component lpm_add_unsign25bit_to_unsign25bitWithCarry
+	port
+	(
+		dataa		: IN STD_LOGIC_VECTOR (24 DOWNTO 0);
+		datab		: IN STD_LOGIC_VECTOR (24 DOWNTO 0);
+		cout		: OUT STD_LOGIC ;
+		result		: OUT STD_LOGIC_VECTOR (24 DOWNTO 0)
 	);
 end component;
 
-signal not_sum1: std_logic_vector((RECT_II_DATA_WIDTH-1) downto 0);
+component lpm_sub_unsign26bit_to_unsign26bit
+	port
+	(
+		dataa		: IN STD_LOGIC_VECTOR (25 DOWNTO 0);
+		datab		: IN STD_LOGIC_VECTOR (25 DOWNTO 0);
+		result		: OUT STD_LOGIC_VECTOR (25 DOWNTO 0)
+	);
+end component;
 
-signal c_out0: std_logic;
-signal c_out1: std_logic;
-signal c_out2: std_logic;
-signal sum0: std_logic_vector((RECT_II_DATA_WIDTH-1) downto 0);
-signal sum1: std_logic_vector((RECT_II_DATA_WIDTH-1) downto 0);
-signal sum2: std_logic_vector((RECT_II_DATA_WIDTH-1) downto 0);
+component lpm_mult_sign27bit_sign15bit_to_sign42bit
+	port
+	(
+		dataa		: IN STD_LOGIC_VECTOR (26 DOWNTO 0);
+		datab		: IN STD_LOGIC_VECTOR (14 DOWNTO 0);
+		result		: OUT STD_LOGIC_VECTOR (41 DOWNTO 0)
+	);
+end component;
 
 begin
-	--signed inputs
-	adder0: adder_nbit
-		generic map (N_BITS=>RECT_II_DATA_WIDTH)
-		port map (a=>a,b=>d,c_in=>'0',c_out=>c_out0,sum=>sum0);
+
+add0: lpm_add_unsign25bit_to_unsign25bitWithCarry
+	port map
+	(
+		dataa => a,
+		datab => d,
+		cout => result_add0(25),
+		result => result_add0(24 downto 0)
+	);
 	
-	--signed inputs
-	adder1: adder_nbit
-		generic map (N_BITS=>RECT_II_DATA_WIDTH)
-		port map (a=>b,b=>c,c_in=>'0',c_out=>c_out1,sum=>sum1);
-	
-	not_sum1 <= not sum1;
-	
-	--input sum0 ... signed, always positive
-	--input sum1 ... signed, always positive
-	--output sum2 ... signed w/ same bit width since overflow will never occur
-	adder2: adder_nbit
-		generic map (N_BITS=>RECT_II_DATA_WIDTH)
-		port map (a=>sum0,b=> not_sum1,c_in=>'1',c_out=>c_out2,sum=>sum2);--carry in is constant '1', input b=inv(sum1)
-	
-	--multiplier
-	--https://en.wikibooks.org/wiki/VHDL_for_FPGA_Design/4-Bit_Multiplier
-	result <= std_logic_vector(signed(sum2) * signed(weight));--signed result
+add1: lpm_add_unsign25bit_to_unsign25bitWithCarry
+	port map
+	(
+		dataa => b,
+		datab => c,
+		cout => result_add1(25),
+		result => result_add1(24 downto 0)
+	);
+
+sub0: lpm_sub_unsign26bit_to_unsign26bit
+	port map
+	(
+		dataa => result_add0,
+		datab => result_add1,
+		result => result_sub0
+	);
+
+-- must extend the unsigned sub0 result to a signed result
+result_sub0_extend(26) <= '0'; -- MSbit is always positive
+result_sub0_extend(25 downto 0) <= result_sub0;
+
+mult0: lpm_mult_sign27bit_sign15bit_to_sign42bit
+	port map
+	(
+		dataa => result_sub0_extend,
+		datab => weight,
+		result => result
+	);
 	
 end behavior;

@@ -7,26 +7,26 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-Z0 dC:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/feature_calc/simulation/modelsim
-Eadder_fullbit
-Z1 w1425832421
+Z0 dC:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/feature_calc/simulation/modelsim
+Efeature_calc
+Z1 w1447541221
 Z2 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
 Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z4 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
 R0
-Z5 8C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/feature_calc/adder_fullBit.vhd
-Z6 FC:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/feature_calc/adder_fullBit.vhd
+Z5 8C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/feature_calc/feature_calc.vhd
+Z6 FC:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/feature_calc/feature_calc.vhd
 l0
 L5
-VMlV=1[k_I=mng6X^Qk@l>1
-!s100 5KT3d44V<lFB>N0IRMTJb3
+VSYD<JkAS_lWA_G_YBcohW0
+!s100 9@V=5R[4Um1<1eoV=dBWB0
 Z7 OV;C;10.3c;59
 31
-Z8 !s110 1447132327
+Z8 !s110 1447541257
 !i10b 1
-Z9 !s108 1447132327.261000
-Z10 !s90 -reportprogress|300|-93|-work|work|C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/feature_calc/adder_fullBit.vhd|
-Z11 !s107 C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/feature_calc/adder_fullBit.vhd|
+Z9 !s108 1447541257.482000
+Z10 !s90 -reportprogress|300|-93|-work|work|C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/feature_calc/feature_calc.vhd|
+Z11 !s107 C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/feature_calc/feature_calc.vhd|
 !i113 1
 Z12 o-93 -work work
 Z13 tExplicit 1
@@ -34,11 +34,11 @@ Abehavior
 R2
 R3
 R4
-DEx4 work 13 adder_fullbit 0 22 MlV=1[k_I=mng6X^Qk@l>1
-l16
-L15
-V@8iScboTDMlgi8bUDZYQN0
-!s100 X^_iRmU5CBd9Z0X_diX6n2
+DEx4 work 12 feature_calc 0 22 SYD<JkAS_lWA_G_YBcohW0
+l79
+L26
+VY3PmCPnb0;n25`ml<i@f81
+!s100 ][giM1jo8?W<0cD7_:ein2
 R7
 31
 R8
@@ -49,37 +49,35 @@ R11
 !i113 1
 R12
 R13
-Eadder_nbit
-Z14 w1447120251
-R2
+Elpm_add_sign42bit_to_sign42bitwithcarry
+Z14 w1447535483
 R3
 R4
 R0
-Z15 8C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/feature_calc/adder_nbit.vhd
-Z16 FC:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/feature_calc/adder_nbit.vhd
+Z15 8C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/feature_calc/lpm_add_sign42bit_to_sign42bitWithCarry.vhd
+Z16 FC:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/feature_calc/lpm_add_sign42bit_to_sign42bitWithCarry.vhd
 l0
-L5
-Va:77@^e2GdTcF3SLB1:Qf0
-!s100 ac83NmB>5^<S`?Z4M`>zA2
+L43
+VP>K2SYBfJa]@ddP`cnV>F0
+!s100 U:4BHJVESPAU9RNcLA6X]3
 R7
 31
-Z17 !s110 1447132328
+Z17 !s110 1447541260
 !i10b 1
-Z18 !s108 1447132328.314000
-Z19 !s90 -reportprogress|300|-93|-work|work|C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/feature_calc/adder_nbit.vhd|
-Z20 !s107 C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/feature_calc/adder_nbit.vhd|
+Z18 !s108 1447541260.632000
+Z19 !s90 -reportprogress|300|-93|-work|work|C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/feature_calc/lpm_add_sign42bit_to_sign42bitWithCarry.vhd|
+Z20 !s107 C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/feature_calc/lpm_add_sign42bit_to_sign42bitWithCarry.vhd|
 !i113 1
 R12
 R13
-Abehavior
-R2
+Asyn
 R3
 R4
-DEx4 work 10 adder_nbit 0 22 a:77@^e2GdTcF3SLB1:Qf0
-l32
-L18
-VJGH4Yl;1VJzU`mEIG3dHl2
-!s100 ^GP>IlEBmUoH`_g=7l6:S2
+DEx4 work 39 lpm_add_sign42bit_to_sign42bitwithcarry 0 22 P>K2SYBfJa]@ddP`cnV>F0
+l77
+L54
+V]38dY;<S[?PAfHg[0TKnk1
+!s100 hMU^a0FZ>;UQnSLCA5jBj0
 R7
 31
 R17
@@ -90,40 +88,38 @@ R20
 !i113 1
 R12
 R13
-Efeature_calc
-Z21 w1447131450
-R2
+Elpm_add_sign43bit_to_sign43bitwithcarry
+Z21 w1447535406
 R3
 R4
 R0
-Z22 8C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/feature_calc/feature_calc.vhd
-Z23 FC:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/feature_calc/feature_calc.vhd
+Z22 8C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/feature_calc/lpm_add_sign43bit_to_sign43bitWithCarry.vhd
+Z23 FC:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/feature_calc/lpm_add_sign43bit_to_sign43bitWithCarry.vhd
 l0
-L5
-V@VgBc0O;_A7Ve`c78<HXL3
-!s100 K>2]i[MWS=zYaiJ7IReDJ1
+L43
+VNfnH@U7Pd1:WD@M^oCFZ?1
+!s100 [M^7;R`;:l=aIEzBNSn2m0
 R7
 31
-R8
+R17
 !i10b 1
-Z24 !s108 1447132327.786000
-Z25 !s90 -reportprogress|300|-93|-work|work|C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/feature_calc/feature_calc.vhd|
-Z26 !s107 C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/feature_calc/feature_calc.vhd|
+Z24 !s108 1447541260.132000
+Z25 !s90 -reportprogress|300|-93|-work|work|C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/feature_calc/lpm_add_sign43bit_to_sign43bitWithCarry.vhd|
+Z26 !s107 C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/feature_calc/lpm_add_sign43bit_to_sign43bitWithCarry.vhd|
 !i113 1
 R12
 R13
-Abehavior
-R2
+Asyn
 R3
 R4
-DEx4 work 12 feature_calc 0 22 @VgBc0O;_A7Ve`c78<HXL3
-l80
-L30
-VR18`GYSLgiDg@CaJ=bEfI2
-!s100 FbFajn2aMG>9e;R;AlV?32
+DEx4 work 39 lpm_add_sign43bit_to_sign43bitwithcarry 0 22 NfnH@U7Pd1:WD@M^oCFZ?1
+l77
+L54
+V>FKB;P5>5;;:dl0:fJo5A3
+!s100 HI0LHPnO8L0GVT6fb`;LY1
 R7
 31
-R8
+R17
 !i10b 1
 R24
 R25
@@ -131,25 +127,142 @@ R26
 !i113 1
 R12
 R13
+Elpm_add_unsign25bit_to_unsign25bitwithcarry
+Z27 w1447531345
+R3
+R4
+R0
+Z28 8C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/feature_calc/lpm_add_unsign25bit_to_unsign25bitWithCarry.vhd
+Z29 FC:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/feature_calc/lpm_add_unsign25bit_to_unsign25bitWithCarry.vhd
+l0
+L43
+VDoT]iikcYL3_M=O3iVJ8L0
+!s100 V55SUEh=ccMRgPPDJV=3j1
+R7
+31
+Z30 !s110 1447541258
+!i10b 1
+Z31 !s108 1447541258.612000
+Z32 !s90 -reportprogress|300|-93|-work|work|C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/feature_calc/lpm_add_unsign25bit_to_unsign25bitWithCarry.vhd|
+Z33 !s107 C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/feature_calc/lpm_add_unsign25bit_to_unsign25bitWithCarry.vhd|
+!i113 1
+R12
+R13
+Asyn
+R3
+R4
+DEx4 work 43 lpm_add_unsign25bit_to_unsign25bitwithcarry 0 22 DoT]iikcYL3_M=O3iVJ8L0
+l77
+L54
+VMgc?kAQj^gLB1c_?AA[Yl1
+!s100 VLLcIMz^ifk>@@abJdnP60
+R7
+31
+R30
+!i10b 1
+R31
+R32
+R33
+!i113 1
+R12
+R13
+Elpm_mult_sign27bit_sign15bit_to_sign42bit
+Z34 w1447533203
+R3
+R4
+R0
+Z35 8C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/feature_calc/lpm_mult_sign27bit_sign15bit_to_sign42bit.vhd
+Z36 FC:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/feature_calc/lpm_mult_sign27bit_sign15bit_to_sign42bit.vhd
+l0
+L43
+Vn9oQJ=V8O`EfJdZ[44Jdf1
+!s100 m7Y]:n6D4ldbSkLX:aHOj3
+R7
+31
+Z37 !s110 1447541259
+!i10b 1
+Z38 !s108 1447541259.112000
+Z39 !s90 -reportprogress|300|-93|-work|work|C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/feature_calc/lpm_mult_sign27bit_sign15bit_to_sign42bit.vhd|
+Z40 !s107 C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/feature_calc/lpm_mult_sign27bit_sign15bit_to_sign42bit.vhd|
+!i113 1
+R12
+R13
+Asyn
+R3
+R4
+DEx4 work 41 lpm_mult_sign27bit_sign15bit_to_sign42bit 0 22 n9oQJ=V8O`EfJdZ[44Jdf1
+l75
+L53
+V8AkG7UJ?ZX<L5FE>;3a0O2
+!s100 L3PE?7;Q7SM4WSKaNO7C02
+R7
+31
+R37
+!i10b 1
+R38
+R39
+R40
+!i113 1
+R12
+R13
+Elpm_sub_unsign26bit_to_unsign26bit
+Z41 w1447533293
+R3
+R4
+R0
+Z42 8C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/feature_calc/lpm_sub_unsign26bit_to_unsign26bit.vhd
+Z43 FC:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/feature_calc/lpm_sub_unsign26bit_to_unsign26bit.vhd
+l0
+L43
+V1PLa>nRi33PC5d0W2XZAe2
+!s100 zz5EzNmGL0@QoC48c2]2]2
+R7
+31
+R37
+!i10b 1
+Z44 !s108 1447541259.602000
+Z45 !s90 -reportprogress|300|-93|-work|work|C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/feature_calc/lpm_sub_unsign26bit_to_unsign26bit.vhd|
+Z46 !s107 C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/feature_calc/lpm_sub_unsign26bit_to_unsign26bit.vhd|
+!i113 1
+R12
+R13
+Asyn
+R3
+R4
+DEx4 work 34 lpm_sub_unsign26bit_to_unsign26bit 0 22 1PLa>nRi33PC5d0W2XZAe2
+l74
+L53
+Vj0[Zg?l=ILV<:bF=IedT]1
+!s100 6IB0I4LLH3T2TZ9;90E8<2
+R7
+31
+R37
+!i10b 1
+R44
+R45
+R46
+!i113 1
+R12
+R13
 Erect_calc
-Z27 w1447129871
+Z47 w1447536876
 R2
 R3
 R4
 R0
-Z28 8C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/feature_calc/rect_calc.vhd
-Z29 FC:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/feature_calc/rect_calc.vhd
+Z48 8C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/feature_calc/rect_calc.vhd
+Z49 FC:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/feature_calc/rect_calc.vhd
 l0
 L5
-VLmJnZOTSML<VmT<_JlGfc0
-!s100 oOLL<^IdD1SH?FGTNnRVg3
+V:]=Jl=]zh6<Ol2mzll6UQ3
+!s100 kdfOJDIIjCbjLUl`UjNBi2
 R7
 31
-R17
+R30
 !i10b 1
-Z30 !s108 1447132328.832000
-Z31 !s90 -reportprogress|300|-93|-work|work|C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/feature_calc/rect_calc.vhd|
-Z32 !s107 C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/feature_calc/rect_calc.vhd|
+Z50 !s108 1447541257.992000
+Z51 !s90 -reportprogress|300|-93|-work|work|C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/feature_calc/rect_calc.vhd|
+Z52 !s107 C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/feature_calc/rect_calc.vhd|
 !i113 1
 R12
 R13
@@ -157,40 +270,40 @@ Abehavior
 R2
 R3
 R4
-DEx4 work 9 rect_calc 0 22 LmJnZOTSML<VmT<_JlGfc0
-l53
-L21
-Vg2kVj=iQ:91Dh_Bb7UBWY2
-!s100 12kFKUXU5HdmLE483;nLk3
+DEx4 work 9 rect_calc 0 22 :]=Jl=]zh6<Ol2mzll6UQ3
+l60
+L17
+Vii9^99aUhRQMUhYPT=ahM0
+!s100 XoBBk5<ha=F]?<Pjj:eI@3
 R7
 31
-R17
-!i10b 1
 R30
-R31
-R32
+!i10b 1
+R50
+R51
+R52
 !i113 1
 R12
 R13
 Etb_feature_calc
-Z33 w1447132293
+Z53 w1447537736
 R2
 R3
 R4
 R0
-Z34 8C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/feature_calc/tb_feature_calc.vhd
-Z35 FC:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/feature_calc/tb_feature_calc.vhd
+Z54 8C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/feature_calc/tb_feature_calc.vhd
+Z55 FC:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/feature_calc/tb_feature_calc.vhd
 l0
 L5
 VQN1dh?fEOdDeenn;^IEP@1
 !s100 @J2_:;_Ye2WHF=M^?<cKE0
 R7
 31
-Z36 !s110 1447132329
+Z56 !s110 1447541261
 !i10b 1
-Z37 !s108 1447132329.357000
-Z38 !s90 -reportprogress|300|-93|-work|work|C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/feature_calc/tb_feature_calc.vhd|
-Z39 !s107 C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/feature_calc/tb_feature_calc.vhd|
+Z57 !s108 1447541261.133000
+Z58 !s90 -reportprogress|300|-93|-work|work|C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/feature_calc/tb_feature_calc.vhd|
+Z59 !s107 C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/feature_calc/tb_feature_calc.vhd|
 !i113 1
 R12
 R13
@@ -199,17 +312,17 @@ R2
 R3
 R4
 DEx4 work 15 tb_feature_calc 0 22 QN1dh?fEOdDeenn;^IEP@1
-l51
+l47
 L8
-V?I0HFdEL2YoNcG9<HOh::3
-!s100 h46zBj@8IS1T;oW32S_BC1
+Ve>[nJNDN?1XH:>bQM7FIG3
+!s100 2z@Ko`mA8h;TFn]hdToM32
 R7
 31
-R36
+R56
 !i10b 1
-R37
-R38
-R39
+R57
+R58
+R59
 !i113 1
 R12
 R13
