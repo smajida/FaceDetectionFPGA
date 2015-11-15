@@ -1,0 +1,92 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/register_file/simulation/modelsim
+Eregister_file
+Z1 w1447044692
+Z2 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z5 8C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/register_file/register_file.vhd
+Z6 FC:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/register_file/register_file.vhd
+l0
+L5
+Vo9M04h_AQO<Mf<LVRO6:80
+!s100 oCngboKTdK6C8F>TPX09>1
+Z7 OV;C;10.3c;59
+31
+Z8 !s110 1447045300
+!i10b 1
+Z9 !s108 1447045300.876000
+Z10 !s90 -reportprogress|300|-93|-work|work|C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/register_file/register_file.vhd|
+Z11 !s107 C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/register_file/register_file.vhd|
+!i113 1
+Z12 o-93 -work work
+Z13 tExplicit 1
+Abehavior
+R2
+R3
+R4
+DEx4 work 13 register_file 0 22 o9M04h_AQO<Mf<LVRO6:80
+l34
+L30
+VB450SQ]:W?IJU_iMh]CYV0
+!s100 `AbK<NdInJb?<PzlL8AF>3
+R7
+31
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Etestbench_register_file
+Z14 w1447045150
+R2
+R3
+R4
+R0
+Z15 8C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/register_file/testbench_register_file.vhd
+Z16 FC:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/register_file/testbench_register_file.vhd
+l0
+L5
+V>CoHDDV>FA[SITHCQmYCF2
+!s100 J@?g>LMFhRYMK^lOY6fVB1
+R7
+31
+Z17 !s110 1447045301
+!i10b 1
+Z18 !s108 1447045301.386000
+Z19 !s90 -reportprogress|300|-93|-work|work|C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/register_file/testbench_register_file.vhd|
+Z20 !s107 C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/register_file/testbench_register_file.vhd|
+!i113 1
+R12
+R13
+Abehavior
+R2
+R3
+R4
+DEx4 work 23 testbench_register_file 0 22 >CoHDDV>FA[SITHCQmYCF2
+l52
+L8
+VN`26VQKPK8dzIRzTNL][00
+!s100 UeRF9G94jSlSU_dfeE`@40
+R7
+31
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 1
+R12
+R13

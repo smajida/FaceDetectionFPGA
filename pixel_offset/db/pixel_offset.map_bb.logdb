@@ -1,0 +1,2 @@
+v1
+DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,lpm_mult_unsign8bit_unsign9bit_to_unsign17bit:mult0|lpm_mult:lpm_mult_component|mult_ucn:auto_generated|mac_out2,

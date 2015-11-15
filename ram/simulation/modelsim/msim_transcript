@@ -1,0 +1,61 @@
+# Reading C:/altera/14.1/modelsim_ase/tcl/vsim/pref.tcl
+# do top_ram_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.3c Lib Mapping Utility 2014.09 Sep 20 2014
+# vmap -modelsim_quiet work rtl_work 
+# Copying C:/altera/14.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:/altera/14.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/top_ram.vhd}
+# Model Technology ModelSim ALTERA vcom 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 21:01:31 on Nov 08,2015
+# vcom -reportprogress 300 -93 -work work C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/top_ram.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity top_ram
+# -- Compiling architecture rtl of top_ram
+# End time: 21:01:31 on Nov 08,2015, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vcom -93 -work work {C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/tb_ram.vhd}
+# Model Technology ModelSim ALTERA vcom 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 21:01:31 on Nov 08,2015
+# vcom -reportprogress 300 -93 -work work C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/tb_ram.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity tb_ram
+# -- Compiling architecture testbench of tb_ram
+# End time: 21:01:32 on Nov 08,2015, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneive -L rtl_work -L work -voptargs="+acc"  tb_ram
+# vsim -gui "+altera" -l msim_transcript -do "top_ram_run_msim_rtl_vhdl.do" 
+# Start time: 21:01:32 on Nov 08,2015
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tb_ram(testbench)
+# Loading work.top_ram(rtl)
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 100 us
+run
+run
+run
+# End time: 21:02:21 on Nov 08,2015, Elapsed time: 0:00:49
+# Errors: 0, Warnings: 0
