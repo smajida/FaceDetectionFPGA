@@ -1,0 +1,25 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vcom -93 -work work {C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/var_norm_calc/lpm_sub_unsign26bit_to_unsign26bit.vhd}
+vcom -93 -work work {C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/var_norm_calc/lpm_add_unsign25bit_to_unsign25bitWithCarry.vhd}
+vcom -93 -work work {C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/var_norm_calc/var_norm_calc.vhd}
+vcom -93 -work work {C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/var_norm_calc/lpm_mult_unsign26bit_unsign26bit_to_unsign52bit.vhd}
+vcom -93 -work work {C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/var_norm_calc/lpm_add_unsign33bit_to_unsign33bitWithCarry.vhd}
+vcom -93 -work work {C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/var_norm_calc/lpm_sub_unsign34bit_to_unsign34bit.vhd}
+vcom -93 -work work {C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/var_norm_calc/lpm_divide_unsign34bit_unsign10bit_to_unsign34bit.vhd}
+vcom -93 -work work {C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/var_norm_calc/lpm_sub_sign53bit_to_sign53bitWithBorrow.vhd}
+vcom -93 -work work {C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/var_norm_calc/altsqrt_unsign54bit_to_usign54bit.vhd}
+
+vcom -93 -work work {C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/var_norm_calc/tb_var_norm_calc.vhd}
+
+vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneive -L rtl_work -L work -voptargs="+acc"  tb_var_norm_calc
+
+add wave *
+view structure
+view signals
+run 4 us

@@ -1,0 +1,2 @@
+create_clock -name {CLK_50MHZ} -period 20.000 -waveform { 0.000 10.000 } [get_ports {CLK_50MHZ}]
+create_generated_clock -name {clk} -source [get_pins {pll|altpll_component|auto_generated|pll1|inclk[0]}] -duty_cycle 50.000 -multiply_by 2 -master_clock {CLK_50MHZ} [get_pins {pll|altpll_component|auto_generated|pll1|clk[0]}] 
