@@ -4,9 +4,8 @@ use ieee.numeric_std.all;
 
 entity ii_address_decoder is
 	port(
-		reset: in std_logic;
-		clk: in std_logic;
-		en: in std_logic;
+		ii_reg_index: in std_logic_vector(3 downto 0); -- 4bit unsigned ... range 0 to 11
+		width_scale_img: in std_logic_vector (8 downto 0); -- 9bit unsigned ... range(0 to 320)
 		p_offset: in std_logic_vector(16 downto 0); -- 17bit unsigned ... range(0 to 76799)
 		x_rect0: in std_logic_vector(4 downto 0); -- 5bit unsigned ... range(0 to 23)
 		x_rect1: in std_logic_vector(4 downto 0); -- 5bit unsigned ... range(0 to 23)
@@ -49,7 +48,7 @@ component ii_address_calc
 	port(
 		x_pos_point: in std_logic_vector(4 downto 0); -- 5bit unsigned ... range(0 to 23)
 		y_pos_point: in std_logic_vector(4 downto 0); -- 5bit unsigned ... range(0 to 23)
-		width_subwin: in std_logic_vector(4 downto 0); -- 5bit unsigned ... const24
+		width_scale_img: in std_logic_vector(8 downto 0); -- 9bit unsigned ... range(0 to 230)
 		p_offset: in std_logic_vector(16 downto 0); -- 16bit unsigned ... range(0 to 76799)
 		ii_address: out std_logic_vector(16 downto 0) -- 17bit unsigned ... range(0 to 76799)
 	);
@@ -80,13 +79,6 @@ signal ii_address0: std_logic_vector(16 downto 0);
 signal ii_address1: std_logic_vector(16 downto 0);
 signal ii_address2: std_logic_vector(16 downto 0);
 signal ii_address3: std_logic_vector(16 downto 0);
-
-type RECT_STATE_TYPE is (s0, s1, s2, s3);
-signal rect_cs,rect_ns   : RECT_STATE_TYPE;
-
-type II_ADDRESS_STATE_TYPE is (s0, s1, s2, s3, s4);
-signal ii_address_cs,ii_address_ns   : II_ADDRESS_STATE_TYPE;
-signal ii_address_done: std_logic;
 
 begin
 
@@ -165,7 +157,7 @@ ii_addr0: ii_address_calc
 	(
 		x_pos_point => x_rect,
 		y_pos_point => y_rect,
-		width_subwin => std_logic_vector(to_unsigned(24, 5)), -- (integer value, bit width)
+		width_scale_img => width_scale_img,
 		p_offset => p_offset,
 		ii_address => ii_address0
 	);
@@ -177,7 +169,7 @@ ii_addr1: ii_address_calc
 	(
 		x_pos_point => x_rect_plus_w_rect,
 		y_pos_point => y_rect,
-		width_subwin => std_logic_vector(to_unsigned(24, 5)), -- (integer value, bit width)
+		width_scale_img => width_scale_img,
 		p_offset => p_offset,
 		ii_address => ii_address1
 	);
@@ -189,7 +181,7 @@ ii_addr2: ii_address_calc
 	(
 		x_pos_point => x_rect,
 		y_pos_point => y_rect_plus_h_rect,
-		width_subwin => std_logic_vector(to_unsigned(24, 5)), -- (integer value, bit width)
+		width_scale_img => width_scale_img,
 		p_offset => p_offset,
 		ii_address => ii_address2
 	);
@@ -201,7 +193,7 @@ ii_addr3: ii_address_calc
 	(
 		x_pos_point => x_rect_plus_w_rect,
 		y_pos_point => y_rect_plus_h_rect,
-		width_subwin => std_logic_vector(to_unsigned(24, 5)), -- (integer value, bit width)
+		width_scale_img => width_scale_img,
 		p_offset => p_offset,
 		ii_address => ii_address3
 	);
@@ -218,100 +210,51 @@ ii_addr_mux: ii_address_mux
 		d => ii_address3,
 		q => ii_address
 	);
+	
+------------ mux control --------------
 
------------- reset state machine ------
-
-process (clk, reset)
+mux_control: process (ii_reg_index)
 begin
-	if (reset='1') then
-		rect_cs <= s0;
-		ii_address_cs <= s0;
-	elsif (rising_edge(clk)) then
-		rect_cs <= rect_ns;
-		ii_address_cs <= ii_address_ns;
-	end if;
-end process;
-
------------- rect state machine -------
-
-rect_SM: process (rect_cs, ii_address_done)
-begin
-	case rect_cs is
-		when s0 => -- reset
+	case ii_reg_index is
+		when X"0" =>
 			rect_mux_sel <= "00";
-			rect_ns <= s1;
-		when s1 => -- rect0
+			ii_address_mux_sel <= "00";
+		when X"1" =>
 			rect_mux_sel <= "00";
-			if (ii_address_done = '1') then
-				rect_ns <= s2;
-			else
-				rect_ns <= s1;
-			end if;
-		when s2 => -- rect1
-			rect_mux_sel <= "01";
-			if (ii_address_done = '1') then
-				rect_ns <= s3;
-			else
-				rect_ns <= s2;
-			end if;
-		when s3 => -- rect2
-			rect_mux_sel <= "10";
-			if (ii_address_done = '1') then
-				rect_ns <= s1;
-			else
-				rect_ns <= s3;
-			end if;
-		when others =>
-			rect_mux_sel <= "00"; -- default reset value
-			rect_ns <= s0; -- default reset state
-	end case;
-end process;
-
--------------- ii_address state machine -
-
-ii_address_SM: process (ii_address_cs, en)
-begin
-	case ii_address_cs is
-		when s0 => -- reset
-			ii_address_mux_sel <= "00";
-			ii_address_done <= '0';
-			ii_address_ns <= s1;
-		when s1 => -- ii_address0
-			ii_address_mux_sel <= "00";
-			ii_address_done <= '0';
-			if (en = '1') then
-				ii_address_ns <= s2;
-			else
-				ii_address_ns <= s1;
-			end if;
-		when s2 => -- ii_address1
 			ii_address_mux_sel <= "01";
-			ii_address_done <= '0';
-			if (en = '1') then
-				ii_address_ns <= s3;
-			else
-				ii_address_ns <= s2;
-			end if;
-		when s3 => -- ii_address2
+		when X"2" =>
+			rect_mux_sel <= "00";
 			ii_address_mux_sel <= "10";
-			ii_address_done <= '0';
-			if (en = '1') then
-				ii_address_ns <= s4;
-			else
-				ii_address_ns <= s3;
-			end if;
-		when s4 => -- ii_address3
+		when X"3" =>
+			rect_mux_sel <= "00";
 			ii_address_mux_sel <= "11";
-			ii_address_done <= '1';
-			if (en = '1') then
-				ii_address_ns <= s1;
-			else
-				ii_address_ns <= s4;
-			end if;
+		when X"4" =>
+			rect_mux_sel <= "01";
+			ii_address_mux_sel <= "00";
+		when X"5" =>
+			rect_mux_sel <= "01";
+			ii_address_mux_sel <= "01";
+		when X"6" =>
+			rect_mux_sel <= "01";
+			ii_address_mux_sel <= "10";
+		when X"7" =>
+			rect_mux_sel <= "01";
+			ii_address_mux_sel <= "11";
+		when X"8" =>
+			rect_mux_sel <= "10";
+			ii_address_mux_sel <= "00";
+		when X"9" =>
+			rect_mux_sel <= "10";
+			ii_address_mux_sel <= "01";
+		when X"A" =>
+			rect_mux_sel <= "10";
+			ii_address_mux_sel <= "10";
+		when X"B" =>
+			rect_mux_sel <= "10";
+			ii_address_mux_sel <= "11";
 		when others =>
-			ii_address_mux_sel <= "00"; -- default reset value
-			ii_address_done <= '0';
-			ii_address_ns <= s0; -- default reset state
+			rect_mux_sel <= "00";
+			ii_address_mux_sel <= "00";
 	end case;
 end process;
 

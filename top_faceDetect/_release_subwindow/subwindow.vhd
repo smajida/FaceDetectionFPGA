@@ -4,7 +4,7 @@ use ieee.numeric_std.all;
 
 entity subwindow is
 	port(
-		reset: in std_logic; -- reset asserted logic '1'
+		reset: in std_logic; -- reset asserted logic '1' -- this resets the accumulator
 		clk: in std_logic; -- latch strong accumulator
 		en_strongAccum: in std_logic; -- enable strong accumulator latch
 		left_tree: in std_logic_vector(13 downto 0); -- 14 bit signed
@@ -103,7 +103,8 @@ end component;
 
 component strong_accumulator
 	port(
-		reset: in std_logic; -- syncronous reset
+		reset: in std_logic; -- async reset
+		en: std_logic;
 		clk: in std_logic; -- 
 		din: in std_logic_vector(13 downto 0); -- 14bit signed
 		dout: out std_logic_vector(21 downto 0) -- 22bit signed
@@ -161,7 +162,9 @@ left_right_tree_mux0: left_right_tree_mux
 				
 ---- strong accumulator ----
 strong_accumulator0: strong_accumulator
-	port map (reset=>reset, clk=>clk,
+	port map (reset=>reset,
+				en=>en_strongAccum,
+				clk=>clk,
 				din=>tree_mux_result, 
 				dout=>strong_accumulator_result);
 				

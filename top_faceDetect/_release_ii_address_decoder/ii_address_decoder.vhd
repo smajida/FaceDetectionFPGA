@@ -4,7 +4,6 @@ use ieee.numeric_std.all;
 
 entity ii_address_decoder is
 	port(
-		reset: in std_logic;
 		ii_reg_index: in std_logic_vector(3 downto 0); -- 4bit unsigned ... range 0 to 11
 		width_scale_img: in std_logic_vector (8 downto 0); -- 9bit unsigned ... range(0 to 320)
 		p_offset: in std_logic_vector(16 downto 0); -- 17bit unsigned ... range(0 to 76799)

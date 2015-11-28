@@ -58,7 +58,7 @@ end component;
 
 component subwindow
 	port(
-		reset: in std_logic; -- reset asserted logic '1'
+		reset: in std_logic; -- reset asserted logic '1' -- this resets the accumulator
 		clk: in std_logic; -- latch strong accumulator
 		en_strongAccum: in std_logic; -- enable strong accumulator latch
 		left_tree: in std_logic_vector(13 downto 0); -- 14 bit signed
@@ -94,7 +94,6 @@ end component;
 
 component ii_address_decoder
 	port(
-		reset: in std_logic;
 		ii_reg_index: in std_logic_vector(3 downto 0); -- 4bit unsigned ... range 0 to 11
 		width_scale_img: in std_logic_vector (8 downto 0); -- 9bit unsigned ... range(0 to 320)
 		p_offset: in std_logic_vector(16 downto 0); -- 17bit unsigned ... range(0 to 76799)
@@ -191,7 +190,7 @@ signal fail: std_logic;
 
 signal face_detected0: std_logic; -- subwindow0 face detection result
 
-type TOP_STATE_TYPE is (s0, s1, s2, s3, s4, s5, s6, s7);
+type TOP_STATE_TYPE is (s0, s1, s2, s3, s4, s5, s6, s7, s8);
 signal top_cs,top_ns   : TOP_STATE_TYPE;
 
 signal ii_reg_address_count_en: std_logic;
@@ -204,6 +203,8 @@ signal weak_count_en: std_logic;
 signal weak_count_reset: std_logic;
 signal strongStage_count_en: std_logic;
 signal strongStage_count_reset: std_logic;
+
+signal subwindow_reset: std_logic;
 
 begin
 
@@ -290,6 +291,7 @@ rect_SM: process (top_cs, ii_reg_address, weak_count, weak_stage_num, strongStag
 begin
 	case top_cs is
 		when s0 => -- reset
+			subwindow_reset <= '1';
 			fail <= '0';
 			en_strongAccum0 <= '0';
 			--ii_address_decoder_en <= '0';
@@ -306,6 +308,7 @@ begin
 			strongStage_count_reset <= '1';
 			top_ns <= s1;
 		when s1 => -- latch ii value into regs
+			subwindow_reset <= '0';
 			en_strongAccum0 <= '0';
 			--ii_address_decoder_en <= '1';
 			ii_reg_we0 <= '1';
@@ -325,6 +328,7 @@ begin
 				top_ns <= s2;
 			end if;
 		when s2 => -- inc ii_reg_address
+			subwindow_reset <= '0';
 			en_strongAccum0 <= '0';
 			--ii_address_decoder_en <= '0';
 			ii_reg_we0 <= '0';
@@ -340,7 +344,8 @@ begin
 			strongStage_count_reset <= '0';
 			top_ns <= s1;
 		when s3 => -- setup all calcs, decide where to go
-			en_strongAccum0 <= '0';
+			subwindow_reset <= '0';
+			en_strongAccum0 <= '1';
 			--ii_address_decoder_en <= '0';
 			ii_reg_address_count_en <= '0';
 			ii_reg_address_count_reset <= '1';
@@ -355,19 +360,12 @@ begin
 			ii_reg_we0 <= '0';
 			if (not(weak_count=weak_stage_num)) then
 				top_ns <= s4;
-			elsif (not(face_detected0='1') and (weak_count=weak_stage_num) and not(strongStage_count=24)) then
-				top_ns <= s5;
-			elsif ((face_detected0='1') and (weak_count=weak_stage_num) and not(strongStage_count=24)) then
-				top_ns <= s6;
-			elsif (not(face_detected0='1') and (weak_count=weak_stage_num) and (strongStage_count=24)) then
-				top_ns <= s7;
-			elsif ((face_detected0='1') and (weak_count=weak_stage_num) and (strongStage_count=24)) then
-				top_ns <= s1;
-			else
-				top_ns <= s0;--should never reach this condition
+			else 					-- if at end if weak count, allow stongAccum to latch register and check other conditions
+				top_ns <= s8;
 			end if;
 			
 		when s4 => -- inc weak_count, inc weakNode_count
+			subwindow_reset <= '0';
 			en_strongAccum0 <= '0';
 			--ii_address_decoder_en <= '0';
 			ii_reg_we0 <= '0';
@@ -383,8 +381,9 @@ begin
 			strongStage_count_reset <= '0';
 			top_ns <= s1;
 		when s5 => -- assert fail, reset weak_count, inc strongStage_count, inc weakNode_count
+			subwindow_reset <= '1';
 			fail <= '1';
-			en_strongAccum0 <= '1';
+			en_strongAccum0 <= '0';
 			--ii_address_decoder_en <= '0';
 			ii_reg_address_count_en <= '0';
 			ii_reg_address_count_reset <= '0';
@@ -398,7 +397,8 @@ begin
 			strongStage_count_reset <= '0';
 			top_ns <= s1;
 		when s6 => -- reset weak_count, inc strongStage_count, inc weakNode_count
-			en_strongAccum0 <= '1';
+			subwindow_reset <= '1';
+			en_strongAccum0 <= '0';
 			--ii_address_decoder_en <= '0';
 			ii_reg_we0 <= '0';
 			ii_reg_address_count_en <= '0';
@@ -413,6 +413,7 @@ begin
 			strongStage_count_reset <= '0';
 			top_ns <= s1;
 		when s7 => -- assert fail, goto reset state (s0)
+			subwindow_reset <= '0';
 			fail <= '1';
 			en_strongAccum0 <= '0';
 			--ii_address_decoder_en <= '0';
@@ -428,7 +429,34 @@ begin
 			strongStage_count_en <= '0';
 			strongStage_count_reset <= '0';
 			top_ns <= s0;
+		when s8 => -- only check conditions, dont change vals or increment -- setup clock tick to let last strong accum value latch into register befor compairing strong value to strong threshold
+			subwindow_reset <= '0';
+			en_strongAccum0 <= '0';
+			--ii_address_decoder_en <= '0';
+			ii_reg_address_count_en <= '0';
+			ii_reg_address_count_reset <= '0';
+			ii_reg_index_count_en <= '0';
+			ii_reg_index_count_reset <= '0';
+			weakNode_count_en <= '0';
+			weakNode_count_reset <= '0';
+			weak_count_en <= '0';
+			weak_count_reset <= '0';
+			strongStage_count_en <= '0';
+			strongStage_count_reset <= '0';
+			ii_reg_we0 <= '0';
+			if (not(face_detected0='1') and not(strongStage_count=24)) then
+				top_ns <= s5;
+			elsif ((face_detected0='1') and not(strongStage_count=24)) then
+				top_ns <= s6;
+			elsif (not(face_detected0='1') and (strongStage_count=24)) then
+				top_ns <= s7;
+			elsif ((face_detected0='1') and (strongStage_count=24)) then
+				top_ns <= s0;
+			else
+				top_ns <= s0;--should never reach this condition
+			end if;
 		when others =>
+			subwindow_reset <= '1';
 			fail <= '0';
 			en_strongAccum0 <= '0';
 			--ii_address_decoder_en <= '0';
@@ -461,7 +489,6 @@ pixel_offset0: pixel_offset
 ---- Integral Image Address Decoder ----
 ii_address_decoder0: ii_address_decoder
 	port map(
-		reset => reset,
 		ii_reg_index => ii_reg_index,
 		width_scale_img => width_scale_img,
 		p_offset => p_offset0,
@@ -486,7 +513,7 @@ ii_address_decoder0: ii_address_decoder
 ii_ram: ram 
 generic map (ADDR_WIDTH => 17,DATA_WIDTH => 25, --2^17=131071, so real block can address 0 to 131070
 				MAX_PRELOAD_ADDRESS => (320*240-1),
-				MEM_FILE_NAME => "ii.txt")
+				MEM_FILE_NAME => "test2-face-25x25_ii_bin.txt")
 port map (data => (others=>'0'),rdaddress => ii_address0,
 			rdclock => clk_memRead,wraddress => (others=>'0'),
 			wrclock => '0',we => '0',re => '1',q => ii_data0);
@@ -519,14 +546,14 @@ port map(clk => clk,
 
 ---- Variance Normalization Regs
 	-- /* currently static values for init test */
-	p0 <= std_logic_vector(to_unsigned(31, 25)); -- 25 bit unsigned
-	p1 <= std_logic_vector(to_unsigned(2796, 25)); -- 25 bit unsigned
-	p2 <= std_logic_vector(to_unsigned(1183, 25)); -- 25 bit unsigned
-	p3 <= std_logic_vector(to_unsigned(54698, 25)); -- 25 bit unsigned
-	ssp0 <= std_logic_vector(to_unsigned(961, 33)); -- 33 bit unsigned
-	ssp1 <= std_logic_vector(to_unsigned(412268, 33)); -- 33 bit unsigned
-	ssp2 <= std_logic_vector(to_unsigned(174351, 33)); -- 33 bit unsigned
-	ssp3 <= std_logic_vector(to_unsigned(8299024, 33)); -- 33 bit unsigned
+	p0 <= std_logic_vector(to_unsigned(28, 25)); -- 25 bit unsigned
+	p1 <= std_logic_vector(to_unsigned(2660, 25)); -- 25 bit unsigned
+	p2 <= std_logic_vector(to_unsigned(1181, 25)); -- 25 bit unsigned
+	p3 <= std_logic_vector(to_unsigned(52437, 25)); -- 25 bit unsigned
+	ssp0 <= std_logic_vector(to_unsigned(784, 33)); -- 33 bit unsigned
+	ssp1 <= std_logic_vector(to_unsigned(364948, 33)); -- 33 bit unsigned
+	ssp2 <= std_logic_vector(to_unsigned(182011, 33)); -- 33 bit unsigned
+	ssp3 <= std_logic_vector(to_unsigned(7620163, 33)); -- 33 bit unsigned
 	
 ---- Strong Thresh ROM ----
 	-- 25 strong theshold stages ... values range from -1290 to -766 ... 12 bit signed
@@ -706,7 +733,7 @@ port map (data => (others=>'0'),rdaddress => weakNode_count,
 	-- /* this will directly assert face_detect top level output for init test */
 subwindow0: subwindow
 	port map(
-		reset => reset,
+		reset => subwindow_reset,
 		clk => clk,
 		en_strongAccum => en_strongAccum0,
 		left_tree => left_tree,

@@ -93,7 +93,9 @@ add0: lpm_add_sign42bit_to_sign42bitWithCarry
 		result => result_temp(41 downto 0)
 	);
 	
-result_temp(42) <= c_out0 and (result_rect0(41) and result_rect1(41));-- both inputs must be negative to assert sign bit via carry out
+result_temp(42) <= (not c_out0 and result_rect0(41) and not result_rect1(41)) or 
+							(not c_out0 and not result_rect0(41) and result_rect1(41)) or 
+							(c_out0 and result_rect0(41) and result_rect1(41));-- assert if result is negative
 	
 --must sign extent result_rect2 to match result_temp bit width
 result_rect2_extend(42)<=result_rect2(41);
@@ -108,6 +110,8 @@ add1: lpm_add_sign43bit_to_sign43bitWithCarry
 		result => result_feature(42 downto 0)
 	);
 	
-result_feature(43) <= c_out1 and (result_rect2_extend(42) and result_temp(42));-- both inputs must be negative to assert sign bit via carry out
+result_feature(43) <= (not c_out1 and result_rect2_extend(42) and not result_temp(42)) or
+								(not c_out1 and not result_rect2_extend(42) and result_temp(42)) or
+								(c_out1 and result_rect2_extend(42) and result_temp(42));-- assert if result is negative
 	
 end behavior;

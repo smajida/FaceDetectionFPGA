@@ -1,2 +1,2 @@
 v1
-DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,lpm_mult_unsign5bit_unsign5bit_to_unsign10bit:mult0|lpm_mult:lpm_mult_component|mult_gcn:auto_generated|mac_out2,
+DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,lpm_mult_unsign5bit_unsign9bit_to_unsign14bit:mult0|lpm_mult:lpm_mult_component|mult_ocn:auto_generated|mac_out2,
