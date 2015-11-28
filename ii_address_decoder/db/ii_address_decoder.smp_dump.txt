@@ -1,0 +1,15 @@
+
+State Machine - |ii_address_decoder|ii_address_cs
+Name ii_address_cs.s4 ii_address_cs.s3 ii_address_cs.s2 ii_address_cs.s1 ii_address_cs.s0 
+ii_address_cs.s0 0 0 0 0 0 
+ii_address_cs.s1 0 0 0 1 1 
+ii_address_cs.s2 0 0 1 0 1 
+ii_address_cs.s3 0 1 0 0 1 
+ii_address_cs.s4 1 0 0 0 1 
+
+State Machine - |ii_address_decoder|rect_cs
+Name rect_cs.s3 rect_cs.s2 rect_cs.s1 rect_cs.s0 
+rect_cs.s0 0 0 0 0 
+rect_cs.s1 0 0 1 1 
+rect_cs.s2 0 1 0 1 
+rect_cs.s3 1 0 0 1 

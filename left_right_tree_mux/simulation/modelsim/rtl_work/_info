@@ -1,0 +1,92 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/left_right_tree_mux/simulation/modelsim
+Eleft_right_tree_mux
+Z1 w1447642439
+Z2 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z5 8C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/left_right_tree_mux/left_right_tree_mux.vhd
+Z6 FC:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/left_right_tree_mux/left_right_tree_mux.vhd
+l0
+L5
+V>GAR8b^5UCbl[@kZhG4hD2
+!s100 EjDoo8HmSXE3kCK_Ag=il3
+Z7 OV;C;10.3c;59
+31
+Z8 !s110 1447642524
+!i10b 1
+Z9 !s108 1447642524.082000
+Z10 !s90 -reportprogress|300|-93|-work|work|C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/left_right_tree_mux/left_right_tree_mux.vhd|
+Z11 !s107 C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/left_right_tree_mux/left_right_tree_mux.vhd|
+!i113 1
+Z12 o-93 -work work
+Z13 tExplicit 1
+Abehavior
+R2
+R3
+R4
+DEx4 work 19 left_right_tree_mux 0 22 >GAR8b^5UCbl[@kZhG4hD2
+l16
+L14
+VR5<Q4oNMN8hA;cGf8L4gi0
+!s100 aeI>ljK47P5C`V=Zl`YV43
+R7
+31
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Etb_left_right_tree_mux
+Z14 w1447642402
+R2
+R3
+R4
+R0
+Z15 8C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/left_right_tree_mux/tb_left_right_tree_mux.vhd
+Z16 FC:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/left_right_tree_mux/tb_left_right_tree_mux.vhd
+l0
+L5
+V=>N4NhV;ZIQjMCY?fY3CF3
+!s100 keZ2Yz:36RP9U1=[TJha]2
+R7
+31
+R8
+!i10b 1
+Z17 !s108 1447642524.592000
+Z18 !s90 -reportprogress|300|-93|-work|work|C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/left_right_tree_mux/tb_left_right_tree_mux.vhd|
+Z19 !s107 C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/left_right_tree_mux/tb_left_right_tree_mux.vhd|
+!i113 1
+R12
+R13
+Abehavior
+R2
+R3
+R4
+DEx4 work 22 tb_left_right_tree_mux 0 22 =>N4NhV;ZIQjMCY?fY3CF3
+l23
+L8
+VUYFeQOC0k4OCR>:QkV2?R2
+!s100 Anb:2MH>9>Wzj:Pi<?V6U3
+R7
+31
+R8
+!i10b 1
+R17
+R18
+R19
+!i113 1
+R12
+R13

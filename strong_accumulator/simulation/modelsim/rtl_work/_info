@@ -1,0 +1,131 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/strong_accumulator/simulation/modelsim
+Elpm_add_sign22bit_to_sign22bit
+Z1 w1447640110
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z4 8C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/strong_accumulator/lpm_add_sign22bit_to_sign22bit.vhd
+Z5 FC:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/strong_accumulator/lpm_add_sign22bit_to_sign22bit.vhd
+l0
+L43
+V>aQaF0<63`^]0d4NmPml40
+!s100 >eWeFPA?@JZXl3G_iOo:33
+Z6 OV;C;10.3c;59
+31
+Z7 !s110 1447641430
+!i10b 1
+Z8 !s108 1447641430.447000
+Z9 !s90 -reportprogress|300|-93|-work|work|C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/strong_accumulator/lpm_add_sign22bit_to_sign22bit.vhd|
+Z10 !s107 C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/strong_accumulator/lpm_add_sign22bit_to_sign22bit.vhd|
+!i113 1
+Z11 o-93 -work work
+Z12 tExplicit 1
+Asyn
+R2
+R3
+DEx4 work 30 lpm_add_sign22bit_to_sign22bit 0 22 >aQaF0<63`^]0d4NmPml40
+l74
+L53
+VlZSH>4QN19CzHmazoITXN1
+!s100 m?eKIeKQBK`CRTK>i@ic]3
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Estrong_accumulator
+Z13 w1447641402
+Z14 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+R2
+R3
+R0
+Z15 8C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/strong_accumulator/strong_accumulator.vhd
+Z16 FC:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/strong_accumulator/strong_accumulator.vhd
+l0
+L5
+VNi8O8maFoOnQ4Sc=kUhzD2
+!s100 M=jVzH6`^CDNY;WmU=a3k0
+R6
+31
+Z17 !s110 1447641429
+!i10b 1
+Z18 !s108 1447641429.937000
+Z19 !s90 -reportprogress|300|-93|-work|work|C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/strong_accumulator/strong_accumulator.vhd|
+Z20 !s107 C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/strong_accumulator/strong_accumulator.vhd|
+!i113 1
+R11
+R12
+Abehavior
+R14
+R2
+R3
+DEx4 work 18 strong_accumulator 0 22 Ni8O8maFoOnQ4Sc=kUhzD2
+l29
+L14
+VM30b7:bhP53DYY6I;PnVC0
+!s100 8W3=]`:[Bho9`3>21TZ`81
+R6
+31
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 1
+R11
+R12
+Etb_strong_accumulator
+Z21 w1447641303
+R14
+R2
+R3
+R0
+Z22 8C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/strong_accumulator/tb_strong_accumulator.vhd
+Z23 FC:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/strong_accumulator/tb_strong_accumulator.vhd
+l0
+L5
+VGSBadNBN;`4S^UIYQ]k9O0
+!s100 9ien>eW]W2WS3<@]12>WM0
+R6
+31
+R7
+!i10b 1
+Z24 !s108 1447641430.947000
+Z25 !s90 -reportprogress|300|-93|-work|work|C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/strong_accumulator/tb_strong_accumulator.vhd|
+Z26 !s107 C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/strong_accumulator/tb_strong_accumulator.vhd|
+!i113 1
+R11
+R12
+Abehavior
+R14
+R2
+R3
+DEx4 work 21 tb_strong_accumulator 0 22 GSBadNBN;`4S^UIYQ]k9O0
+l23
+L8
+V@5lbH?7gbN9BE`?RmC:bZ3
+!s100 OC<W<6M^6QB]kjJC]F5>H2
+R6
+31
+R7
+!i10b 1
+R24
+R25
+R26
+!i113 1
+R11
+R12

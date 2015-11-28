@@ -1,0 +1,1569 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/simulation/modelsim
+Ealtsqrt_unsign54bit_to_usign54bit
+Z1 w1447615179
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z4 8C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_var_norm_calc/altsqrt_unsign54bit_to_usign54bit.vhd
+Z5 FC:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_var_norm_calc/altsqrt_unsign54bit_to_usign54bit.vhd
+l0
+L43
+VEEOF4X1[FgfIW==M]h2Ni1
+!s100 S>^H@mR?5bVR<2BnmIF4n3
+Z6 OV;C;10.3c;59
+31
+Z7 !s110 1448730558
+!i10b 1
+Z8 !s108 1448730558.707000
+Z9 !s90 -reportprogress|300|-93|-work|work|C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_var_norm_calc/altsqrt_unsign54bit_to_usign54bit.vhd|
+Z10 !s107 C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_var_norm_calc/altsqrt_unsign54bit_to_usign54bit.vhd|
+!i113 1
+Z11 o-93 -work work
+Z12 tExplicit 1
+Asyn
+R2
+R3
+DEx4 work 33 altsqrt_unsign54bit_to_usign54bit 0 22 EEOF4X1[FgfIW==M]h2Ni1
+l75
+L53
+VizWjRDj];LJ6h^:e=1e_23
+!s100 Rkjg0lH:]R<Ieb_I7]lmz2
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Efeature_calc
+Z13 w1447615178
+Z14 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+R2
+R3
+R0
+Z15 8C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_feature_calc/feature_calc.vhd
+Z16 FC:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_feature_calc/feature_calc.vhd
+l0
+L5
+VSYD<JkAS_lWA_G_YBcohW0
+!s100 9@V=5R[4Um1<1eoV=dBWB0
+R6
+31
+Z17 !s110 1448730561
+!i10b 1
+Z18 !s108 1448730561.267000
+Z19 !s90 -reportprogress|300|-93|-work|work|C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_feature_calc/feature_calc.vhd|
+Z20 !s107 C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_feature_calc/feature_calc.vhd|
+!i113 1
+R11
+R12
+Abehavior
+R14
+R2
+R3
+DEx4 work 12 feature_calc 0 22 SYD<JkAS_lWA_G_YBcohW0
+l79
+L26
+VY3PmCPnb0;n25`ml<i@f81
+!s100 ][giM1jo8?W<0cD7_:ein2
+R6
+31
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 1
+R11
+R12
+Eii_address_calc
+Z21 w1448722669
+R14
+R2
+R3
+R0
+Z22 8C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_ii_address_calc/ii_address_calc.vhd
+Z23 FC:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_ii_address_calc/ii_address_calc.vhd
+l0
+L5
+VNGL5^Ohn;PSSX;]O]4a0E2
+!s100 =8InSZZI3L?c00IO71HZe1
+R6
+31
+Z24 !s110 1448730548
+!i10b 1
+Z25 !s108 1448730548.527000
+Z26 !s90 -reportprogress|300|-93|-work|work|C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_ii_address_calc/ii_address_calc.vhd|
+Z27 !s107 C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_ii_address_calc/ii_address_calc.vhd|
+!i113 1
+R11
+R12
+Abehavior
+R14
+R2
+R3
+DEx4 work 15 ii_address_calc 0 22 NGL5^Ohn;PSSX;]O]4a0E2
+l49
+L15
+Vc6TP]6H`:k?gU_=8REe9_0
+!s100 fKif]oIb>Cf@H6iQ=W;Wd3
+R6
+31
+R24
+!i10b 1
+R25
+R26
+R27
+!i113 1
+R11
+R12
+Eii_address_decoder
+Z28 w1448726875
+R14
+R2
+R3
+R0
+Z29 8C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_ii_address_decoder/ii_address_decoder.vhd
+Z30 FC:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_ii_address_decoder/ii_address_decoder.vhd
+l0
+L5
+VE1VIV`7V>H=TlH^R8lKS82
+!s100 hb0Kl=Tm3G>iH3I;WM8n91
+R6
+31
+Z31 !s110 1448730547
+!i10b 1
+Z32 !s108 1448730547.007000
+Z33 !s90 -reportprogress|300|-93|-work|work|C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_ii_address_decoder/ii_address_decoder.vhd|
+Z34 !s107 C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_ii_address_decoder/ii_address_decoder.vhd|
+!i113 1
+R11
+R12
+Abehavior
+R14
+R2
+R3
+DEx4 work 18 ii_address_decoder 0 22 E1VIV`7V>H=TlH^R8lKS82
+l84
+L27
+VAi=3?oXT_``G@SU2F3O3@2
+!s100 `G9AI?V3hzKME6kzzc5Zm2
+R6
+31
+R31
+!i10b 1
+R32
+R33
+R34
+!i113 1
+R11
+R12
+Eii_address_mux
+Z35 w1447620681
+R14
+R2
+R3
+R0
+Z36 8C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_ii_address_decoder/ii_address_mux.vhd
+Z37 FC:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_ii_address_decoder/ii_address_mux.vhd
+l0
+L5
+VR7emFnYB^j^]G4LK@gKcE1
+!s100 <<;>?ac;MQW9YY0]n?b=@3
+R6
+31
+Z38 !s110 1448730543
+!i10b 1
+Z39 !s108 1448730543.917000
+Z40 !s90 -reportprogress|300|-93|-work|work|C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_ii_address_decoder/ii_address_mux.vhd|
+Z41 !s107 C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_ii_address_decoder/ii_address_mux.vhd|
+!i113 1
+R11
+R12
+Abehavior
+R14
+R2
+R3
+DEx4 work 14 ii_address_mux 0 22 R7emFnYB^j^]G4LK@gKcE1
+l18
+L16
+V;G91Lek91LI:]?6^Zng?e0
+!s100 iQPL2:lg3Yi172WcYA6:k1
+R6
+31
+R38
+!i10b 1
+R39
+R40
+R41
+!i113 1
+R11
+R12
+Eleft_right_tree_mux
+Z42 w1447642439
+R14
+R2
+R3
+R0
+Z43 8C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/left_right_tree_mux.vhd
+Z44 FC:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/left_right_tree_mux.vhd
+l0
+L5
+V>GAR8b^5UCbl[@kZhG4hD2
+!s100 EjDoo8HmSXE3kCK_Ag=il3
+R6
+31
+Z45 !s110 1448730554
+!i10b 1
+Z46 !s108 1448730554.096000
+Z47 !s90 -reportprogress|300|-93|-work|work|C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/left_right_tree_mux.vhd|
+Z48 !s107 C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/left_right_tree_mux.vhd|
+!i113 1
+R11
+R12
+Abehavior
+R14
+R2
+R3
+DEx4 work 19 left_right_tree_mux 0 22 >GAR8b^5UCbl[@kZhG4hD2
+l16
+L14
+VR5<Q4oNMN8hA;cGf8L4gi0
+!s100 aeI>ljK47P5C`V=Zl`YV43
+R6
+31
+R45
+!i10b 1
+R46
+R47
+R48
+!i113 1
+R11
+R12
+Elpm_add_sign22bit_to_sign22bit
+Z49 w1447640110
+R2
+R3
+R0
+Z50 8C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_strong_accumulator/lpm_add_sign22bit_to_sign22bit.vhd
+Z51 FC:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_strong_accumulator/lpm_add_sign22bit_to_sign22bit.vhd
+l0
+L43
+V>aQaF0<63`^]0d4NmPml40
+!s100 >eWeFPA?@JZXl3G_iOo:33
+R6
+31
+Z52 !s110 1448730553
+!i10b 1
+Z53 !s108 1448730553.590000
+Z54 !s90 -reportprogress|300|-93|-work|work|C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_strong_accumulator/lpm_add_sign22bit_to_sign22bit.vhd|
+Z55 !s107 C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_strong_accumulator/lpm_add_sign22bit_to_sign22bit.vhd|
+!i113 1
+R11
+R12
+Asyn
+R2
+R3
+DEx4 work 30 lpm_add_sign22bit_to_sign22bit 0 22 >aQaF0<63`^]0d4NmPml40
+l74
+L53
+VlZSH>4QN19CzHmazoITXN1
+!s100 m?eKIeKQBK`CRTK>i@ic]3
+R6
+31
+R52
+!i10b 1
+R53
+R54
+R55
+!i113 1
+R11
+R12
+Elpm_add_sign42bit_to_sign42bitwithcarry
+R13
+R2
+R3
+R0
+Z56 8C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_feature_calc/lpm_add_sign42bit_to_sign42bitWithCarry.vhd
+Z57 FC:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_feature_calc/lpm_add_sign42bit_to_sign42bitWithCarry.vhd
+l0
+L43
+VP>K2SYBfJa]@ddP`cnV>F0
+!s100 U:4BHJVESPAU9RNcLA6X]3
+R6
+31
+Z58 !s110 1448730560
+!i10b 1
+Z59 !s108 1448730560.757000
+Z60 !s90 -reportprogress|300|-93|-work|work|C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_feature_calc/lpm_add_sign42bit_to_sign42bitWithCarry.vhd|
+Z61 !s107 C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_feature_calc/lpm_add_sign42bit_to_sign42bitWithCarry.vhd|
+!i113 1
+R11
+R12
+Asyn
+R2
+R3
+DEx4 work 39 lpm_add_sign42bit_to_sign42bitwithcarry 0 22 P>K2SYBfJa]@ddP`cnV>F0
+l77
+L54
+V]38dY;<S[?PAfHg[0TKnk1
+!s100 hMU^a0FZ>;UQnSLCA5jBj0
+R6
+31
+R58
+!i10b 1
+R59
+R60
+R61
+!i113 1
+R11
+R12
+Elpm_add_sign43bit_to_sign43bitwithcarry
+R13
+R2
+R3
+R0
+Z62 8C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_feature_calc/lpm_add_sign43bit_to_sign43bitWithCarry.vhd
+Z63 FC:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_feature_calc/lpm_add_sign43bit_to_sign43bitWithCarry.vhd
+l0
+L43
+VNfnH@U7Pd1:WD@M^oCFZ?1
+!s100 [M^7;R`;:l=aIEzBNSn2m0
+R6
+31
+R58
+!i10b 1
+Z64 !s108 1448730560.247000
+Z65 !s90 -reportprogress|300|-93|-work|work|C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_feature_calc/lpm_add_sign43bit_to_sign43bitWithCarry.vhd|
+Z66 !s107 C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_feature_calc/lpm_add_sign43bit_to_sign43bitWithCarry.vhd|
+!i113 1
+R11
+R12
+Asyn
+R2
+R3
+DEx4 work 39 lpm_add_sign43bit_to_sign43bitwithcarry 0 22 NfnH@U7Pd1:WD@M^oCFZ?1
+l77
+L54
+V>FKB;P5>5;;:dl0:fJo5A3
+!s100 HI0LHPnO8L0GVT6fb`;LY1
+R6
+31
+R58
+!i10b 1
+R64
+R65
+R66
+!i113 1
+R11
+R12
+Elpm_add_unsign14bit_to_unsign14bit
+Z67 w1448722133
+R2
+R3
+R0
+Z68 8C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_ii_address_calc/lpm_add_unsign14bit_to_unsign14bit.vhd
+Z69 FC:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_ii_address_calc/lpm_add_unsign14bit_to_unsign14bit.vhd
+l0
+L43
+VhjF2QUdWSH51Fc:UkNEUS2
+!s100 Un:Z<@QJlR0lfk`kU0@9;3
+R6
+31
+R24
+!i10b 1
+Z70 !s108 1448730548.017000
+Z71 !s90 -reportprogress|300|-93|-work|work|C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_ii_address_calc/lpm_add_unsign14bit_to_unsign14bit.vhd|
+Z72 !s107 C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_ii_address_calc/lpm_add_unsign14bit_to_unsign14bit.vhd|
+!i113 1
+R11
+R12
+Asyn
+R2
+R3
+DEx4 work 34 lpm_add_unsign14bit_to_unsign14bit 0 22 hjF2QUdWSH51Fc:UkNEUS2
+l74
+L53
+VS=Q]>jmR<oe;=X5[ilbFo2
+!s100 `8a]id4c^Mo7hJlQS3J2E2
+R6
+31
+R24
+!i10b 1
+R70
+R71
+R72
+!i113 1
+R11
+R12
+Elpm_add_unsign17bit_to_unsign17bit
+R13
+R2
+R3
+R0
+Z73 8C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_pixel_offset/lpm_add_unsign17bit_to_unsign17bit.vhd
+Z74 FC:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_pixel_offset/lpm_add_unsign17bit_to_unsign17bit.vhd
+l0
+L43
+V699UJS6C]2NT[dV=0R:=L0
+!s100 <>zlHiLQAok4FzZBTRl:02
+R6
+31
+Z75 !s110 1448730545
+!i10b 1
+Z76 !s108 1448730545.437000
+Z77 !s90 -reportprogress|300|-93|-work|work|C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_pixel_offset/lpm_add_unsign17bit_to_unsign17bit.vhd|
+Z78 !s107 C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_pixel_offset/lpm_add_unsign17bit_to_unsign17bit.vhd|
+!i113 1
+R11
+R12
+Asyn
+R2
+R3
+DEx4 work 34 lpm_add_unsign17bit_to_unsign17bit 0 22 699UJS6C]2NT[dV=0R:=L0
+l74
+L53
+VC`G4`Jel32DYN<QZ>3z8`3
+!s100 fUC2OQMl3k`0a1WOJ8_kM2
+R6
+31
+R75
+!i10b 1
+R76
+R77
+R78
+!i113 1
+R11
+R12
+Elpm_add_unsign25bit_to_unsign25bitwithcarry
+Z79 w1447615180
+R2
+R3
+R0
+Z80 8C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_var_norm_calc/lpm_add_unsign25bit_to_unsign25bitWithCarry.vhd
+Z81 FC:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_var_norm_calc/lpm_add_unsign25bit_to_unsign25bitWithCarry.vhd
+l0
+L43
+VDoT]iikcYL3_M=O3iVJ8L0
+!s100 V55SUEh=ccMRgPPDJV=3j1
+R6
+31
+R7
+!i10b 1
+Z82 !s108 1448730558.197000
+Z83 !s90 -reportprogress|300|-93|-work|work|C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_var_norm_calc/lpm_add_unsign25bit_to_unsign25bitWithCarry.vhd|
+Z84 !s107 C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_var_norm_calc/lpm_add_unsign25bit_to_unsign25bitWithCarry.vhd|
+!i113 1
+R11
+R12
+Asyn
+R2
+R3
+DEx4 work 43 lpm_add_unsign25bit_to_unsign25bitwithcarry 0 22 DoT]iikcYL3_M=O3iVJ8L0
+l77
+L54
+VMgc?kAQj^gLB1c_?AA[Yl1
+!s100 VLLcIMz^ifk>@@abJdnP60
+R6
+31
+R7
+!i10b 1
+R82
+R83
+R84
+!i113 1
+R11
+R12
+Elpm_add_unsign33bit_to_unsign33bitwithcarry
+R79
+R2
+R3
+R0
+Z85 8C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_var_norm_calc/lpm_add_unsign33bit_to_unsign33bitWithCarry.vhd
+Z86 FC:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_var_norm_calc/lpm_add_unsign33bit_to_unsign33bitWithCarry.vhd
+l0
+L43
+VHd@A[gQ4TGcQjdEEcae`i1
+!s100 =TA_o@4Ph]dhUnkmgm1O51
+R6
+31
+Z87 !s110 1448730557
+!i10b 1
+Z88 !s108 1448730557.687000
+Z89 !s90 -reportprogress|300|-93|-work|work|C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_var_norm_calc/lpm_add_unsign33bit_to_unsign33bitWithCarry.vhd|
+Z90 !s107 C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_var_norm_calc/lpm_add_unsign33bit_to_unsign33bitWithCarry.vhd|
+!i113 1
+R11
+R12
+Asyn
+R2
+R3
+DEx4 work 43 lpm_add_unsign33bit_to_unsign33bitwithcarry 0 22 Hd@A[gQ4TGcQjdEEcae`i1
+l77
+L54
+Vo30HjT=iKK]]``5iYk_>;1
+!s100 Fmn^z?a`oH]D_U0P9QLm53
+R6
+31
+R87
+!i10b 1
+R88
+R89
+R90
+!i113 1
+R11
+R12
+Elpm_add_unsign5bit_to_unsign5bit
+Z91 w1447618348
+R2
+R3
+R0
+Z92 8C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_ii_address_decoder/lpm_add_unsign5bit_to_unsign5bit.vhd
+Z93 FC:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_ii_address_decoder/lpm_add_unsign5bit_to_unsign5bit.vhd
+l0
+L43
+V_PR7Z5ZYKYE;PEeRzWh2[2
+!s100 PTo4d:>P<OZ]mRMPceO960
+R6
+31
+Z94 !s110 1448730546
+!i10b 1
+Z95 !s108 1448730546.517000
+Z96 !s90 -reportprogress|300|-93|-work|work|C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_ii_address_decoder/lpm_add_unsign5bit_to_unsign5bit.vhd|
+Z97 !s107 C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_ii_address_decoder/lpm_add_unsign5bit_to_unsign5bit.vhd|
+!i113 1
+R11
+R12
+Asyn
+R2
+R3
+DEx4 work 32 lpm_add_unsign5bit_to_unsign5bit 0 22 _PR7Z5ZYKYE;PEeRzWh2[2
+l74
+L53
+VZOb_DGJ]UjYRNS<XA6^H60
+!s100 I=3P71elcJJZiG[K>`?:Z2
+R6
+31
+R94
+!i10b 1
+R95
+R96
+R97
+!i113 1
+R11
+R12
+Elpm_compare_sign27bit_a_gtr_b
+Z98 w1448140491
+R2
+R3
+R0
+Z99 8C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_strong_thresh_compare/lpm_compare_sign27bit_a_gtr_b.vhd
+Z100 FC:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_strong_thresh_compare/lpm_compare_sign27bit_a_gtr_b.vhd
+l0
+L43
+Vbz]XE<R^U3oDQXePjTfLo0
+!s100 K0V@o3_N;ZcJ?ad3j]6=@2
+R6
+31
+Z101 !s110 1448730552
+!i10b 1
+Z102 !s108 1448730552.070000
+Z103 !s90 -reportprogress|300|-93|-work|work|C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_strong_thresh_compare/lpm_compare_sign27bit_a_gtr_b.vhd|
+Z104 !s107 C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_strong_thresh_compare/lpm_compare_sign27bit_a_gtr_b.vhd|
+!i113 1
+R11
+R12
+Asyn
+R2
+R3
+DEx4 work 29 lpm_compare_sign27bit_a_gtr_b 0 22 bz]XE<R^U3oDQXePjTfLo0
+l75
+L54
+V:GQdZl5DG_3O=nzcOgh832
+!s100 iioT`6N@C;1L:=m@nQ:_R1
+R6
+31
+R101
+!i10b 1
+R102
+R103
+R104
+!i113 1
+R11
+R12
+Elpm_compare_sign44bit_a_ge_b
+Z105 w1448144432
+R2
+R3
+R0
+Z106 8C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_weak_thresh_compare/lpm_compare_sign44bit_a_ge_b.vhd
+Z107 FC:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_weak_thresh_compare/lpm_compare_sign44bit_a_ge_b.vhd
+l0
+L43
+VjOKAA^heFJkZjiSm=Cc8n3
+!s100 GnWfDaA2BP`A<:@mUQ[Zn1
+R6
+31
+Z108 !s110 1448730549
+!i10b 1
+Z109 !s108 1448730549.047000
+Z110 !s90 -reportprogress|300|-93|-work|work|C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_weak_thresh_compare/lpm_compare_sign44bit_a_ge_b.vhd|
+Z111 !s107 C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_weak_thresh_compare/lpm_compare_sign44bit_a_ge_b.vhd|
+!i113 1
+R11
+R12
+Asyn
+R2
+R3
+DEx4 work 28 lpm_compare_sign44bit_a_ge_b 0 22 jOKAA^heFJkZjiSm=Cc8n3
+l75
+L54
+VeIAg=52WjmXJDFHRRYKNI0
+!s100 lWa8^K5jzLVSi?HmD[?2^3
+R6
+31
+R108
+!i10b 1
+R109
+R110
+R111
+!i113 1
+R11
+R12
+Elpm_divide_unsign34bit_unsign10bit_to_unsign34bit
+R79
+R2
+R3
+R0
+Z112 8C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_var_norm_calc/lpm_divide_unsign34bit_unsign10bit_to_unsign34bit.vhd
+Z113 FC:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_var_norm_calc/lpm_divide_unsign34bit_unsign10bit_to_unsign34bit.vhd
+l0
+L43
+V?W>]I;XU;IMn2m5Hc`6Y^0
+!s100 IMa19nTe_8eGIhN12a<Uh3
+R6
+31
+R87
+!i10b 1
+Z114 !s108 1448730557.186000
+Z115 !s90 -reportprogress|300|-93|-work|work|C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_var_norm_calc/lpm_divide_unsign34bit_unsign10bit_to_unsign34bit.vhd|
+Z116 !s107 C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_var_norm_calc/lpm_divide_unsign34bit_unsign10bit_to_unsign34bit.vhd|
+!i113 1
+R11
+R12
+Asyn
+R2
+R3
+DEx4 work 49 lpm_divide_unsign34bit_unsign10bit_to_unsign34bit 0 22 ?W>]I;XU;IMn2m5Hc`6Y^0
+l78
+L54
+VLl1ZI=IGc2O=?VRC1AeYk1
+!s100 AI>>f[;GOiCo]e@Qf[Jhz2
+R6
+31
+R87
+!i10b 1
+R114
+R115
+R116
+!i113 1
+R11
+R12
+Elpm_mult_sign12bit_sign4bit_to_sign16bit
+Z117 w1448140807
+R2
+R3
+R0
+Z118 8C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_strong_thresh_compare/lpm_mult_sign12bit_sign4bit_to_sign16bit.vhd
+Z119 FC:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_strong_thresh_compare/lpm_mult_sign12bit_sign4bit_to_sign16bit.vhd
+l0
+L43
+VaWW<ZTH^5O`bAECX0SQz42
+!s100 4S=S4zzb`Ck3;6@WmROWI0
+R6
+31
+Z120 !s110 1448730551
+!i10b 1
+Z121 !s108 1448730551.570000
+Z122 !s90 -reportprogress|300|-93|-work|work|C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_strong_thresh_compare/lpm_mult_sign12bit_sign4bit_to_sign16bit.vhd|
+Z123 !s107 C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_strong_thresh_compare/lpm_mult_sign12bit_sign4bit_to_sign16bit.vhd|
+!i113 1
+R11
+R12
+Asyn
+R2
+R3
+DEx4 work 40 lpm_mult_sign12bit_sign4bit_to_sign16bit 0 22 aWW<ZTH^5O`bAECX0SQz42
+l75
+L53
+VgYnY`K?g6nhG]6`AMb=oV0
+!s100 jj]zaS2D?nYel[37Z;z2]3
+R6
+31
+R120
+!i10b 1
+R121
+R122
+R123
+!i113 1
+R11
+R12
+Elpm_mult_sign13bit_sign27bit_to_sign40bit
+Z124 w1448143171
+R2
+R3
+R0
+Z125 8C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_subwindow/lpm_mult_sign13bit_sign27bit_to_sign40bit.vhd
+Z126 FC:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_subwindow/lpm_mult_sign13bit_sign27bit_to_sign40bit.vhd
+l0
+L43
+VOn7:Me3f[Q68<_ZACkRFi2
+!s100 0TZJ47dNING];CH2lD54F1
+R6
+31
+Z127 !s110 1448730550
+!i10b 1
+Z128 !s108 1448730550.047000
+Z129 !s90 -reportprogress|300|-93|-work|work|C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_subwindow/lpm_mult_sign13bit_sign27bit_to_sign40bit.vhd|
+Z130 !s107 C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_subwindow/lpm_mult_sign13bit_sign27bit_to_sign40bit.vhd|
+!i113 1
+R11
+R12
+Asyn
+R2
+R3
+DEx4 work 41 lpm_mult_sign13bit_sign27bit_to_sign40bit 0 22 On7:Me3f[Q68<_ZACkRFi2
+l75
+L53
+VZF`OUjBFADKcMJhz3z2zZ2
+!s100 =^e661ja_`GA]0f;L`f@[3
+R6
+31
+R127
+!i10b 1
+R128
+R129
+R130
+!i113 1
+R11
+R12
+Elpm_mult_sign22bit_sign5bit_to_sign27bit
+Z131 w1448140652
+R2
+R3
+R0
+Z132 8C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_strong_thresh_compare/lpm_mult_sign22bit_sign5bit_to_sign27bit.vhd
+Z133 FC:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_strong_thresh_compare/lpm_mult_sign22bit_sign5bit_to_sign27bit.vhd
+l0
+L43
+VV3FeBD0L7V2^0>hjReg6I3
+!s100 GoCm1o@[K=U@J;BfA7HD33
+R6
+31
+R120
+!i10b 1
+Z134 !s108 1448730551.070000
+Z135 !s90 -reportprogress|300|-93|-work|work|C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_strong_thresh_compare/lpm_mult_sign22bit_sign5bit_to_sign27bit.vhd|
+Z136 !s107 C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_strong_thresh_compare/lpm_mult_sign22bit_sign5bit_to_sign27bit.vhd|
+!i113 1
+R11
+R12
+Asyn
+R2
+R3
+DEx4 work 40 lpm_mult_sign22bit_sign5bit_to_sign27bit 0 22 V3FeBD0L7V2^0>hjReg6I3
+l75
+L53
+VdYamKY1[_dUTeC4nX@YEL2
+!s100 Vi]hKclXZca9A?5WmVa?I3
+R6
+31
+R120
+!i10b 1
+R134
+R135
+R136
+!i113 1
+R11
+R12
+Elpm_mult_sign27bit_sign15bit_to_sign42bit
+R13
+R2
+R3
+R0
+Z137 8C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_feature_calc/lpm_mult_sign27bit_sign15bit_to_sign42bit.vhd
+Z138 FC:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_feature_calc/lpm_mult_sign27bit_sign15bit_to_sign42bit.vhd
+l0
+L43
+Vn9oQJ=V8O`EfJdZ[44Jdf1
+!s100 m7Y]:n6D4ldbSkLX:aHOj3
+R6
+31
+Z139 !s110 1448730559
+!i10b 1
+Z140 !s108 1448730559.737000
+Z141 !s90 -reportprogress|300|-93|-work|work|C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_feature_calc/lpm_mult_sign27bit_sign15bit_to_sign42bit.vhd|
+Z142 !s107 C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_feature_calc/lpm_mult_sign27bit_sign15bit_to_sign42bit.vhd|
+!i113 1
+R11
+R12
+Asyn
+R2
+R3
+DEx4 work 41 lpm_mult_sign27bit_sign15bit_to_sign42bit 0 22 n9oQJ=V8O`EfJdZ[44Jdf1
+l75
+L53
+V8AkG7UJ?ZX<L5FE>;3a0O2
+!s100 L3PE?7;Q7SM4WSKaNO7C02
+R6
+31
+R139
+!i10b 1
+R140
+R141
+R142
+!i113 1
+R11
+R12
+Elpm_mult_unsign26bit_unsign26bit_to_unsign52bit
+R79
+R2
+R3
+R0
+Z143 8C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_var_norm_calc/lpm_mult_unsign26bit_unsign26bit_to_unsign52bit.vhd
+Z144 FC:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_var_norm_calc/lpm_mult_unsign26bit_unsign26bit_to_unsign52bit.vhd
+l0
+L43
+VLfizcmDEWh;E5zGg6ZDRB0
+!s100 znBPg_W8a^QF`[dSOWQTg2
+R6
+31
+Z145 !s110 1448730556
+!i10b 1
+Z146 !s108 1448730556.676000
+Z147 !s90 -reportprogress|300|-93|-work|work|C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_var_norm_calc/lpm_mult_unsign26bit_unsign26bit_to_unsign52bit.vhd|
+Z148 !s107 C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_var_norm_calc/lpm_mult_unsign26bit_unsign26bit_to_unsign52bit.vhd|
+!i113 1
+R11
+R12
+Asyn
+R2
+R3
+DEx4 work 47 lpm_mult_unsign26bit_unsign26bit_to_unsign52bit 0 22 LfizcmDEWh;E5zGg6ZDRB0
+l75
+L53
+VUlGBl7013a=9?MZV5SIQX3
+!s100 mAO8WPXmL`d<WFXb2Koj_3
+R6
+31
+R145
+!i10b 1
+R146
+R147
+R148
+!i113 1
+R11
+R12
+Elpm_mult_unsign5bit_unsign9bit_to_unsign14bit
+Z149 w1448721880
+R2
+R3
+R0
+Z150 8C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_ii_address_calc/lpm_mult_unsign5bit_unsign9bit_to_unsign14bit.vhd
+Z151 FC:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_ii_address_calc/lpm_mult_unsign5bit_unsign9bit_to_unsign14bit.vhd
+l0
+L43
+Vnf2U@S^>Qbe`_h9IczIhH3
+!s100 _WPBFf[cB?NhYU0TRP1PZ1
+R6
+31
+R31
+!i10b 1
+Z152 !s108 1448730547.507000
+Z153 !s90 -reportprogress|300|-93|-work|work|C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_ii_address_calc/lpm_mult_unsign5bit_unsign9bit_to_unsign14bit.vhd|
+Z154 !s107 C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_ii_address_calc/lpm_mult_unsign5bit_unsign9bit_to_unsign14bit.vhd|
+!i113 1
+R11
+R12
+Asyn
+R2
+R3
+DEx4 work 45 lpm_mult_unsign5bit_unsign9bit_to_unsign14bit 0 22 nf2U@S^>Qbe`_h9IczIhH3
+l75
+L53
+VXa[U4le_GR_MA@zZ@2U;d2
+!s100 3Kdam8dMa=TT[7c2NR:om1
+R6
+31
+R31
+!i10b 1
+R152
+R153
+R154
+!i113 1
+R11
+R12
+Elpm_mult_unsign8bit_unsign9bit_to_unsign17bit
+R13
+R2
+R3
+R0
+Z155 8C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_pixel_offset/lpm_mult_unsign8bit_unsign9bit_to_unsign17bit.vhd
+Z156 FC:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_pixel_offset/lpm_mult_unsign8bit_unsign9bit_to_unsign17bit.vhd
+l0
+L43
+V10PN=Z<IQn@6Rz1^QO<c^1
+!s100 F?KSWdQJTkGo`N92j>g`f3
+R6
+31
+Z157 !s110 1448730544
+!i10b 1
+Z158 !s108 1448730544.917000
+Z159 !s90 -reportprogress|300|-93|-work|work|C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_pixel_offset/lpm_mult_unsign8bit_unsign9bit_to_unsign17bit.vhd|
+Z160 !s107 C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_pixel_offset/lpm_mult_unsign8bit_unsign9bit_to_unsign17bit.vhd|
+!i113 1
+R11
+R12
+Asyn
+R2
+R3
+DEx4 work 45 lpm_mult_unsign8bit_unsign9bit_to_unsign17bit 0 22 10PN=Z<IQn@6Rz1^QO<c^1
+l75
+L53
+VYYBL8oO;>aTI[QA<NG0f[0
+!s100 @82Y01:W9Y[PNW>af>O;<1
+R6
+31
+R157
+!i10b 1
+R158
+R159
+R160
+!i113 1
+R11
+R12
+Elpm_sub_sign53bit_to_sign53bitwithborrow
+R79
+R2
+R3
+R0
+Z161 8C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_var_norm_calc/lpm_sub_sign53bit_to_sign53bitWithBorrow.vhd
+Z162 FC:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_var_norm_calc/lpm_sub_sign53bit_to_sign53bitWithBorrow.vhd
+l0
+L43
+Via1f5Cndc?9R?:86kR?UW0
+!s100 9B]WZ<4nYzz;6_j@7UCYC3
+R6
+31
+R145
+!i10b 1
+Z163 !s108 1448730556.145000
+Z164 !s90 -reportprogress|300|-93|-work|work|C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_var_norm_calc/lpm_sub_sign53bit_to_sign53bitWithBorrow.vhd|
+Z165 !s107 C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_var_norm_calc/lpm_sub_sign53bit_to_sign53bitWithBorrow.vhd|
+!i113 1
+R11
+R12
+Asyn
+R2
+R3
+DEx4 work 40 lpm_sub_sign53bit_to_sign53bitwithborrow 0 22 ia1f5Cndc?9R?:86kR?UW0
+l77
+L54
+VdW]3FDf:=FUFA8W_G@:e]3
+!s100 RjYSDSe;zXDVbB5SSf;3T2
+R6
+31
+R145
+!i10b 1
+R163
+R164
+R165
+!i113 1
+R11
+R12
+Elpm_sub_unsign26bit_to_unsign26bit
+R79
+R2
+R3
+R0
+Z166 8C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_var_norm_calc/lpm_sub_unsign26bit_to_unsign26bit.vhd
+Z167 FC:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_var_norm_calc/lpm_sub_unsign26bit_to_unsign26bit.vhd
+l0
+L43
+V1PLa>nRi33PC5d0W2XZAe2
+!s100 zz5EzNmGL0@QoC48c2]2]2
+R6
+31
+Z168 !s110 1448730555
+!i10b 1
+Z169 !s108 1448730555.626000
+Z170 !s90 -reportprogress|300|-93|-work|work|C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_var_norm_calc/lpm_sub_unsign26bit_to_unsign26bit.vhd|
+Z171 !s107 C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_var_norm_calc/lpm_sub_unsign26bit_to_unsign26bit.vhd|
+!i113 1
+R11
+R12
+Asyn
+R2
+R3
+DEx4 work 34 lpm_sub_unsign26bit_to_unsign26bit 0 22 1PLa>nRi33PC5d0W2XZAe2
+l74
+L53
+Vj0[Zg?l=ILV<:bF=IedT]1
+!s100 6IB0I4LLH3T2TZ9;90E8<2
+R6
+31
+R168
+!i10b 1
+R169
+R170
+R171
+!i113 1
+R11
+R12
+Elpm_sub_unsign34bit_to_unsign34bit
+R79
+R2
+R3
+R0
+Z172 8C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_var_norm_calc/lpm_sub_unsign34bit_to_unsign34bit.vhd
+Z173 FC:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_var_norm_calc/lpm_sub_unsign34bit_to_unsign34bit.vhd
+l0
+L43
+V]aRf:Q2nZPIk252H88SYP2
+!s100 BDm[[2?oocg14dZ15HR0:0
+R6
+31
+R168
+!i10b 1
+Z174 !s108 1448730555.126000
+Z175 !s90 -reportprogress|300|-93|-work|work|C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_var_norm_calc/lpm_sub_unsign34bit_to_unsign34bit.vhd|
+Z176 !s107 C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_var_norm_calc/lpm_sub_unsign34bit_to_unsign34bit.vhd|
+!i113 1
+R11
+R12
+Asyn
+R2
+R3
+DEx4 work 34 lpm_sub_unsign34bit_to_unsign34bit 0 22 ]aRf:Q2nZPIk252H88SYP2
+l74
+L53
+V`H`=?6eWS8:h8MOCPf[eZ3
+!s100 XV5Sk4zdZYJk8U<K5EeGR0
+R6
+31
+R168
+!i10b 1
+R174
+R175
+R176
+!i113 1
+R11
+R12
+Epixel_offset
+R13
+R14
+R2
+R3
+R0
+Z177 8C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_pixel_offset/pixel_offset.vhd
+Z178 FC:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_pixel_offset/pixel_offset.vhd
+l0
+L5
+Vo47J;U;1VVcdU4i;hliIY3
+!s100 bab>RTYB0BFUBE7LC@9kk2
+R6
+31
+R157
+!i10b 1
+Z179 !s108 1448730544.417000
+Z180 !s90 -reportprogress|300|-93|-work|work|C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_pixel_offset/pixel_offset.vhd|
+Z181 !s107 C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_pixel_offset/pixel_offset.vhd|
+!i113 1
+R11
+R12
+Abehavior
+R14
+R2
+R3
+DEx4 work 12 pixel_offset 0 22 o47J;U;1VVcdU4i;hliIY3
+l37
+L14
+V:f3dAMcNjkb@LgD>A1ZmM0
+!s100 k:^hmPjhBK@VDoIV5Pl>R3
+R6
+31
+R157
+!i10b 1
+R179
+R180
+R181
+!i113 1
+R11
+R12
+Eram
+Z182 w1448131212
+R14
+R2
+R3
+R0
+Z183 8C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/ram.vhd
+Z184 FC:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/ram.vhd
+l0
+L6
+V?<:le83aYZ=RKX::jLJBn1
+!s100 52[`X^EPP2[WRkm=QinT91
+R6
+31
+Z185 !s110 1448730562
+!i10b 1
+Z186 !s108 1448730562.295000
+Z187 !s90 -reportprogress|300|-93|-work|work|C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/ram.vhd|
+Z188 !s107 C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/ram.vhd|
+!i113 1
+R11
+R12
+Artl
+R14
+R2
+R3
+DEx4 work 3 ram 0 22 ?<:le83aYZ=RKX::jLJBn1
+l46
+L23
+VLzg@mb1jk<^i7T<c0hY;l0
+!s100 <oL6MlzUb[F7HglZ_j>LV0
+R6
+31
+R185
+!i10b 1
+R186
+R187
+R188
+!i113 1
+R11
+R12
+Erect_calc
+R13
+R14
+R2
+R3
+R0
+Z189 8C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_feature_calc/rect_calc.vhd
+Z190 FC:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_feature_calc/rect_calc.vhd
+l0
+L5
+V:]=Jl=]zh6<Ol2mzll6UQ3
+!s100 kdfOJDIIjCbjLUl`UjNBi2
+R6
+31
+R139
+!i10b 1
+Z191 !s108 1448730559.227000
+Z192 !s90 -reportprogress|300|-93|-work|work|C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_feature_calc/rect_calc.vhd|
+Z193 !s107 C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_feature_calc/rect_calc.vhd|
+!i113 1
+R11
+R12
+Abehavior
+R14
+R2
+R3
+DEx4 work 9 rect_calc 0 22 :]=Jl=]zh6<Ol2mzll6UQ3
+l60
+L17
+Vii9^99aUhRQMUhYPT=ahM0
+!s100 XoBBk5<ha=F]?<Pjj:eI@3
+R6
+31
+R139
+!i10b 1
+R191
+R192
+R193
+!i113 1
+R11
+R12
+Erect_mux
+Z194 w1447617866
+R14
+R2
+R3
+R0
+Z195 8C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_ii_address_decoder/rect_mux.vhd
+Z196 FC:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_ii_address_decoder/rect_mux.vhd
+l0
+L5
+VLXi7nG`f<jA@6P[IIaeAM2
+!s100 MI91]FIXnnFFMaS=j^X<Y3
+R6
+31
+R94
+!i10b 1
+Z197 !s108 1448730545.927000
+Z198 !s90 -reportprogress|300|-93|-work|work|C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_ii_address_decoder/rect_mux.vhd|
+Z199 !s107 C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_ii_address_decoder/rect_mux.vhd|
+!i113 1
+R11
+R12
+Abehavior
+R14
+R2
+R3
+DEx4 work 8 rect_mux 0 22 LXi7nG`f<jA@6P[IIaeAM2
+l17
+L15
+Vk@NHeG?CZA5Ua5cFWKPMW3
+!s100 0TERUZ?8TIm[a<HER7[lh2
+R6
+31
+R94
+!i10b 1
+R197
+R198
+R199
+!i113 1
+R11
+R12
+Eregister_file
+R1
+R14
+R2
+R3
+R0
+Z200 8C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/register_file.vhd
+Z201 FC:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/register_file.vhd
+l0
+L5
+Vo9M04h_AQO<Mf<LVRO6:80
+!s100 oCngboKTdK6C8F>TPX09>1
+R6
+31
+R17
+!i10b 1
+Z202 !s108 1448730561.785000
+Z203 !s90 -reportprogress|300|-93|-work|work|C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/register_file.vhd|
+Z204 !s107 C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/register_file.vhd|
+!i113 1
+R11
+R12
+Abehavior
+R14
+R2
+R3
+DEx4 work 13 register_file 0 22 o9M04h_AQO<Mf<LVRO6:80
+l34
+L30
+VB450SQ]:W?IJU_iMh]CYV0
+!s100 `AbK<NdInJb?<PzlL8AF>3
+R6
+31
+R17
+!i10b 1
+R202
+R203
+R204
+!i113 1
+R11
+R12
+Estrong_accumulator
+Z205 w1447641402
+R14
+R2
+R3
+R0
+Z206 8C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_strong_accumulator/strong_accumulator.vhd
+Z207 FC:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_strong_accumulator/strong_accumulator.vhd
+l0
+L5
+VNi8O8maFoOnQ4Sc=kUhzD2
+!s100 M=jVzH6`^CDNY;WmU=a3k0
+R6
+31
+R52
+!i10b 1
+Z208 !s108 1448730553.080000
+Z209 !s90 -reportprogress|300|-93|-work|work|C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_strong_accumulator/strong_accumulator.vhd|
+Z210 !s107 C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_strong_accumulator/strong_accumulator.vhd|
+!i113 1
+R11
+R12
+Abehavior
+R14
+R2
+R3
+DEx4 work 18 strong_accumulator 0 22 Ni8O8maFoOnQ4Sc=kUhzD2
+l29
+L14
+VM30b7:bhP53DYY6I;PnVC0
+!s100 8W3=]`:[Bho9`3>21TZ`81
+R6
+31
+R52
+!i10b 1
+R208
+R209
+R210
+!i113 1
+R11
+R12
+Estrong_thresh_compare
+Z211 w1448730484
+R14
+R2
+R3
+R0
+Z212 8C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_strong_thresh_compare/strong_thresh_compare.vhd
+Z213 FC:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_strong_thresh_compare/strong_thresh_compare.vhd
+l0
+L5
+V9`?K6^=C<USJm0f5G;hM[0
+!s100 W95QIJ;dX3d:O_R6BC@CD0
+R6
+31
+R101
+!i10b 1
+Z214 !s108 1448730552.580000
+Z215 !s90 -reportprogress|300|-93|-work|work|C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_strong_thresh_compare/strong_thresh_compare.vhd|
+Z216 !s107 C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_strong_thresh_compare/strong_thresh_compare.vhd|
+!i113 1
+R11
+R12
+Abehavior
+R14
+R2
+R3
+DEx4 work 21 strong_thresh_compare 0 22 9`?K6^=C<USJm0f5G;hM[0
+l57
+L13
+Vz?jm?>fg>4YZoHS>kmAiX0
+!s100 fRD0ARh>^;4<Y<HE7k@Nh3
+R6
+31
+R101
+!i10b 1
+R214
+R215
+R216
+!i113 1
+R11
+R12
+Esubwindow
+Z217 w1448145508
+R14
+R2
+R3
+R0
+Z218 8C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_subwindow/subwindow.vhd
+Z219 FC:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_subwindow/subwindow.vhd
+l0
+L5
+VEfQP693HD[b04==Fha^5a0
+!s100 Y;DL6J_;9Ze_eITVRGbSI1
+R6
+31
+R127
+!i10b 1
+Z220 !s108 1448730550.558000
+Z221 !s90 -reportprogress|300|-93|-work|work|C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_subwindow/subwindow.vhd|
+Z222 !s107 C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_subwindow/subwindow.vhd|
+!i113 1
+R11
+R12
+Abehavior
+R14
+R2
+R3
+DEx4 work 9 subwindow 0 22 EfQP693HD[b04==Fha^5a0
+l129
+L41
+VgRaf1g^lKe4WRJzRz<M@D0
+!s100 Lzga=:3R3cCGACJz^J6H;3
+R6
+31
+R127
+!i10b 1
+R220
+R221
+R222
+!i113 1
+R11
+R12
+Etb_top_facedetect
+Z223 w1448590051
+R14
+R2
+R3
+R0
+Z224 8C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/tb_top_faceDetect.vhd
+Z225 FC:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/tb_top_faceDetect.vhd
+l0
+L5
+Vn1K54KBze@SeQV<F6kD213
+!s100 <jiIV`ZL7YMYhI?jKn@R>1
+R6
+31
+Z226 !s110 1448730563
+!i10b 1
+Z227 !s108 1448730563.385000
+Z228 !s90 -reportprogress|300|-93|-work|work|C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/tb_top_faceDetect.vhd|
+Z229 !s107 C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/tb_top_faceDetect.vhd|
+!i113 1
+R11
+R12
+Abehavior
+R14
+R2
+R3
+DEx4 work 17 tb_top_facedetect 0 22 n1K54KBze@SeQV<F6kD213
+l23
+L8
+VjoQIXKQ`XOMJ@=;g^cd[50
+!s100 nlm3DPSMfelo`o_4^Dl=P0
+R6
+31
+R226
+!i10b 1
+R227
+R228
+R229
+!i113 1
+R11
+R12
+Etop_facedetect
+Z230 w1448728396
+Z231 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z232 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+R14
+R2
+R3
+R0
+Z233 8C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/top_faceDetect.vhd
+Z234 FC:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/top_faceDetect.vhd
+l0
+L6
+VGC[h4K]?Pe1TgJbMNLm221
+!s100 Phge>Qfd:7[LPMoSl2QR:0
+R6
+31
+R185
+!i10b 1
+Z235 !s108 1448730562.825000
+Z236 !s90 -reportprogress|300|-93|-work|work|C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/top_faceDetect.vhd|
+Z237 !s107 C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/top_faceDetect.vhd|
+!i113 1
+R11
+R12
+Abehavior
+R231
+R232
+R14
+R2
+R3
+DEx4 work 14 top_facedetect 0 22 GC[h4K]?Pe1TgJbMNLm221
+l208
+L15
+VNR@F<PO8CjONfY`Q0:Xk21
+!s100 h5=@DbkY`n;d8IMcmXDPX2
+R6
+31
+R185
+!i10b 1
+R235
+R236
+R237
+!i113 1
+R11
+R12
+Evar_norm_calc
+R79
+R14
+R2
+R3
+R0
+Z238 8C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_var_norm_calc/var_norm_calc.vhd
+Z239 FC:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_var_norm_calc/var_norm_calc.vhd
+l0
+L5
+V701_GH7=C^U4ddlh3@6nY0
+!s100 liY_m8ZQ6oMMRQHa=IzZ]2
+R6
+31
+R45
+!i10b 1
+Z240 !s108 1448730554.606000
+Z241 !s90 -reportprogress|300|-93|-work|work|C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_var_norm_calc/var_norm_calc.vhd|
+Z242 !s107 C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_var_norm_calc/var_norm_calc.vhd|
+!i113 1
+R11
+R12
+Abehavior
+R14
+R2
+R3
+DEx4 work 13 var_norm_calc 0 22 701_GH7=C^U4ddlh3@6nY0
+l117
+L19
+VjJLDO8E5k@5@]h0g`4Ibl1
+!s100 63jgf_1]6BYU[<WjYNb4d0
+R6
+31
+R45
+!i10b 1
+R240
+R241
+R242
+!i113 1
+R11
+R12
+Eweak_thresh_compare
+Z243 w1448152524
+R14
+R2
+R3
+R0
+Z244 8C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_weak_thresh_compare/weak_thresh_compare.vhd
+Z245 FC:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_weak_thresh_compare/weak_thresh_compare.vhd
+l0
+L5
+V0IRZe5TL[?IK_?O08>?z=1
+!s100 SLnm6eDZ3JTW5F1FZ5T^E3
+R6
+31
+R108
+!i10b 1
+Z246 !s108 1448730549.547000
+Z247 !s90 -reportprogress|300|-93|-work|work|C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_weak_thresh_compare/weak_thresh_compare.vhd|
+Z248 !s107 C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_weak_thresh_compare/weak_thresh_compare.vhd|
+!i113 1
+R11
+R12
+Abehavior
+R14
+R2
+R3
+DEx4 work 19 weak_thresh_compare 0 22 0IRZe5TL[?IK_?O08>?z=1
+l28
+L13
+V8JLfLaoJXOzzlacU_=AWG3
+!s100 ]5j]NLX96S5`N0K7mEcMg3
+R6
+31
+R108
+!i10b 1
+R246
+R247
+R248
+!i113 1
+R11
+R12
