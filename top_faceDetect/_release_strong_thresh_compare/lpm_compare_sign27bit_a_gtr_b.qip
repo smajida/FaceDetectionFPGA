@@ -1,0 +1,5 @@
+set_global_assignment -name IP_TOOL_NAME "LPM_COMPARE"
+set_global_assignment -name IP_TOOL_VERSION "14.1"
+set_global_assignment -name IP_GENERATED_DEVICE_FAMILY "{Cyclone IV E}"
+set_global_assignment -name VHDL_FILE [file join $::quartus(qip_path) "lpm_compare_sign27bit_a_gtr_b.vhd"]
+set_global_assignment -name MISC_FILE [file join $::quartus(qip_path) "lpm_compare_sign27bit_a_gtr_b.cmp"]

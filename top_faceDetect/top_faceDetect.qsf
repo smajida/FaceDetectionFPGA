@@ -1,0 +1,129 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 1991-2014 Altera Corporation. All rights reserved.
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, the Altera Quartus II License Agreement,
+# the Altera MegaCore Function License Agreement, or other 
+# applicable license agreement, including, without limitation, 
+# that your use is for the sole purpose of programming logic 
+# devices manufactured by Altera and sold by Altera or its 
+# authorized distributors.  Please refer to the applicable 
+# agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus II 64-Bit
+# Version 14.1.0 Build 186 12/03/2014 SJ Web Edition
+# Date created = 12:20:22  November 21, 2015
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		top_faceDetect_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus II software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Cyclone IV E"
+set_global_assignment -name DEVICE EP4CE115F29C7
+set_global_assignment -name TOP_LEVEL_ENTITY top_faceDetect
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 14.1.0
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "12:20:22  NOVEMBER 21, 2015"
+set_global_assignment -name LAST_QUARTUS_VERSION 14.1.0
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name DEVICE_FILTER_SPEED_GRADE 7
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 1
+set_global_assignment -name NOMINAL_CORE_SUPPLY_VOLTAGE 1.2V
+set_global_assignment -name EDA_SIMULATION_TOOL "ModelSim-Altera (VHDL)"
+set_global_assignment -name EDA_OUTPUT_DATA_FORMAT VHDL -section_id eda_simulation
+set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
+set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name EDA_TEST_BENCH_ENABLE_STATUS TEST_BENCH_MODE -section_id eda_simulation
+set_global_assignment -name EDA_NATIVELINK_SIMULATION_TEST_BENCH tb_top_faceDetect -section_id eda_simulation
+set_global_assignment -name EDA_TEST_BENCH_NAME tb_top_faceDetect -section_id eda_simulation
+set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id tb_top_faceDetect
+set_global_assignment -name EDA_TEST_BENCH_RUN_SIM_FOR "10 us" -section_id tb_top_faceDetect
+set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME tb_top_faceDetect -section_id tb_top_faceDetect
+set_global_assignment -name EDA_TEST_BENCH_FILE tb_top_faceDetect.vhd -section_id tb_top_faceDetect
+set_global_assignment -name TEXT_FILE _ROM_FILES/binary/y_rect0.txt
+set_global_assignment -name TEXT_FILE _ROM_FILES/binary/y_rect2.txt
+set_global_assignment -name TEXT_FILE _ROM_FILES/binary/y_rect1.txt
+set_global_assignment -name TEXT_FILE _ROM_FILES/binary/x_rect2.txt
+set_global_assignment -name TEXT_FILE _ROM_FILES/binary/x_rect1.txt
+set_global_assignment -name TEXT_FILE _ROM_FILES/binary/x_rect0.txt
+set_global_assignment -name TEXT_FILE _ROM_FILES/binary/weight2.txt
+set_global_assignment -name TEXT_FILE _ROM_FILES/binary/weight1.txt
+set_global_assignment -name TEXT_FILE _ROM_FILES/binary/weight0.txt
+set_global_assignment -name TEXT_FILE _ROM_FILES/binary/weakThresh.txt
+set_global_assignment -name TEXT_FILE _ROM_FILES/binary/weakStageNum.txt
+set_global_assignment -name TEXT_FILE _ROM_FILES/binary/w_rect2.txt
+set_global_assignment -name TEXT_FILE _ROM_FILES/binary/w_rect1.txt
+set_global_assignment -name TEXT_FILE _ROM_FILES/binary/w_rect0.txt
+set_global_assignment -name TEXT_FILE _ROM_FILES/binary/strongThresh.txt
+set_global_assignment -name TEXT_FILE _ROM_FILES/binary/right_tree.txt
+set_global_assignment -name TEXT_FILE _ROM_FILES/binary/left_tree.txt
+set_global_assignment -name TEXT_FILE _ROM_FILES/binary/ii.txt
+set_global_assignment -name TEXT_FILE _ROM_FILES/binary/h_rect2.txt
+set_global_assignment -name TEXT_FILE _ROM_FILES/binary/h_rect1.txt
+set_global_assignment -name TEXT_FILE _ROM_FILES/binary/h_rect0.txt
+set_global_assignment -name VHDL_FILE _release_ii_address_decoder/ii_address_mux.vhd
+set_global_assignment -name VHDL_FILE _release_pixel_offset/pixel_offset.vhd
+set_global_assignment -name QIP_FILE _release_pixel_offset/lpm_mult_unsign8bit_unsign9bit_to_unsign17bit.qip
+set_global_assignment -name QIP_FILE _release_pixel_offset/lpm_add_unsign17bit_to_unsign17bit.qip
+set_global_assignment -name VHDL_FILE _release_ii_address_decoder/rect_mux.vhd
+set_global_assignment -name QIP_FILE _release_ii_address_decoder/lpm_add_unsign5bit_to_unsign5bit.qip
+set_global_assignment -name VHDL_FILE _release_ii_address_decoder/ii_address_decoder.vhd
+set_global_assignment -name QIP_FILE _release_ii_address_calc/lpm_mult_unsign5bit_unsign9bit_to_unsign14bit.qip
+set_global_assignment -name QIP_FILE _release_ii_address_calc/lpm_add_unsign14bit_to_unsign14bit.qip
+set_global_assignment -name QIP_FILE _release_ii_address_calc/lpm_add_unsign17bit_to_unsign17bit.qip
+set_global_assignment -name VHDL_FILE _release_ii_address_calc/ii_address_calc.vhd
+set_global_assignment -name QIP_FILE _release_weak_thresh_compare/lpm_compare_sign44bit_a_ge_b.qip
+set_global_assignment -name VHDL_FILE _release_weak_thresh_compare/weak_thresh_compare.vhd
+set_global_assignment -name QIP_FILE _release_subwindow/lpm_mult_sign13bit_sign27bit_to_sign40bit.qip
+set_global_assignment -name VHDL_FILE _release_subwindow/subwindow.vhd
+set_global_assignment -name QIP_FILE _release_strong_thresh_compare/lpm_mult_sign22bit_sign5bit_to_sign27bit.qip
+set_global_assignment -name QIP_FILE _release_strong_thresh_compare/lpm_mult_sign12bit_sign4bit_to_sign16bit.qip
+set_global_assignment -name QIP_FILE _release_strong_thresh_compare/lpm_compare_sign27bit_a_gtr_b.qip
+set_global_assignment -name VHDL_FILE _release_strong_thresh_compare/strong_thresh_compare.vhd
+set_global_assignment -name VHDL_FILE _release_strong_accumulator/strong_accumulator.vhd
+set_global_assignment -name QIP_FILE _release_strong_accumulator/lpm_add_sign22bit_to_sign22bit.qip
+set_global_assignment -name VHDL_FILE left_right_tree_mux.vhd
+set_global_assignment -name VHDL_FILE _release_var_norm_calc/var_norm_calc.vhd
+set_global_assignment -name QIP_FILE _release_var_norm_calc/lpm_sub_unsign34bit_to_unsign34bit.qip
+set_global_assignment -name QIP_FILE _release_var_norm_calc/lpm_sub_unsign26bit_to_unsign26bit.qip
+set_global_assignment -name QIP_FILE _release_var_norm_calc/lpm_sub_sign53bit_to_sign53bitWithBorrow.qip
+set_global_assignment -name QIP_FILE _release_var_norm_calc/lpm_mult_unsign26bit_unsign26bit_to_unsign52bit.qip
+set_global_assignment -name QIP_FILE _release_var_norm_calc/lpm_divide_unsign34bit_unsign10bit_to_unsign34bit.qip
+set_global_assignment -name QIP_FILE _release_var_norm_calc/lpm_add_unsign33bit_to_unsign33bitWithCarry.qip
+set_global_assignment -name QIP_FILE _release_var_norm_calc/lpm_add_unsign25bit_to_unsign25bitWithCarry.qip
+set_global_assignment -name QIP_FILE _release_var_norm_calc/altsqrt_unsign54bit_to_usign54bit.qip
+set_global_assignment -name VHDL_FILE _release_feature_calc/rect_calc.vhd
+set_global_assignment -name QIP_FILE _release_feature_calc/lpm_sub_unsign26bit_to_unsign26bit.qip
+set_global_assignment -name QIP_FILE _release_feature_calc/lpm_mult_sign27bit_sign15bit_to_sign42bit.qip
+set_global_assignment -name QIP_FILE _release_feature_calc/lpm_add_unsign25bit_to_unsign25bitWithCarry.qip
+set_global_assignment -name QIP_FILE _release_feature_calc/lpm_add_sign43bit_to_sign43bitWithCarry.qip
+set_global_assignment -name QIP_FILE _release_feature_calc/lpm_add_sign42bit_to_sign42bitWithCarry.qip
+set_global_assignment -name VHDL_FILE _release_feature_calc/feature_calc.vhd
+set_global_assignment -name VHDL_FILE register_file.vhd
+set_global_assignment -name VHDL_FILE ram.vhd
+set_global_assignment -name VHDL_FILE top_faceDetect.vhd
+set_global_assignment -name VHDL_FILE tb_top_faceDetect.vhd
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
