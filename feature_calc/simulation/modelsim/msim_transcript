@@ -14,7 +14,7 @@
 # 
 # vcom -93 -work work {C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/feature_calc/feature_calc.vhd}
 # Model Technology ModelSim ALTERA vcom 10.3c Compiler 2014.09 Sep 20 2014
-# Start time: 16:47:37 on Nov 14,2015
+# Start time: 16:10:52 on Nov 28,2015
 # vcom -reportprogress 300 -93 -work work C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/feature_calc/feature_calc.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -22,11 +22,11 @@
 # -- Loading package NUMERIC_STD
 # -- Compiling entity feature_calc
 # -- Compiling architecture behavior of feature_calc
-# End time: 16:47:37 on Nov 14,2015, Elapsed time: 0:00:00
+# End time: 16:10:53 on Nov 28,2015, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/feature_calc/rect_calc.vhd}
 # Model Technology ModelSim ALTERA vcom 10.3c Compiler 2014.09 Sep 20 2014
-# Start time: 16:47:37 on Nov 14,2015
+# Start time: 16:10:53 on Nov 28,2015
 # vcom -reportprogress 300 -93 -work work C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/feature_calc/rect_calc.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -34,67 +34,67 @@
 # -- Loading package NUMERIC_STD
 # -- Compiling entity rect_calc
 # -- Compiling architecture behavior of rect_calc
-# End time: 16:47:38 on Nov 14,2015, Elapsed time: 0:00:01
+# End time: 16:10:53 on Nov 28,2015, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/feature_calc/lpm_add_unsign25bit_to_unsign25bitWithCarry.vhd}
 # Model Technology ModelSim ALTERA vcom 10.3c Compiler 2014.09 Sep 20 2014
-# Start time: 16:47:38 on Nov 14,2015
+# Start time: 16:10:53 on Nov 28,2015
 # vcom -reportprogress 300 -93 -work work C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/feature_calc/lpm_add_unsign25bit_to_unsign25bitWithCarry.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity lpm_add_unsign25bit_to_unsign25bitWithCarry
 # -- Compiling architecture SYN of lpm_add_unsign25bit_to_unsign25bitwithcarry
-# End time: 16:47:39 on Nov 14,2015, Elapsed time: 0:00:01
+# End time: 16:10:54 on Nov 28,2015, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/feature_calc/lpm_mult_sign27bit_sign15bit_to_sign42bit.vhd}
 # Model Technology ModelSim ALTERA vcom 10.3c Compiler 2014.09 Sep 20 2014
-# Start time: 16:47:39 on Nov 14,2015
+# Start time: 16:10:54 on Nov 28,2015
 # vcom -reportprogress 300 -93 -work work C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/feature_calc/lpm_mult_sign27bit_sign15bit_to_sign42bit.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity lpm_mult_sign27bit_sign15bit_to_sign42bit
 # -- Compiling architecture SYN of lpm_mult_sign27bit_sign15bit_to_sign42bit
-# End time: 16:47:39 on Nov 14,2015, Elapsed time: 0:00:00
+# End time: 16:10:55 on Nov 28,2015, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/feature_calc/lpm_sub_unsign26bit_to_unsign26bit.vhd}
 # Model Technology ModelSim ALTERA vcom 10.3c Compiler 2014.09 Sep 20 2014
-# Start time: 16:47:39 on Nov 14,2015
+# Start time: 16:10:55 on Nov 28,2015
 # vcom -reportprogress 300 -93 -work work C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/feature_calc/lpm_sub_unsign26bit_to_unsign26bit.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity lpm_sub_unsign26bit_to_unsign26bit
 # -- Compiling architecture SYN of lpm_sub_unsign26bit_to_unsign26bit
-# End time: 16:47:40 on Nov 14,2015, Elapsed time: 0:00:01
+# End time: 16:10:55 on Nov 28,2015, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/feature_calc/lpm_add_sign43bit_to_sign43bitWithCarry.vhd}
 # Model Technology ModelSim ALTERA vcom 10.3c Compiler 2014.09 Sep 20 2014
-# Start time: 16:47:40 on Nov 14,2015
+# Start time: 16:10:55 on Nov 28,2015
 # vcom -reportprogress 300 -93 -work work C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/feature_calc/lpm_add_sign43bit_to_sign43bitWithCarry.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity lpm_add_sign43bit_to_sign43bitWithCarry
 # -- Compiling architecture SYN of lpm_add_sign43bit_to_sign43bitwithcarry
-# End time: 16:47:40 on Nov 14,2015, Elapsed time: 0:00:00
+# End time: 16:10:56 on Nov 28,2015, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/feature_calc/lpm_add_sign42bit_to_sign42bitWithCarry.vhd}
 # Model Technology ModelSim ALTERA vcom 10.3c Compiler 2014.09 Sep 20 2014
-# Start time: 16:47:40 on Nov 14,2015
+# Start time: 16:10:56 on Nov 28,2015
 # vcom -reportprogress 300 -93 -work work C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/feature_calc/lpm_add_sign42bit_to_sign42bitWithCarry.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity lpm_add_sign42bit_to_sign42bitWithCarry
 # -- Compiling architecture SYN of lpm_add_sign42bit_to_sign42bitwithcarry
-# End time: 16:47:41 on Nov 14,2015, Elapsed time: 0:00:01
+# End time: 16:10:56 on Nov 28,2015, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vcom -93 -work work {C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/feature_calc/tb_feature_calc.vhd}
 # Model Technology ModelSim ALTERA vcom 10.3c Compiler 2014.09 Sep 20 2014
-# Start time: 16:47:41 on Nov 14,2015
+# Start time: 16:10:56 on Nov 28,2015
 # vcom -reportprogress 300 -93 -work work C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/feature_calc/tb_feature_calc.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -102,12 +102,12 @@
 # -- Loading package NUMERIC_STD
 # -- Compiling entity tb_feature_calc
 # -- Compiling architecture behavior of tb_feature_calc
-# End time: 16:47:41 on Nov 14,2015, Elapsed time: 0:00:00
+# End time: 16:10:57 on Nov 28,2015, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # 
 # vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneive -L rtl_work -L work -voptargs="+acc"  tb_feature_calc
 # vsim -gui "+altera" -l msim_transcript -do "feature_calc_run_msim_rtl_vhdl.do" 
-# Start time: 16:47:41 on Nov 14,2015
+# Start time: 16:10:57 on Nov 28,2015
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
@@ -380,8 +380,5 @@
 #    Time: 0 ps  Iteration: 13  Instance: /tb_feature_calc/test_feature_calc/add1/LPM_ADD_SUB_component/L2/V
 # ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
 #    Time: 0 ps  Iteration: 13  Instance: /tb_feature_calc/test_feature_calc/add1/LPM_ADD_SUB_component/L2/V
-run
-run
-run
-# End time: 20:46:07 on Nov 14,2015, Elapsed time: 3:58:26
+# End time: 16:11:19 on Nov 28,2015, Elapsed time: 0:00:22
 # Errors: 0, Warnings: 122

@@ -1,6 +1,4 @@
 |top_faceDetect
-reset => ii_address_decoder:ii_address_decoder0.reset
-reset => subwindow:subwindow0.reset
 reset => top_cs~3.DATAIN
 clk => register_file:ii_reg.clk
 clk => strongStage_count[0].CLK
@@ -393,7 +391,6 @@ result[16] <= op_1.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |top_faceDetect|ii_address_decoder:ii_address_decoder0
-reset => ~NO_FANOUT~
 ii_reg_index[0] => Mux3.IN10
 ii_reg_index[1] => Mux2.IN10
 ii_reg_index[2] => Mux0.IN5
@@ -6294,7 +6291,7 @@ q[12] <= q[12]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 |top_faceDetect|subwindow:subwindow0
 reset => strong_accumulator:strong_accumulator0.reset
 clk => strong_accumulator:strong_accumulator0.clk
-en_strongAccum => ~NO_FANOUT~
+en_strongAccum => strong_accumulator:strong_accumulator0.en
 left_tree[0] => left_right_tree_mux:left_right_tree_mux0.left_val[0]
 left_tree[1] => left_right_tree_mux:left_right_tree_mux0.left_val[1]
 left_tree[2] => left_right_tree_mux:left_right_tree_mux0.left_val[2]
@@ -23819,28 +23816,50 @@ q[13] <= q.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |top_faceDetect|subwindow:subwindow0|strong_accumulator:strong_accumulator0
-reset => dout_reg.OUTPUTSELECT
-reset => dout_reg.OUTPUTSELECT
-reset => dout_reg.OUTPUTSELECT
-reset => dout_reg.OUTPUTSELECT
-reset => dout_reg.OUTPUTSELECT
-reset => dout_reg.OUTPUTSELECT
-reset => dout_reg.OUTPUTSELECT
-reset => dout_reg.OUTPUTSELECT
-reset => dout_reg.OUTPUTSELECT
-reset => dout_reg.OUTPUTSELECT
-reset => dout_reg.OUTPUTSELECT
-reset => dout_reg.OUTPUTSELECT
-reset => dout_reg.OUTPUTSELECT
-reset => dout_reg.OUTPUTSELECT
-reset => dout_reg.OUTPUTSELECT
-reset => dout_reg.OUTPUTSELECT
-reset => dout_reg.OUTPUTSELECT
-reset => dout_reg.OUTPUTSELECT
-reset => dout_reg.OUTPUTSELECT
-reset => dout_reg.OUTPUTSELECT
-reset => dout_reg.OUTPUTSELECT
-reset => dout_reg.OUTPUTSELECT
+reset => dout_reg[0].ACLR
+reset => dout_reg[1].ACLR
+reset => dout_reg[2].ACLR
+reset => dout_reg[3].ACLR
+reset => dout_reg[4].ACLR
+reset => dout_reg[5].ACLR
+reset => dout_reg[6].ACLR
+reset => dout_reg[7].ACLR
+reset => dout_reg[8].ACLR
+reset => dout_reg[9].ACLR
+reset => dout_reg[10].ACLR
+reset => dout_reg[11].ACLR
+reset => dout_reg[12].ACLR
+reset => dout_reg[13].ACLR
+reset => dout_reg[14].ACLR
+reset => dout_reg[15].ACLR
+reset => dout_reg[16].ACLR
+reset => dout_reg[17].ACLR
+reset => dout_reg[18].ACLR
+reset => dout_reg[19].ACLR
+reset => dout_reg[20].ACLR
+reset => dout_reg[21].ACLR
+en => dout_reg[0].ENA
+en => dout_reg[1].ENA
+en => dout_reg[2].ENA
+en => dout_reg[3].ENA
+en => dout_reg[4].ENA
+en => dout_reg[5].ENA
+en => dout_reg[6].ENA
+en => dout_reg[7].ENA
+en => dout_reg[8].ENA
+en => dout_reg[9].ENA
+en => dout_reg[10].ENA
+en => dout_reg[11].ENA
+en => dout_reg[12].ENA
+en => dout_reg[13].ENA
+en => dout_reg[14].ENA
+en => dout_reg[15].ENA
+en => dout_reg[16].ENA
+en => dout_reg[17].ENA
+en => dout_reg[18].ENA
+en => dout_reg[19].ENA
+en => dout_reg[20].ENA
+en => dout_reg[21].ENA
 clk => dout_reg[0].CLK
 clk => dout_reg[1].CLK
 clk => dout_reg[2].CLK

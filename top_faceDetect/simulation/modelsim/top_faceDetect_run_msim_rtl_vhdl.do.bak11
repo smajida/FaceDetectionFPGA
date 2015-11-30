@@ -22,6 +22,7 @@ vcom -93 -work work {C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/Fa
 vcom -93 -work work {C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_strong_thresh_compare/lpm_mult_sign22bit_sign5bit_to_sign27bit.vhd}
 vcom -93 -work work {C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_strong_thresh_compare/lpm_mult_sign12bit_sign4bit_to_sign16bit.vhd}
 vcom -93 -work work {C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_strong_thresh_compare/lpm_compare_sign27bit_a_gtr_b.vhd}
+vcom -93 -work work {C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_strong_thresh_compare/strong_thresh_compare.vhd}
 vcom -93 -work work {C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_strong_accumulator/strong_accumulator.vhd}
 vcom -93 -work work {C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_strong_accumulator/lpm_add_sign22bit_to_sign22bit.vhd}
 vcom -93 -work work {C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/left_right_tree_mux.vhd}
@@ -42,7 +43,6 @@ vcom -93 -work work {C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/Fa
 vcom -93 -work work {C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/register_file.vhd}
 vcom -93 -work work {C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/ram.vhd}
 vcom -93 -work work {C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/top_faceDetect.vhd}
-vcom -93 -work work {C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_strong_thresh_compare/strong_thresh_compare.vhd}
 
 vcom -93 -work work {C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/tb_top_faceDetect.vhd}
 

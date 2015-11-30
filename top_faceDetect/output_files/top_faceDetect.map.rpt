@@ -1,5 +1,5 @@
 Analysis & Synthesis report for top_faceDetect
-Sat Nov 28 11:08:39 2015
+Sat Nov 28 15:54:21 2015
 Quartus II 64-Bit Version 14.1.0 Build 186 12/03/2014 SJ Web Edition
 
 
@@ -86,7 +86,7 @@ Quartus II 64-Bit Version 14.1.0 Build 186 12/03/2014 SJ Web Edition
  78. Source assignments for ram:weight1_rom|altsyncram:ram_block_rtl_0|altsyncram_6971:auto_generated
  79. Source assignments for ram:weight2_rom|altsyncram:ram_block_rtl_0|altsyncram_se71:auto_generated
  80. Source assignments for ram:weakThresh_rom|altsyncram:ram_block_rtl_0|altsyncram_fb71:auto_generated
- 81. Source assignments for ram:ii_ram|altsyncram:ram_block_rtl_0|altsyncram_a971:auto_generated
+ 81. Source assignments for ram:ii_ram|altsyncram:ram_block_rtl_0|altsyncram_od71:auto_generated
  82. Source assignments for ram:x_rect2_rom|altsyncram:ram_block_rtl_0|altsyncram_ea71:auto_generated
  83. Source assignments for ram:w_rect0_rom|altsyncram:ram_block_rtl_0|altsyncram_o871:auto_generated
  84. Source assignments for ram:w_rect1_rom|altsyncram:ram_block_rtl_0|altsyncram_fa71:auto_generated
@@ -248,15 +248,15 @@ agreement for further details.
 +---------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                    ;
 +------------------------------------+--------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Sat Nov 28 11:08:39 2015      ;
+; Analysis & Synthesis Status        ; Successful - Sat Nov 28 15:54:21 2015      ;
 ; Quartus II 64-Bit Version          ; 14.1.0 Build 186 12/03/2014 SJ Web Edition ;
 ; Revision Name                      ; top_faceDetect                             ;
 ; Top-level Entity Name              ; top_faceDetect                             ;
 ; Family                             ; Cyclone IV E                               ;
-; Total logic elements               ; 2,269                                      ;
-;     Total combinational functions  ; 1,994                                      ;
-;     Dedicated logic registers      ; 363                                        ;
-; Total registers                    ; 363                                        ;
+; Total logic elements               ; 2,264                                      ;
+;     Total combinational functions  ; 1,989                                      ;
+;     Dedicated logic registers      ; 364                                        ;
+; Total registers                    ; 364                                        ;
 ; Total pins                         ; 4                                          ;
 ; Total virtual pins                 ; 0                                          ;
 ; Total memory bits                  ; 2,316,168                                  ;
@@ -495,8 +495,8 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ; db/top_facedetect.ram0_ram_a75efb3d.hdl.mif                                  ; yes             ; Auto-Generated Auto-Found Memory Initialization File  ; C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/db/top_facedetect.ram0_ram_a75efb3d.hdl.mif                                  ;         ;
 ; db/altsyncram_fb71.tdf                                                       ; yes             ; Auto-Generated Megafunction                           ; C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/db/altsyncram_fb71.tdf                                                       ;         ;
 ; db/top_facedetect.ram0_ram_1d3a920b.hdl.mif                                  ; yes             ; Auto-Generated Auto-Found Memory Initialization File  ; C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/db/top_facedetect.ram0_ram_1d3a920b.hdl.mif                                  ;         ;
-; db/altsyncram_a971.tdf                                                       ; yes             ; Auto-Generated Megafunction                           ; C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/db/altsyncram_a971.tdf                                                       ;         ;
-; db/top_facedetect.ram0_ram_14028839.hdl.mif                                  ; yes             ; Auto-Generated Auto-Found Memory Initialization File  ; C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/db/top_facedetect.ram0_ram_14028839.hdl.mif                                  ;         ;
+; db/altsyncram_od71.tdf                                                       ; yes             ; Auto-Generated Megafunction                           ; C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/db/altsyncram_od71.tdf                                                       ;         ;
+; db/top_facedetect.ram0_ram_830b7eb6.hdl.mif                                  ; yes             ; Auto-Generated Auto-Found Memory Initialization File  ; C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/db/top_facedetect.ram0_ram_830b7eb6.hdl.mif                                  ;         ;
 ; db/decode_u9a.tdf                                                            ; yes             ; Auto-Generated Megafunction                           ; C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/db/decode_u9a.tdf                                                            ;         ;
 ; db/mux_4qb.tdf                                                               ; yes             ; Auto-Generated Megafunction                           ; C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/db/mux_4qb.tdf                                                               ;         ;
 ; db/altsyncram_ea71.tdf                                                       ; yes             ; Auto-Generated Megafunction                           ; C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/db/altsyncram_ea71.tdf                                                       ;         ;
@@ -527,20 +527,20 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +---------------------------------------------+-------------------+
 ; Resource                                    ; Usage             ;
 +---------------------------------------------+-------------------+
-; Estimated Total logic elements              ; 2,269             ;
+; Estimated Total logic elements              ; 2,264             ;
 ;                                             ;                   ;
-; Total combinational functions               ; 1994              ;
+; Total combinational functions               ; 1989              ;
 ; Logic element usage by number of LUT inputs ;                   ;
-;     -- 4 input functions                    ; 336               ;
-;     -- 3 input functions                    ; 1293              ;
-;     -- <=2 input functions                  ; 365               ;
+;     -- 4 input functions                    ; 319               ;
+;     -- 3 input functions                    ; 1317              ;
+;     -- <=2 input functions                  ; 353               ;
 ;                                             ;                   ;
 ; Logic elements by mode                      ;                   ;
-;     -- normal mode                          ; 899               ;
+;     -- normal mode                          ; 894               ;
 ;     -- arithmetic mode                      ; 1095              ;
 ;                                             ;                   ;
-; Total registers                             ; 363               ;
-;     -- Dedicated logic registers            ; 363               ;
+; Total registers                             ; 364               ;
+;     -- Dedicated logic registers            ; 364               ;
 ;     -- I/O registers                        ; 0                 ;
 ;                                             ;                   ;
 ; I/O pins                                    ; 4                 ;
@@ -550,8 +550,8 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ;                                             ;                   ;
 ; Maximum fan-out node                        ; clk_memRead~input ;
 ; Maximum fan-out                             ; 390               ;
-; Total fan-out                               ; 12730             ;
-; Average fan-out                             ; 4.56              ;
+; Total fan-out                               ; 12736             ;
+; Average fan-out                             ; 4.57              ;
 +---------------------------------------------+-------------------+
 
 
@@ -560,7 +560,7 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +--------------------------------------------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------+
 ; Compilation Hierarchy Node                                               ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                                                                                                                           ; Library Name ;
 +--------------------------------------------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------+
-; |top_faceDetect                                                          ; 1994 (47)         ; 363 (37)     ; 2316168     ; 33           ; 7       ; 13        ; 4    ; 0            ; |top_faceDetect                                                                                                                                                                               ; work         ;
+; |top_faceDetect                                                          ; 1989 (47)         ; 364 (38)     ; 2316168     ; 33           ; 7       ; 13        ; 4    ; 0            ; |top_faceDetect                                                                                                                                                                               ; work         ;
 ;    |ii_address_decoder:ii_address_decoder0|                              ; 149 (3)           ; 0 (0)        ; 0           ; 4            ; 4       ; 0         ; 0    ; 0            ; |top_faceDetect|ii_address_decoder:ii_address_decoder0                                                                                                                                        ; work         ;
 ;       |ii_address_calc:ii_addr0|                                         ; 14 (0)            ; 0 (0)        ; 0           ; 1            ; 1       ; 0         ; 0    ; 0            ; |top_faceDetect|ii_address_decoder:ii_address_decoder0|ii_address_calc:ii_addr0                                                                                                               ; work         ;
 ;          |lpm_add_unsign14bit_to_unsign14bit:add0|                       ; 14 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |top_faceDetect|ii_address_decoder:ii_address_decoder0|ii_address_calc:ii_addr0|lpm_add_unsign14bit_to_unsign14bit:add0                                                                       ; work         ;
@@ -618,9 +618,9 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ;          |altsyncram_fd71:auto_generated|                                ; 0 (0)             ; 0 (0)        ; 14565       ; 0            ; 0       ; 0         ; 0    ; 0            ; |top_faceDetect|ram:h_rect2_rom|altsyncram:ram_block_rtl_0|altsyncram_fd71:auto_generated                                                                                                     ; work         ;
 ;    |ram:ii_ram|                                                          ; 210 (0)           ; 4 (0)        ; 1920000     ; 0            ; 0       ; 0         ; 0    ; 0            ; |top_faceDetect|ram:ii_ram                                                                                                                                                                    ; work         ;
 ;       |altsyncram:ram_block_rtl_0|                                       ; 210 (0)           ; 4 (0)        ; 1920000     ; 0            ; 0       ; 0         ; 0    ; 0            ; |top_faceDetect|ram:ii_ram|altsyncram:ram_block_rtl_0                                                                                                                                         ; work         ;
-;          |altsyncram_a971:auto_generated|                                ; 210 (0)           ; 4 (4)        ; 1920000     ; 0            ; 0       ; 0         ; 0    ; 0            ; |top_faceDetect|ram:ii_ram|altsyncram:ram_block_rtl_0|altsyncram_a971:auto_generated                                                                                                          ; work         ;
-;             |decode_u9a:rden_decode|                                     ; 10 (10)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |top_faceDetect|ram:ii_ram|altsyncram:ram_block_rtl_0|altsyncram_a971:auto_generated|decode_u9a:rden_decode                                                                                   ; work         ;
-;             |mux_4qb:mux2|                                               ; 200 (200)         ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |top_faceDetect|ram:ii_ram|altsyncram:ram_block_rtl_0|altsyncram_a971:auto_generated|mux_4qb:mux2                                                                                             ; work         ;
+;          |altsyncram_od71:auto_generated|                                ; 210 (0)           ; 4 (4)        ; 1920000     ; 0            ; 0       ; 0         ; 0    ; 0            ; |top_faceDetect|ram:ii_ram|altsyncram:ram_block_rtl_0|altsyncram_od71:auto_generated                                                                                                          ; work         ;
+;             |decode_u9a:rden_decode|                                     ; 10 (10)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |top_faceDetect|ram:ii_ram|altsyncram:ram_block_rtl_0|altsyncram_od71:auto_generated|decode_u9a:rden_decode                                                                                   ; work         ;
+;             |mux_4qb:mux2|                                               ; 200 (200)         ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |top_faceDetect|ram:ii_ram|altsyncram:ram_block_rtl_0|altsyncram_od71:auto_generated|mux_4qb:mux2                                                                                             ; work         ;
 ;    |ram:left_tree_rom|                                                   ; 0 (0)             ; 0 (0)        ; 40782       ; 0            ; 0       ; 0         ; 0    ; 0            ; |top_faceDetect|ram:left_tree_rom                                                                                                                                                             ; work         ;
 ;       |altsyncram:ram_block_rtl_0|                                       ; 0 (0)             ; 0 (0)        ; 40782       ; 0            ; 0       ; 0         ; 0    ; 0            ; |top_faceDetect|ram:left_tree_rom|altsyncram:ram_block_rtl_0                                                                                                                                  ; work         ;
 ;          |altsyncram_2f71:auto_generated|                                ; 0 (0)             ; 0 (0)        ; 40782       ; 0            ; 0       ; 0         ; 0    ; 0            ; |top_faceDetect|ram:left_tree_rom|altsyncram:ram_block_rtl_0|altsyncram_2f71:auto_generated                                                                                                   ; work         ;
@@ -661,7 +661,7 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ;       |altsyncram:ram_block_rtl_0|                                       ; 0 (0)             ; 0 (0)        ; 14565       ; 0            ; 0       ; 0         ; 0    ; 0            ; |top_faceDetect|ram:y_rect2_rom|altsyncram:ram_block_rtl_0                                                                                                                                    ; work         ;
 ;          |altsyncram_ga71:auto_generated|                                ; 0 (0)             ; 0 (0)        ; 14565       ; 0            ; 0       ; 0         ; 0    ; 0            ; |top_faceDetect|ram:y_rect2_rom|altsyncram:ram_block_rtl_0|altsyncram_ga71:auto_generated                                                                                                     ; work         ;
 ;    |register_file:ii_reg|                                                ; 17 (17)           ; 300 (300)    ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |top_faceDetect|register_file:ii_reg                                                                                                                                                          ; work         ;
-;    |subwindow:subwindow0|                                                ; 1571 (0)          ; 22 (0)       ; 0           ; 28           ; 2       ; 13        ; 0    ; 0            ; |top_faceDetect|subwindow:subwindow0                                                                                                                                                          ; work         ;
+;    |subwindow:subwindow0|                                                ; 1566 (0)          ; 22 (0)       ; 0           ; 28           ; 2       ; 13        ; 0    ; 0            ; |top_faceDetect|subwindow:subwindow0                                                                                                                                                          ; work         ;
 ;       |feature_calc:feature_calc0|                                       ; 425 (2)           ; 0 (0)        ; 0           ; 12           ; 0       ; 6         ; 0    ; 0            ; |top_faceDetect|subwindow:subwindow0|feature_calc:feature_calc0                                                                                                                               ; work         ;
 ;          |lpm_add_sign42bit_to_sign42bitWithCarry:add0|                  ; 43 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |top_faceDetect|subwindow:subwindow0|feature_calc:feature_calc0|lpm_add_sign42bit_to_sign42bitWithCarry:add0                                                                                  ; work         ;
 ;             |lpm_add_sub:LPM_ADD_SUB_component|                          ; 43 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |top_faceDetect|subwindow:subwindow0|feature_calc:feature_calc0|lpm_add_sign42bit_to_sign42bitWithCarry:add0|lpm_add_sub:LPM_ADD_SUB_component                                                ; work         ;
@@ -784,10 +784,10 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ;          |lpm_sub_sign53bit_to_sign53bitWithBorrow:sub2|                 ; 53 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |top_faceDetect|subwindow:subwindow0|var_norm_calc:var_norm_calc0|lpm_sub_sign53bit_to_sign53bitWithBorrow:sub2                                                                               ; work         ;
 ;             |lpm_add_sub:LPM_ADD_SUB_component|                          ; 53 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |top_faceDetect|subwindow:subwindow0|var_norm_calc:var_norm_calc0|lpm_sub_sign53bit_to_sign53bitWithBorrow:sub2|lpm_add_sub:LPM_ADD_SUB_component                                             ; work         ;
 ;                |add_sub_aai:auto_generated|                              ; 53 (53)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |top_faceDetect|subwindow:subwindow0|var_norm_calc:var_norm_calc0|lpm_sub_sign53bit_to_sign53bitWithBorrow:sub2|lpm_add_sub:LPM_ADD_SUB_component|add_sub_aai:auto_generated                  ; work         ;
-;       |weak_thresh_compare:weak_thresh_compare0|                         ; 79 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |top_faceDetect|subwindow:subwindow0|weak_thresh_compare:weak_thresh_compare0                                                                                                                 ; work         ;
-;          |lpm_compare_sign44bit_a_ge_b:compare0|                         ; 79 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |top_faceDetect|subwindow:subwindow0|weak_thresh_compare:weak_thresh_compare0|lpm_compare_sign44bit_a_ge_b:compare0                                                                           ; work         ;
-;             |lpm_compare:LPM_COMPARE_component|                          ; 79 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |top_faceDetect|subwindow:subwindow0|weak_thresh_compare:weak_thresh_compare0|lpm_compare_sign44bit_a_ge_b:compare0|lpm_compare:LPM_COMPARE_component                                         ; work         ;
-;                |cmpr_rtg:auto_generated|                                 ; 79 (79)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |top_faceDetect|subwindow:subwindow0|weak_thresh_compare:weak_thresh_compare0|lpm_compare_sign44bit_a_ge_b:compare0|lpm_compare:LPM_COMPARE_component|cmpr_rtg:auto_generated                 ; work         ;
+;       |weak_thresh_compare:weak_thresh_compare0|                         ; 74 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |top_faceDetect|subwindow:subwindow0|weak_thresh_compare:weak_thresh_compare0                                                                                                                 ; work         ;
+;          |lpm_compare_sign44bit_a_ge_b:compare0|                         ; 74 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |top_faceDetect|subwindow:subwindow0|weak_thresh_compare:weak_thresh_compare0|lpm_compare_sign44bit_a_ge_b:compare0                                                                           ; work         ;
+;             |lpm_compare:LPM_COMPARE_component|                          ; 74 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |top_faceDetect|subwindow:subwindow0|weak_thresh_compare:weak_thresh_compare0|lpm_compare_sign44bit_a_ge_b:compare0|lpm_compare:LPM_COMPARE_component                                         ; work         ;
+;                |cmpr_rtg:auto_generated|                                 ; 74 (74)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |top_faceDetect|subwindow:subwindow0|weak_thresh_compare:weak_thresh_compare0|lpm_compare_sign44bit_a_ge_b:compare0|lpm_compare:LPM_COMPARE_component|cmpr_rtg:auto_generated                 ; work         ;
 +--------------------------------------------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
@@ -800,7 +800,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; ram:h_rect0_rom|altsyncram:ram_block_rtl_0|altsyncram_6d71:auto_generated|ALTSYNCRAM    ; AUTO ; ROM  ; 2913         ; 5            ; --           ; --           ; 14565   ; db/top_faceDetect.ram0_ram_cd2af1e6.hdl.mif ;
 ; ram:h_rect1_rom|altsyncram:ram_block_rtl_0|altsyncram_6771:auto_generated|ALTSYNCRAM    ; AUTO ; ROM  ; 2913         ; 5            ; --           ; --           ; 14565   ; db/top_faceDetect.ram0_ram_381004f6.hdl.mif ;
 ; ram:h_rect2_rom|altsyncram:ram_block_rtl_0|altsyncram_fd71:auto_generated|ALTSYNCRAM    ; AUTO ; ROM  ; 2913         ; 5            ; --           ; --           ; 14565   ; db/top_faceDetect.ram0_ram_679bacfc.hdl.mif ;
-; ram:ii_ram|altsyncram:ram_block_rtl_0|altsyncram_a971:auto_generated|ALTSYNCRAM         ; AUTO ; ROM  ; 76800        ; 25           ; --           ; --           ; 1920000 ; db/top_faceDetect.ram0_ram_14028839.hdl.mif ;
+; ram:ii_ram|altsyncram:ram_block_rtl_0|altsyncram_od71:auto_generated|ALTSYNCRAM         ; AUTO ; ROM  ; 76800        ; 25           ; --           ; --           ; 1920000 ; db/top_faceDetect.ram0_ram_830b7eb6.hdl.mif ;
 ; ram:left_tree_rom|altsyncram:ram_block_rtl_0|altsyncram_2f71:auto_generated|ALTSYNCRAM  ; AUTO ; ROM  ; 2913         ; 14           ; --           ; --           ; 40782   ; db/top_faceDetect.ram0_ram_57fe6dfa.hdl.mif ;
 ; ram:right_tree_rom|altsyncram:ram_block_rtl_0|altsyncram_1f71:auto_generated|ALTSYNCRAM ; AUTO ; ROM  ; 2913         ; 14           ; --           ; --           ; 40782   ; db/top_faceDetect.ram0_ram_6cca58ff.hdl.mif ;
 ; ram:w_rect0_rom|altsyncram:ram_block_rtl_0|altsyncram_o871:auto_generated|ALTSYNCRAM    ; AUTO ; ROM  ; 2913         ; 5            ; --           ; --           ; 14565   ; db/top_faceDetect.ram0_ram_277bd071.hdl.mif ;
@@ -890,20 +890,21 @@ Note: number of Embedded Multiplier Blocks used is only available after a succes
 
 
 Encoding Type:  One-Hot
-+-----------------------------------------------------------------------------------------------------------+
-; State Machine - |top_faceDetect|top_cs                                                                    ;
-+-----------+-----------+-----------+-----------+-----------+-----------+-----------+-----------+-----------+
-; Name      ; top_cs.s7 ; top_cs.s6 ; top_cs.s5 ; top_cs.s4 ; top_cs.s3 ; top_cs.s2 ; top_cs.s1 ; top_cs.s0 ;
-+-----------+-----------+-----------+-----------+-----------+-----------+-----------+-----------+-----------+
-; top_cs.s0 ; 0         ; 0         ; 0         ; 0         ; 0         ; 0         ; 0         ; 0         ;
-; top_cs.s1 ; 0         ; 0         ; 0         ; 0         ; 0         ; 0         ; 1         ; 1         ;
-; top_cs.s2 ; 0         ; 0         ; 0         ; 0         ; 0         ; 1         ; 0         ; 1         ;
-; top_cs.s3 ; 0         ; 0         ; 0         ; 0         ; 1         ; 0         ; 0         ; 1         ;
-; top_cs.s4 ; 0         ; 0         ; 0         ; 1         ; 0         ; 0         ; 0         ; 1         ;
-; top_cs.s5 ; 0         ; 0         ; 1         ; 0         ; 0         ; 0         ; 0         ; 1         ;
-; top_cs.s6 ; 0         ; 1         ; 0         ; 0         ; 0         ; 0         ; 0         ; 1         ;
-; top_cs.s7 ; 1         ; 0         ; 0         ; 0         ; 0         ; 0         ; 0         ; 1         ;
-+-----------+-----------+-----------+-----------+-----------+-----------+-----------+-----------+-----------+
++-----------------------------------------------------------------------------------------------------------------------+
+; State Machine - |top_faceDetect|top_cs                                                                                ;
++-----------+-----------+-----------+-----------+-----------+-----------+-----------+-----------+-----------+-----------+
+; Name      ; top_cs.s8 ; top_cs.s7 ; top_cs.s6 ; top_cs.s5 ; top_cs.s4 ; top_cs.s3 ; top_cs.s2 ; top_cs.s1 ; top_cs.s0 ;
++-----------+-----------+-----------+-----------+-----------+-----------+-----------+-----------+-----------+-----------+
+; top_cs.s0 ; 0         ; 0         ; 0         ; 0         ; 0         ; 0         ; 0         ; 0         ; 0         ;
+; top_cs.s1 ; 0         ; 0         ; 0         ; 0         ; 0         ; 0         ; 0         ; 1         ; 1         ;
+; top_cs.s2 ; 0         ; 0         ; 0         ; 0         ; 0         ; 0         ; 1         ; 0         ; 1         ;
+; top_cs.s3 ; 0         ; 0         ; 0         ; 0         ; 0         ; 1         ; 0         ; 0         ; 1         ;
+; top_cs.s4 ; 0         ; 0         ; 0         ; 0         ; 1         ; 0         ; 0         ; 0         ; 1         ;
+; top_cs.s5 ; 0         ; 0         ; 0         ; 1         ; 0         ; 0         ; 0         ; 0         ; 1         ;
+; top_cs.s6 ; 0         ; 0         ; 1         ; 0         ; 0         ; 0         ; 0         ; 0         ; 1         ;
+; top_cs.s7 ; 0         ; 1         ; 0         ; 0         ; 0         ; 0         ; 0         ; 0         ; 1         ;
+; top_cs.s8 ; 1         ; 0         ; 0         ; 0         ; 0         ; 0         ; 0         ; 0         ; 1         ;
++-----------+-----------+-----------+-----------+-----------+-----------+-----------+-----------+-----------+-----------+
 
 
 +---------------------------------------------------------------------------------------------------+
@@ -947,12 +948,12 @@ Note: All latches listed above may not be present at the end of synthesis due to
 +----------------------------------------------+-------+
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
-; Total registers                              ; 363   ;
-; Number of registers using Synchronous Clear  ; 22    ;
+; Total registers                              ; 364   ;
+; Number of registers using Synchronous Clear  ; 0     ;
 ; Number of registers using Synchronous Load   ; 0     ;
-; Number of registers using Asynchronous Clear ; 37    ;
+; Number of registers using Asynchronous Clear ; 60    ;
 ; Number of registers using Asynchronous Load  ; 0     ;
-; Number of registers using Clock Enable       ; 322   ;
+; Number of registers using Clock Enable       ; 344   ;
 ; Number of registers using Preset             ; 0     ;
 +----------------------------------------------+-------+
 
@@ -998,7 +999,7 @@ Note: All latches listed above may not be present at the end of synthesis due to
 ; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                                                                                                                                                                ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 ; 4:1                ; 14 bits   ; 28 LEs        ; 28 LEs               ; 0 LEs                  ; No         ; |top_faceDetect|ii_address_decoder:ii_address_decoder0|ii_address_calc:ii_addr3|lpm_add_unsign17bit_to_unsign17bit:add1|lpm_add_sub:LPM_ADD_SUB_component|add_sub_eqh:auto_generated|op_1 ;
-; 4:1                ; 15 bits   ; 30 LEs        ; 30 LEs               ; 0 LEs                  ; No         ; |top_faceDetect|ii_address_decoder:ii_address_decoder0|rect_mux:h_rect_mux|Mux3                                                                                                           ;
+; 4:1                ; 15 bits   ; 30 LEs        ; 30 LEs               ; 0 LEs                  ; No         ; |top_faceDetect|ii_address_decoder:ii_address_decoder0|rect_mux:w_rect_mux|Mux4                                                                                                           ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 
@@ -1570,7 +1571,7 @@ Note: All latches listed above may not be present at the end of synthesis due to
 
 
 +---------------------------------------------------------------------------------------------+
-; Source assignments for ram:ii_ram|altsyncram:ram_block_rtl_0|altsyncram_a971:auto_generated ;
+; Source assignments for ram:ii_ram|altsyncram:ram_block_rtl_0|altsyncram_od71:auto_generated ;
 +---------------------------------+--------------------+------+-------------------------------+
 ; Assignment                      ; Value              ; From ; To                            ;
 +---------------------------------+--------------------+------+-------------------------------+
@@ -2151,16 +2152,16 @@ Note: In order to hide this table in the UI and the text report file, please set
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
-+---------------------------------------------------------+
-; Parameter Settings for User Entity Instance: ram:ii_ram ;
-+---------------------+--------+--------------------------+
-; Parameter Name      ; Value  ; Type                     ;
-+---------------------+--------+--------------------------+
-; addr_width          ; 17     ; Signed Integer           ;
-; data_width          ; 25     ; Signed Integer           ;
-; max_preload_address ; 76799  ; Signed Integer           ;
-; mem_file_name       ; ii.txt ; String                   ;
-+---------------------+--------+--------------------------+
++--------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: ram:ii_ram            ;
++---------------------+-----------------------------+----------------+
+; Parameter Name      ; Value                       ; Type           ;
++---------------------+-----------------------------+----------------+
+; addr_width          ; 17                          ; Signed Integer ;
+; data_width          ; 25                          ; Signed Integer ;
+; max_preload_address ; 76799                       ; Signed Integer ;
+; mem_file_name       ; test2-face-25x25_ii_bin.txt ; String         ;
++---------------------+-----------------------------+----------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
@@ -3705,7 +3706,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; READ_DURING_WRITE_MODE_MIXED_PORTS ; DONT_CARE                                   ; Untyped        ;
 ; READ_DURING_WRITE_MODE_PORT_A      ; NEW_DATA_NO_NBE_READ                        ; Untyped        ;
 ; READ_DURING_WRITE_MODE_PORT_B      ; NEW_DATA_NO_NBE_READ                        ; Untyped        ;
-; INIT_FILE                          ; db/top_faceDetect.ram0_ram_14028839.hdl.mif ; Untyped        ;
+; INIT_FILE                          ; db/top_faceDetect.ram0_ram_830b7eb6.hdl.mif ; Untyped        ;
 ; INIT_FILE_LAYOUT                   ; PORT_A                                      ; Untyped        ;
 ; MAXIMUM_DEPTH                      ; 0                                           ; Untyped        ;
 ; CLOCK_ENABLE_INPUT_A               ; NORMAL                                      ; Untyped        ;
@@ -3718,7 +3719,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; ECC_PIPELINE_STAGE_ENABLED         ; FALSE                                       ; Untyped        ;
 ; WIDTH_ECCSTATUS                    ; 3                                           ; Untyped        ;
 ; DEVICE_FAMILY                      ; Cyclone IV E                                ; Untyped        ;
-; CBXI_PARAMETER                     ; altsyncram_a971                             ; Untyped        ;
+; CBXI_PARAMETER                     ; altsyncram_od71                             ; Untyped        ;
 +------------------------------------+---------------------------------------------+----------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -4757,78 +4758,78 @@ Note: In order to hide this table in the UI and the text report file, please set
 +--------------+-------+----------+----------------+
 ; Port         ; Type  ; Severity ; Details        ;
 +--------------+-------+----------+----------------+
-; p0[4..0]     ; Input ; Info     ; Stuck at VCC   ;
+; p0[4..2]     ; Input ; Info     ; Stuck at VCC   ;
 ; p0[24..5]    ; Input ; Info     ; Stuck at GND   ;
-; p1[7..5]     ; Input ; Info     ; Stuck at VCC   ;
-; p1[3..2]     ; Input ; Info     ; Stuck at VCC   ;
+; p0[1..0]     ; Input ; Info     ; Stuck at GND   ;
+; p1[6..5]     ; Input ; Info     ; Stuck at VCC   ;
 ; p1[24..12]   ; Input ; Info     ; Stuck at GND   ;
+; p1[8..7]     ; Input ; Info     ; Stuck at GND   ;
+; p1[4..3]     ; Input ; Info     ; Stuck at GND   ;
 ; p1[1..0]     ; Input ; Info     ; Stuck at GND   ;
 ; p1[11]       ; Input ; Info     ; Stuck at VCC   ;
 ; p1[10]       ; Input ; Info     ; Stuck at GND   ;
 ; p1[9]        ; Input ; Info     ; Stuck at VCC   ;
-; p1[8]        ; Input ; Info     ; Stuck at GND   ;
-; p1[4]        ; Input ; Info     ; Stuck at GND   ;
-; p2[4..0]     ; Input ; Info     ; Stuck at VCC   ;
+; p1[2]        ; Input ; Info     ; Stuck at VCC   ;
+; p2[4..2]     ; Input ; Info     ; Stuck at VCC   ;
 ; p2[24..11]   ; Input ; Info     ; Stuck at GND   ;
 ; p2[9..8]     ; Input ; Info     ; Stuck at GND   ;
 ; p2[6..5]     ; Input ; Info     ; Stuck at GND   ;
 ; p2[10]       ; Input ; Info     ; Stuck at VCC   ;
 ; p2[7]        ; Input ; Info     ; Stuck at VCC   ;
+; p2[1]        ; Input ; Info     ; Stuck at GND   ;
+; p2[0]        ; Input ; Info     ; Stuck at VCC   ;
 ; p3[15..14]   ; Input ; Info     ; Stuck at VCC   ;
-; p3[8..7]     ; Input ; Info     ; Stuck at VCC   ;
+; p3[11..10]   ; Input ; Info     ; Stuck at VCC   ;
+; p3[7..6]     ; Input ; Info     ; Stuck at VCC   ;
 ; p3[24..16]   ; Input ; Info     ; Stuck at GND   ;
-; p3[13]       ; Input ; Info     ; Stuck at GND   ;
-; p3[12]       ; Input ; Info     ; Stuck at VCC   ;
-; p3[11]       ; Input ; Info     ; Stuck at GND   ;
-; p3[10]       ; Input ; Info     ; Stuck at VCC   ;
-; p3[9]        ; Input ; Info     ; Stuck at GND   ;
-; p3[6]        ; Input ; Info     ; Stuck at GND   ;
-; p3[5]        ; Input ; Info     ; Stuck at VCC   ;
-; p3[4]        ; Input ; Info     ; Stuck at GND   ;
-; p3[3]        ; Input ; Info     ; Stuck at VCC   ;
-; p3[2]        ; Input ; Info     ; Stuck at GND   ;
-; p3[1]        ; Input ; Info     ; Stuck at VCC   ;
-; p3[0]        ; Input ; Info     ; Stuck at GND   ;
-; ssp0[9..6]   ; Input ; Info     ; Stuck at VCC   ;
+; p3[13..12]   ; Input ; Info     ; Stuck at GND   ;
+; p3[9..8]     ; Input ; Info     ; Stuck at GND   ;
+; p3[5]        ; Input ; Info     ; Stuck at GND   ;
+; p3[4]        ; Input ; Info     ; Stuck at VCC   ;
+; p3[3]        ; Input ; Info     ; Stuck at GND   ;
+; p3[2]        ; Input ; Info     ; Stuck at VCC   ;
+; p3[1]        ; Input ; Info     ; Stuck at GND   ;
+; p3[0]        ; Input ; Info     ; Stuck at VCC   ;
+; ssp0[9..8]   ; Input ; Info     ; Stuck at VCC   ;
 ; ssp0[32..10] ; Input ; Info     ; Stuck at GND   ;
-; ssp0[5..1]   ; Input ; Info     ; Stuck at GND   ;
-; ssp0[0]      ; Input ; Info     ; Stuck at VCC   ;
-; ssp1[18..17] ; Input ; Info     ; Stuck at VCC   ;
-; ssp1[6..5]   ; Input ; Info     ; Stuck at VCC   ;
-; ssp1[3..2]   ; Input ; Info     ; Stuck at VCC   ;
+; ssp0[7..5]   ; Input ; Info     ; Stuck at GND   ;
+; ssp0[3..0]   ; Input ; Info     ; Stuck at GND   ;
+; ssp0[4]      ; Input ; Info     ; Stuck at VCC   ;
+; ssp1[16..15] ; Input ; Info     ; Stuck at VCC   ;
+; ssp1[8..7]   ; Input ; Info     ; Stuck at VCC   ;
 ; ssp1[32..19] ; Input ; Info     ; Stuck at GND   ;
-; ssp1[16..15] ; Input ; Info     ; Stuck at GND   ;
-; ssp1[13..12] ; Input ; Info     ; Stuck at GND   ;
-; ssp1[8..7]   ; Input ; Info     ; Stuck at GND   ;
+; ssp1[14..13] ; Input ; Info     ; Stuck at GND   ;
+; ssp1[11..9]  ; Input ; Info     ; Stuck at GND   ;
+; ssp1[6..5]   ; Input ; Info     ; Stuck at GND   ;
 ; ssp1[1..0]   ; Input ; Info     ; Stuck at GND   ;
-; ssp1[14]     ; Input ; Info     ; Stuck at VCC   ;
-; ssp1[11]     ; Input ; Info     ; Stuck at VCC   ;
-; ssp1[10]     ; Input ; Info     ; Stuck at GND   ;
-; ssp1[9]      ; Input ; Info     ; Stuck at VCC   ;
-; ssp1[4]      ; Input ; Info     ; Stuck at GND   ;
-; ssp2[3..0]   ; Input ; Info     ; Stuck at VCC   ;
+; ssp1[18]     ; Input ; Info     ; Stuck at VCC   ;
+; ssp1[17]     ; Input ; Info     ; Stuck at GND   ;
+; ssp1[12]     ; Input ; Info     ; Stuck at VCC   ;
+; ssp1[4]      ; Input ; Info     ; Stuck at VCC   ;
+; ssp1[3]      ; Input ; Info     ; Stuck at GND   ;
+; ssp1[2]      ; Input ; Info     ; Stuck at VCC   ;
+; ssp2[15..14] ; Input ; Info     ; Stuck at VCC   ;
+; ssp2[10..9]  ; Input ; Info     ; Stuck at VCC   ;
+; ssp2[7..3]   ; Input ; Info     ; Stuck at VCC   ;
+; ssp2[1..0]   ; Input ; Info     ; Stuck at VCC   ;
 ; ssp2[32..18] ; Input ; Info     ; Stuck at GND   ;
-; ssp2[10..9]  ; Input ; Info     ; Stuck at GND   ;
-; ssp2[7..4]   ; Input ; Info     ; Stuck at GND   ;
+; ssp2[13..11] ; Input ; Info     ; Stuck at GND   ;
 ; ssp2[17]     ; Input ; Info     ; Stuck at VCC   ;
 ; ssp2[16]     ; Input ; Info     ; Stuck at GND   ;
-; ssp2[15]     ; Input ; Info     ; Stuck at VCC   ;
-; ssp2[14]     ; Input ; Info     ; Stuck at GND   ;
-; ssp2[13]     ; Input ; Info     ; Stuck at VCC   ;
-; ssp2[12]     ; Input ; Info     ; Stuck at GND   ;
-; ssp2[11]     ; Input ; Info     ; Stuck at VCC   ;
-; ssp2[8]      ; Input ; Info     ; Stuck at VCC   ;
-; ssp3[22..17] ; Input ; Info     ; Stuck at VCC   ;
+; ssp2[8]      ; Input ; Info     ; Stuck at GND   ;
+; ssp2[2]      ; Input ; Info     ; Stuck at GND   ;
+; ssp3[22..20] ; Input ; Info     ; Stuck at VCC   ;
+; ssp3[10..9]  ; Input ; Info     ; Stuck at VCC   ;
+; ssp3[1..0]   ; Input ; Info     ; Stuck at VCC   ;
 ; ssp3[32..23] ; Input ; Info     ; Stuck at GND   ;
-; ssp3[12..10] ; Input ; Info     ; Stuck at GND   ;
-; ssp3[8..5]   ; Input ; Info     ; Stuck at GND   ;
-; ssp3[3..0]   ; Input ; Info     ; Stuck at GND   ;
-; ssp3[16]     ; Input ; Info     ; Stuck at GND   ;
-; ssp3[15]     ; Input ; Info     ; Stuck at VCC   ;
-; ssp3[14]     ; Input ; Info     ; Stuck at GND   ;
-; ssp3[13]     ; Input ; Info     ; Stuck at VCC   ;
-; ssp3[9]      ; Input ; Info     ; Stuck at VCC   ;
-; ssp3[4]      ; Input ; Info     ; Stuck at VCC   ;
+; ssp3[17..15] ; Input ; Info     ; Stuck at GND   ;
+; ssp3[13..11] ; Input ; Info     ; Stuck at GND   ;
+; ssp3[8..7]   ; Input ; Info     ; Stuck at GND   ;
+; ssp3[5..2]   ; Input ; Info     ; Stuck at GND   ;
+; ssp3[19]     ; Input ; Info     ; Stuck at GND   ;
+; ssp3[18]     ; Input ; Info     ; Stuck at VCC   ;
+; ssp3[14]     ; Input ; Info     ; Stuck at VCC   ;
+; ssp3[6]      ; Input ; Info     ; Stuck at VCC   ;
 +--------------+-------+----------+----------------+
 
 
@@ -5164,28 +5165,27 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; Type                  ; Count                       ;
 +-----------------------+-----------------------------+
 ; boundary_port         ; 4                           ;
-; cycloneiii_ff         ; 363                         ;
-;     CLR               ; 15                          ;
+; cycloneiii_ff         ; 364                         ;
+;     CLR               ; 16                          ;
 ;     ENA               ; 300                         ;
-;     ENA CLR           ; 22                          ;
-;     SCLR              ; 22                          ;
+;     ENA CLR           ; 44                          ;
 ;     plain             ; 4                           ;
-; cycloneiii_lcell_comb ; 1994                        ;
+; cycloneiii_lcell_comb ; 1989                        ;
 ;     arith             ; 1095                        ;
 ;         2 data inputs ; 250                         ;
 ;         3 data inputs ; 845                         ;
-;     normal            ; 899                         ;
+;     normal            ; 894                         ;
 ;         0 data inputs ; 39                          ;
-;         1 data inputs ; 10                          ;
-;         2 data inputs ; 66                          ;
-;         3 data inputs ; 448                         ;
-;         4 data inputs ; 336                         ;
+;         1 data inputs ; 9                           ;
+;         2 data inputs ; 55                          ;
+;         3 data inputs ; 472                         ;
+;         4 data inputs ; 319                         ;
 ; cycloneiii_mac_mult   ; 20                          ;
 ; cycloneiii_mac_out    ; 20                          ;
 ; cycloneiii_ram_block  ; 386                         ;
 ;                       ;                             ;
 ; Max LUT depth         ; 94.80                       ;
-; Average LUT depth     ; 34.97                       ;
+; Average LUT depth     ; 35.26                       ;
 +-----------------------+-----------------------------+
 
 
@@ -5194,7 +5194,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:09     ;
+; Top            ; 00:00:10     ;
 +----------------+--------------+
 
 
@@ -5204,7 +5204,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Analysis & Synthesis
     Info: Version 14.1.0 Build 186 12/03/2014 SJ Web Edition
-    Info: Processing started: Sat Nov 28 11:08:09 2015
+    Info: Processing started: Sat Nov 28 15:53:50 2015
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off top_faceDetect -c top_faceDetect
 Warning (20028): Parallel compilation is not licensed and has been disabled
 Info (12021): Found 2 design units, including 1 entities, in source file _release_ii_address_decoder/ii_address_mux.vhd
@@ -5331,13 +5331,13 @@ Info (12021): Found 2 design units, including 1 entities, in source file tb_top_
     Info (12022): Found design unit 1: tb_top_faceDetect-behavior
     Info (12023): Found entity 1: tb_top_faceDetect
 Info (12127): Elaborating entity "top_faceDetect" for the top level hierarchy
-Warning (10036): Verilog HDL or VHDL warning at top_faceDetect.vhd(190): object "fail" assigned a value but never read
-Warning (10492): VHDL Process Statement warning at top_faceDetect.vhd(358): signal "face_detected0" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at top_faceDetect.vhd(360): signal "face_detected0" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at top_faceDetect.vhd(362): signal "face_detected0" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10492): VHDL Process Statement warning at top_faceDetect.vhd(364): signal "face_detected0" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning (10631): VHDL Process Statement warning at top_faceDetect.vhd(289): inferring latch(es) for signal or variable "ii_reg_we0", which holds its previous value in one or more paths through the process
-Info (10041): Inferred latch for "ii_reg_we0" at top_faceDetect.vhd(289)
+Warning (10036): Verilog HDL or VHDL warning at top_faceDetect.vhd(189): object "fail" assigned a value but never read
+Warning (10492): VHDL Process Statement warning at top_faceDetect.vhd(447): signal "face_detected0" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at top_faceDetect.vhd(449): signal "face_detected0" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at top_faceDetect.vhd(451): signal "face_detected0" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at top_faceDetect.vhd(453): signal "face_detected0" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10631): VHDL Process Statement warning at top_faceDetect.vhd(290): inferring latch(es) for signal or variable "ii_reg_we0", which holds its previous value in one or more paths through the process
+Info (10041): Inferred latch for "ii_reg_we0" at top_faceDetect.vhd(290)
 Info (12128): Elaborating entity "pixel_offset" for hierarchy "pixel_offset:pixel_offset0"
 Info (12128): Elaborating entity "lpm_mult_unsign8bit_unsign9bit_to_unsign17bit" for hierarchy "pixel_offset:pixel_offset0|lpm_mult_unsign8bit_unsign9bit_to_unsign17bit:mult0"
 Info (12128): Elaborating entity "lpm_mult" for hierarchy "pixel_offset:pixel_offset0|lpm_mult_unsign8bit_unsign9bit_to_unsign17bit:mult0|lpm_mult:lpm_mult_component"
@@ -5847,6 +5847,7 @@ Info (12021): Found 1 design units, including 1 entities, in source file db/cmpr
 Info (12128): Elaborating entity "cmpr_rtg" for hierarchy "subwindow:subwindow0|weak_thresh_compare:weak_thresh_compare0|lpm_compare_sign44bit_a_ge_b:compare0|lpm_compare:LPM_COMPARE_component|cmpr_rtg:auto_generated"
 Info (12128): Elaborating entity "left_right_tree_mux" for hierarchy "subwindow:subwindow0|left_right_tree_mux:left_right_tree_mux0"
 Info (12128): Elaborating entity "strong_accumulator" for hierarchy "subwindow:subwindow0|strong_accumulator:strong_accumulator0"
+Warning (10492): VHDL Process Statement warning at strong_accumulator.vhd(59): signal "en" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
 Info (12128): Elaborating entity "lpm_add_sign22bit_to_sign22bit" for hierarchy "subwindow:subwindow0|strong_accumulator:strong_accumulator0|lpm_add_sign22bit_to_sign22bit:add0"
 Info (12128): Elaborating entity "lpm_add_sub" for hierarchy "subwindow:subwindow0|strong_accumulator:strong_accumulator0|lpm_add_sign22bit_to_sign22bit:add0|lpm_add_sub:LPM_ADD_SUB_component"
 Info (12130): Elaborated megafunction instantiation "subwindow:subwindow0|strong_accumulator:strong_accumulator0|lpm_add_sign22bit_to_sign22bit:add0|lpm_add_sub:LPM_ADD_SUB_component"
@@ -5988,7 +5989,7 @@ Info (19000): Inferred 17 megafunctions from design logic
         Info (286033): Parameter OUTDATA_ACLR_A set to NONE
         Info (286033): Parameter INDATA_ACLR_A set to NONE
         Info (286033): Parameter WRCONTROL_ACLR_A set to NONE
-        Info (286033): Parameter INIT_FILE set to db/top_faceDetect.ram0_ram_14028839.hdl.mif
+        Info (286033): Parameter INIT_FILE set to db/top_faceDetect.ram0_ram_830b7eb6.hdl.mif
     Info (276029): Inferred altsyncram megafunction from the following design logic: "ram:x_rect2_rom|ram_block_rtl_0" 
         Info (286033): Parameter OPERATION_MODE set to ROM
         Info (286033): Parameter WIDTH_A set to 5
@@ -6194,9 +6195,9 @@ Info (12133): Instantiated megafunction "ram:ii_ram|altsyncram:ram_block_rtl_0" 
     Info (12134): Parameter "OUTDATA_ACLR_A" = "NONE"
     Info (12134): Parameter "INDATA_ACLR_A" = "NONE"
     Info (12134): Parameter "WRCONTROL_ACLR_A" = "NONE"
-    Info (12134): Parameter "INIT_FILE" = "db/top_faceDetect.ram0_ram_14028839.hdl.mif"
-Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_a971.tdf
-    Info (12023): Found entity 1: altsyncram_a971
+    Info (12134): Parameter "INIT_FILE" = "db/top_faceDetect.ram0_ram_830b7eb6.hdl.mif"
+Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_od71.tdf
+    Info (12023): Found entity 1: altsyncram_od71
 Info (12021): Found 1 design units, including 1 entities, in source file db/decode_u9a.tdf
     Info (12023): Found entity 1: decode_u9a
 Info (12021): Found 1 design units, including 1 entities, in source file db/mux_4qb.tdf
@@ -6346,16 +6347,16 @@ Info (13003): DEV_CLRn pin will set, and not reset, register with preset signal 
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 2721 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 2716 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 3 input pins
     Info (21059): Implemented 1 output pins
-    Info (21061): Implemented 2298 logic cells
+    Info (21061): Implemented 2293 logic cells
     Info (21064): Implemented 386 RAM segments
     Info (21062): Implemented 33 DSP elements
-Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 20 warnings
+Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 21 warnings
     Info: Peak virtual memory: 741 megabytes
-    Info: Processing ended: Sat Nov 28 11:08:39 2015
-    Info: Elapsed time: 00:00:30
-    Info: Total CPU time (on all processors): 00:00:50
+    Info: Processing ended: Sat Nov 28 15:54:21 2015
+    Info: Elapsed time: 00:00:31
+    Info: Total CPU time (on all processors): 00:00:52
 
 

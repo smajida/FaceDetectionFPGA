@@ -14,7 +14,7 @@
 # 
 # vcom -93 -work work {C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_ii_address_decoder/ii_address_mux.vhd}
 # Model Technology ModelSim ALTERA vcom 10.3c Compiler 2014.09 Sep 20 2014
-# Start time: 11:09:03 on Nov 28,2015
+# Start time: 15:52:17 on Nov 28,2015
 # vcom -reportprogress 300 -93 -work work C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_ii_address_decoder/ii_address_mux.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -22,11 +22,11 @@
 # -- Loading package NUMERIC_STD
 # -- Compiling entity ii_address_mux
 # -- Compiling architecture behavior of ii_address_mux
-# End time: 11:09:04 on Nov 28,2015, Elapsed time: 0:00:01
+# End time: 15:52:17 on Nov 28,2015, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_pixel_offset/pixel_offset.vhd}
 # Model Technology ModelSim ALTERA vcom 10.3c Compiler 2014.09 Sep 20 2014
-# Start time: 11:09:04 on Nov 28,2015
+# Start time: 15:52:17 on Nov 28,2015
 # vcom -reportprogress 300 -93 -work work C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_pixel_offset/pixel_offset.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -34,33 +34,33 @@
 # -- Loading package NUMERIC_STD
 # -- Compiling entity pixel_offset
 # -- Compiling architecture behavior of pixel_offset
-# End time: 11:09:04 on Nov 28,2015, Elapsed time: 0:00:00
+# End time: 15:52:18 on Nov 28,2015, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_pixel_offset/lpm_mult_unsign8bit_unsign9bit_to_unsign17bit.vhd}
 # Model Technology ModelSim ALTERA vcom 10.3c Compiler 2014.09 Sep 20 2014
-# Start time: 11:09:04 on Nov 28,2015
+# Start time: 15:52:18 on Nov 28,2015
 # vcom -reportprogress 300 -93 -work work C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_pixel_offset/lpm_mult_unsign8bit_unsign9bit_to_unsign17bit.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity lpm_mult_unsign8bit_unsign9bit_to_unsign17bit
 # -- Compiling architecture SYN of lpm_mult_unsign8bit_unsign9bit_to_unsign17bit
-# End time: 11:09:05 on Nov 28,2015, Elapsed time: 0:00:01
+# End time: 15:52:18 on Nov 28,2015, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_pixel_offset/lpm_add_unsign17bit_to_unsign17bit.vhd}
 # Model Technology ModelSim ALTERA vcom 10.3c Compiler 2014.09 Sep 20 2014
-# Start time: 11:09:05 on Nov 28,2015
+# Start time: 15:52:18 on Nov 28,2015
 # vcom -reportprogress 300 -93 -work work C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_pixel_offset/lpm_add_unsign17bit_to_unsign17bit.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity lpm_add_unsign17bit_to_unsign17bit
 # -- Compiling architecture SYN of lpm_add_unsign17bit_to_unsign17bit
-# End time: 11:09:05 on Nov 28,2015, Elapsed time: 0:00:00
+# End time: 15:52:19 on Nov 28,2015, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_ii_address_decoder/rect_mux.vhd}
 # Model Technology ModelSim ALTERA vcom 10.3c Compiler 2014.09 Sep 20 2014
-# Start time: 11:09:05 on Nov 28,2015
+# Start time: 15:52:19 on Nov 28,2015
 # vcom -reportprogress 300 -93 -work work C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_ii_address_decoder/rect_mux.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -68,22 +68,22 @@
 # -- Loading package NUMERIC_STD
 # -- Compiling entity rect_mux
 # -- Compiling architecture behavior of rect_mux
-# End time: 11:09:06 on Nov 28,2015, Elapsed time: 0:00:01
+# End time: 15:52:19 on Nov 28,2015, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_ii_address_decoder/lpm_add_unsign5bit_to_unsign5bit.vhd}
 # Model Technology ModelSim ALTERA vcom 10.3c Compiler 2014.09 Sep 20 2014
-# Start time: 11:09:06 on Nov 28,2015
+# Start time: 15:52:19 on Nov 28,2015
 # vcom -reportprogress 300 -93 -work work C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_ii_address_decoder/lpm_add_unsign5bit_to_unsign5bit.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity lpm_add_unsign5bit_to_unsign5bit
 # -- Compiling architecture SYN of lpm_add_unsign5bit_to_unsign5bit
-# End time: 11:09:06 on Nov 28,2015, Elapsed time: 0:00:00
+# End time: 15:52:20 on Nov 28,2015, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_ii_address_decoder/ii_address_decoder.vhd}
 # Model Technology ModelSim ALTERA vcom 10.3c Compiler 2014.09 Sep 20 2014
-# Start time: 11:09:06 on Nov 28,2015
+# Start time: 15:52:20 on Nov 28,2015
 # vcom -reportprogress 300 -93 -work work C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_ii_address_decoder/ii_address_decoder.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -91,33 +91,33 @@
 # -- Loading package NUMERIC_STD
 # -- Compiling entity ii_address_decoder
 # -- Compiling architecture behavior of ii_address_decoder
-# End time: 11:09:07 on Nov 28,2015, Elapsed time: 0:00:01
+# End time: 15:52:20 on Nov 28,2015, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_ii_address_calc/lpm_mult_unsign5bit_unsign9bit_to_unsign14bit.vhd}
 # Model Technology ModelSim ALTERA vcom 10.3c Compiler 2014.09 Sep 20 2014
-# Start time: 11:09:07 on Nov 28,2015
+# Start time: 15:52:20 on Nov 28,2015
 # vcom -reportprogress 300 -93 -work work C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_ii_address_calc/lpm_mult_unsign5bit_unsign9bit_to_unsign14bit.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity lpm_mult_unsign5bit_unsign9bit_to_unsign14bit
 # -- Compiling architecture SYN of lpm_mult_unsign5bit_unsign9bit_to_unsign14bit
-# End time: 11:09:07 on Nov 28,2015, Elapsed time: 0:00:00
+# End time: 15:52:21 on Nov 28,2015, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_ii_address_calc/lpm_add_unsign14bit_to_unsign14bit.vhd}
 # Model Technology ModelSim ALTERA vcom 10.3c Compiler 2014.09 Sep 20 2014
-# Start time: 11:09:07 on Nov 28,2015
+# Start time: 15:52:21 on Nov 28,2015
 # vcom -reportprogress 300 -93 -work work C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_ii_address_calc/lpm_add_unsign14bit_to_unsign14bit.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity lpm_add_unsign14bit_to_unsign14bit
 # -- Compiling architecture SYN of lpm_add_unsign14bit_to_unsign14bit
-# End time: 11:09:08 on Nov 28,2015, Elapsed time: 0:00:01
+# End time: 15:52:21 on Nov 28,2015, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_ii_address_calc/ii_address_calc.vhd}
 # Model Technology ModelSim ALTERA vcom 10.3c Compiler 2014.09 Sep 20 2014
-# Start time: 11:09:08 on Nov 28,2015
+# Start time: 15:52:21 on Nov 28,2015
 # vcom -reportprogress 300 -93 -work work C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_ii_address_calc/ii_address_calc.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -125,22 +125,22 @@
 # -- Loading package NUMERIC_STD
 # -- Compiling entity ii_address_calc
 # -- Compiling architecture behavior of ii_address_calc
-# End time: 11:09:08 on Nov 28,2015, Elapsed time: 0:00:00
+# End time: 15:52:22 on Nov 28,2015, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_weak_thresh_compare/lpm_compare_sign44bit_a_ge_b.vhd}
 # Model Technology ModelSim ALTERA vcom 10.3c Compiler 2014.09 Sep 20 2014
-# Start time: 11:09:09 on Nov 28,2015
+# Start time: 15:52:22 on Nov 28,2015
 # vcom -reportprogress 300 -93 -work work C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_weak_thresh_compare/lpm_compare_sign44bit_a_ge_b.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity lpm_compare_sign44bit_a_ge_b
 # -- Compiling architecture SYN of lpm_compare_sign44bit_a_ge_b
-# End time: 11:09:09 on Nov 28,2015, Elapsed time: 0:00:00
+# End time: 15:52:23 on Nov 28,2015, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_weak_thresh_compare/weak_thresh_compare.vhd}
 # Model Technology ModelSim ALTERA vcom 10.3c Compiler 2014.09 Sep 20 2014
-# Start time: 11:09:09 on Nov 28,2015
+# Start time: 15:52:23 on Nov 28,2015
 # vcom -reportprogress 300 -93 -work work C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_weak_thresh_compare/weak_thresh_compare.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -148,22 +148,22 @@
 # -- Loading package NUMERIC_STD
 # -- Compiling entity weak_thresh_compare
 # -- Compiling architecture behavior of weak_thresh_compare
-# End time: 11:09:10 on Nov 28,2015, Elapsed time: 0:00:01
+# End time: 15:52:23 on Nov 28,2015, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_subwindow/lpm_mult_sign13bit_sign27bit_to_sign40bit.vhd}
 # Model Technology ModelSim ALTERA vcom 10.3c Compiler 2014.09 Sep 20 2014
-# Start time: 11:09:10 on Nov 28,2015
+# Start time: 15:52:23 on Nov 28,2015
 # vcom -reportprogress 300 -93 -work work C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_subwindow/lpm_mult_sign13bit_sign27bit_to_sign40bit.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity lpm_mult_sign13bit_sign27bit_to_sign40bit
 # -- Compiling architecture SYN of lpm_mult_sign13bit_sign27bit_to_sign40bit
-# End time: 11:09:10 on Nov 28,2015, Elapsed time: 0:00:00
+# End time: 15:52:24 on Nov 28,2015, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_subwindow/subwindow.vhd}
 # Model Technology ModelSim ALTERA vcom 10.3c Compiler 2014.09 Sep 20 2014
-# Start time: 11:09:10 on Nov 28,2015
+# Start time: 15:52:24 on Nov 28,2015
 # vcom -reportprogress 300 -93 -work work C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_subwindow/subwindow.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -171,44 +171,44 @@
 # -- Loading package NUMERIC_STD
 # -- Compiling entity subwindow
 # -- Compiling architecture behavior of subwindow
-# End time: 11:09:11 on Nov 28,2015, Elapsed time: 0:00:01
+# End time: 15:52:24 on Nov 28,2015, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_strong_thresh_compare/lpm_mult_sign22bit_sign5bit_to_sign27bit.vhd}
 # Model Technology ModelSim ALTERA vcom 10.3c Compiler 2014.09 Sep 20 2014
-# Start time: 11:09:11 on Nov 28,2015
+# Start time: 15:52:24 on Nov 28,2015
 # vcom -reportprogress 300 -93 -work work C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_strong_thresh_compare/lpm_mult_sign22bit_sign5bit_to_sign27bit.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity lpm_mult_sign22bit_sign5bit_to_sign27bit
 # -- Compiling architecture SYN of lpm_mult_sign22bit_sign5bit_to_sign27bit
-# End time: 11:09:11 on Nov 28,2015, Elapsed time: 0:00:00
+# End time: 15:52:25 on Nov 28,2015, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_strong_thresh_compare/lpm_mult_sign12bit_sign4bit_to_sign16bit.vhd}
 # Model Technology ModelSim ALTERA vcom 10.3c Compiler 2014.09 Sep 20 2014
-# Start time: 11:09:11 on Nov 28,2015
+# Start time: 15:52:25 on Nov 28,2015
 # vcom -reportprogress 300 -93 -work work C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_strong_thresh_compare/lpm_mult_sign12bit_sign4bit_to_sign16bit.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity lpm_mult_sign12bit_sign4bit_to_sign16bit
 # -- Compiling architecture SYN of lpm_mult_sign12bit_sign4bit_to_sign16bit
-# End time: 11:09:12 on Nov 28,2015, Elapsed time: 0:00:01
+# End time: 15:52:25 on Nov 28,2015, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_strong_thresh_compare/lpm_compare_sign27bit_a_gtr_b.vhd}
 # Model Technology ModelSim ALTERA vcom 10.3c Compiler 2014.09 Sep 20 2014
-# Start time: 11:09:12 on Nov 28,2015
+# Start time: 15:52:25 on Nov 28,2015
 # vcom -reportprogress 300 -93 -work work C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_strong_thresh_compare/lpm_compare_sign27bit_a_gtr_b.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity lpm_compare_sign27bit_a_gtr_b
 # -- Compiling architecture SYN of lpm_compare_sign27bit_a_gtr_b
-# End time: 11:09:12 on Nov 28,2015, Elapsed time: 0:00:00
+# End time: 15:52:26 on Nov 28,2015, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_strong_thresh_compare/strong_thresh_compare.vhd}
 # Model Technology ModelSim ALTERA vcom 10.3c Compiler 2014.09 Sep 20 2014
-# Start time: 11:09:12 on Nov 28,2015
+# Start time: 15:52:26 on Nov 28,2015
 # vcom -reportprogress 300 -93 -work work C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_strong_thresh_compare/strong_thresh_compare.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -216,11 +216,11 @@
 # -- Loading package NUMERIC_STD
 # -- Compiling entity strong_thresh_compare
 # -- Compiling architecture behavior of strong_thresh_compare
-# End time: 11:09:13 on Nov 28,2015, Elapsed time: 0:00:01
+# End time: 15:52:26 on Nov 28,2015, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_strong_accumulator/strong_accumulator.vhd}
 # Model Technology ModelSim ALTERA vcom 10.3c Compiler 2014.09 Sep 20 2014
-# Start time: 11:09:13 on Nov 28,2015
+# Start time: 15:52:26 on Nov 28,2015
 # vcom -reportprogress 300 -93 -work work C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_strong_accumulator/strong_accumulator.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -228,22 +228,22 @@
 # -- Loading package NUMERIC_STD
 # -- Compiling entity strong_accumulator
 # -- Compiling architecture behavior of strong_accumulator
-# End time: 11:09:13 on Nov 28,2015, Elapsed time: 0:00:00
+# End time: 15:52:27 on Nov 28,2015, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_strong_accumulator/lpm_add_sign22bit_to_sign22bit.vhd}
 # Model Technology ModelSim ALTERA vcom 10.3c Compiler 2014.09 Sep 20 2014
-# Start time: 11:09:13 on Nov 28,2015
+# Start time: 15:52:27 on Nov 28,2015
 # vcom -reportprogress 300 -93 -work work C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_strong_accumulator/lpm_add_sign22bit_to_sign22bit.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity lpm_add_sign22bit_to_sign22bit
 # -- Compiling architecture SYN of lpm_add_sign22bit_to_sign22bit
-# End time: 11:09:14 on Nov 28,2015, Elapsed time: 0:00:01
+# End time: 15:52:27 on Nov 28,2015, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/left_right_tree_mux.vhd}
 # Model Technology ModelSim ALTERA vcom 10.3c Compiler 2014.09 Sep 20 2014
-# Start time: 11:09:14 on Nov 28,2015
+# Start time: 15:52:27 on Nov 28,2015
 # vcom -reportprogress 300 -93 -work work C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/left_right_tree_mux.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -251,11 +251,11 @@
 # -- Loading package NUMERIC_STD
 # -- Compiling entity left_right_tree_mux
 # -- Compiling architecture behavior of left_right_tree_mux
-# End time: 11:09:14 on Nov 28,2015, Elapsed time: 0:00:00
+# End time: 15:52:28 on Nov 28,2015, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_var_norm_calc/var_norm_calc.vhd}
 # Model Technology ModelSim ALTERA vcom 10.3c Compiler 2014.09 Sep 20 2014
-# Start time: 11:09:14 on Nov 28,2015
+# Start time: 15:52:28 on Nov 28,2015
 # vcom -reportprogress 300 -93 -work work C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_var_norm_calc/var_norm_calc.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -263,99 +263,99 @@
 # -- Loading package NUMERIC_STD
 # -- Compiling entity var_norm_calc
 # -- Compiling architecture behavior of var_norm_calc
-# End time: 11:09:15 on Nov 28,2015, Elapsed time: 0:00:01
+# End time: 15:52:28 on Nov 28,2015, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_var_norm_calc/lpm_sub_unsign34bit_to_unsign34bit.vhd}
 # Model Technology ModelSim ALTERA vcom 10.3c Compiler 2014.09 Sep 20 2014
-# Start time: 11:09:15 on Nov 28,2015
+# Start time: 15:52:28 on Nov 28,2015
 # vcom -reportprogress 300 -93 -work work C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_var_norm_calc/lpm_sub_unsign34bit_to_unsign34bit.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity lpm_sub_unsign34bit_to_unsign34bit
 # -- Compiling architecture SYN of lpm_sub_unsign34bit_to_unsign34bit
-# End time: 11:09:15 on Nov 28,2015, Elapsed time: 0:00:00
+# End time: 15:52:29 on Nov 28,2015, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_var_norm_calc/lpm_sub_unsign26bit_to_unsign26bit.vhd}
 # Model Technology ModelSim ALTERA vcom 10.3c Compiler 2014.09 Sep 20 2014
-# Start time: 11:09:15 on Nov 28,2015
+# Start time: 15:52:29 on Nov 28,2015
 # vcom -reportprogress 300 -93 -work work C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_var_norm_calc/lpm_sub_unsign26bit_to_unsign26bit.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity lpm_sub_unsign26bit_to_unsign26bit
 # -- Compiling architecture SYN of lpm_sub_unsign26bit_to_unsign26bit
-# End time: 11:09:16 on Nov 28,2015, Elapsed time: 0:00:01
+# End time: 15:52:29 on Nov 28,2015, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_var_norm_calc/lpm_sub_sign53bit_to_sign53bitWithBorrow.vhd}
 # Model Technology ModelSim ALTERA vcom 10.3c Compiler 2014.09 Sep 20 2014
-# Start time: 11:09:16 on Nov 28,2015
+# Start time: 15:52:29 on Nov 28,2015
 # vcom -reportprogress 300 -93 -work work C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_var_norm_calc/lpm_sub_sign53bit_to_sign53bitWithBorrow.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity lpm_sub_sign53bit_to_sign53bitWithBorrow
 # -- Compiling architecture SYN of lpm_sub_sign53bit_to_sign53bitwithborrow
-# End time: 11:09:16 on Nov 28,2015, Elapsed time: 0:00:00
+# End time: 15:52:30 on Nov 28,2015, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_var_norm_calc/lpm_mult_unsign26bit_unsign26bit_to_unsign52bit.vhd}
 # Model Technology ModelSim ALTERA vcom 10.3c Compiler 2014.09 Sep 20 2014
-# Start time: 11:09:16 on Nov 28,2015
+# Start time: 15:52:30 on Nov 28,2015
 # vcom -reportprogress 300 -93 -work work C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_var_norm_calc/lpm_mult_unsign26bit_unsign26bit_to_unsign52bit.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity lpm_mult_unsign26bit_unsign26bit_to_unsign52bit
 # -- Compiling architecture SYN of lpm_mult_unsign26bit_unsign26bit_to_unsign52bit
-# End time: 11:09:17 on Nov 28,2015, Elapsed time: 0:00:01
+# End time: 15:52:30 on Nov 28,2015, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_var_norm_calc/lpm_divide_unsign34bit_unsign10bit_to_unsign34bit.vhd}
 # Model Technology ModelSim ALTERA vcom 10.3c Compiler 2014.09 Sep 20 2014
-# Start time: 11:09:17 on Nov 28,2015
+# Start time: 15:52:30 on Nov 28,2015
 # vcom -reportprogress 300 -93 -work work C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_var_norm_calc/lpm_divide_unsign34bit_unsign10bit_to_unsign34bit.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity lpm_divide_unsign34bit_unsign10bit_to_unsign34bit
 # -- Compiling architecture SYN of lpm_divide_unsign34bit_unsign10bit_to_unsign34bit
-# End time: 11:09:17 on Nov 28,2015, Elapsed time: 0:00:00
+# End time: 15:52:31 on Nov 28,2015, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_var_norm_calc/lpm_add_unsign33bit_to_unsign33bitWithCarry.vhd}
 # Model Technology ModelSim ALTERA vcom 10.3c Compiler 2014.09 Sep 20 2014
-# Start time: 11:09:17 on Nov 28,2015
+# Start time: 15:52:31 on Nov 28,2015
 # vcom -reportprogress 300 -93 -work work C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_var_norm_calc/lpm_add_unsign33bit_to_unsign33bitWithCarry.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity lpm_add_unsign33bit_to_unsign33bitWithCarry
 # -- Compiling architecture SYN of lpm_add_unsign33bit_to_unsign33bitwithcarry
-# End time: 11:09:18 on Nov 28,2015, Elapsed time: 0:00:01
+# End time: 15:52:32 on Nov 28,2015, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_var_norm_calc/lpm_add_unsign25bit_to_unsign25bitWithCarry.vhd}
 # Model Technology ModelSim ALTERA vcom 10.3c Compiler 2014.09 Sep 20 2014
-# Start time: 11:09:18 on Nov 28,2015
+# Start time: 15:52:32 on Nov 28,2015
 # vcom -reportprogress 300 -93 -work work C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_var_norm_calc/lpm_add_unsign25bit_to_unsign25bitWithCarry.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity lpm_add_unsign25bit_to_unsign25bitWithCarry
 # -- Compiling architecture SYN of lpm_add_unsign25bit_to_unsign25bitwithcarry
-# End time: 11:09:18 on Nov 28,2015, Elapsed time: 0:00:00
+# End time: 15:52:32 on Nov 28,2015, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_var_norm_calc/altsqrt_unsign54bit_to_usign54bit.vhd}
 # Model Technology ModelSim ALTERA vcom 10.3c Compiler 2014.09 Sep 20 2014
-# Start time: 11:09:18 on Nov 28,2015
+# Start time: 15:52:32 on Nov 28,2015
 # vcom -reportprogress 300 -93 -work work C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_var_norm_calc/altsqrt_unsign54bit_to_usign54bit.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity altsqrt_unsign54bit_to_usign54bit
 # -- Compiling architecture SYN of altsqrt_unsign54bit_to_usign54bit
-# End time: 11:09:19 on Nov 28,2015, Elapsed time: 0:00:01
+# End time: 15:52:33 on Nov 28,2015, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_feature_calc/rect_calc.vhd}
 # Model Technology ModelSim ALTERA vcom 10.3c Compiler 2014.09 Sep 20 2014
-# Start time: 11:09:19 on Nov 28,2015
+# Start time: 15:52:33 on Nov 28,2015
 # vcom -reportprogress 300 -93 -work work C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_feature_calc/rect_calc.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -363,44 +363,44 @@
 # -- Loading package NUMERIC_STD
 # -- Compiling entity rect_calc
 # -- Compiling architecture behavior of rect_calc
-# End time: 11:09:19 on Nov 28,2015, Elapsed time: 0:00:00
+# End time: 15:52:33 on Nov 28,2015, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_feature_calc/lpm_mult_sign27bit_sign15bit_to_sign42bit.vhd}
 # Model Technology ModelSim ALTERA vcom 10.3c Compiler 2014.09 Sep 20 2014
-# Start time: 11:09:19 on Nov 28,2015
+# Start time: 15:52:33 on Nov 28,2015
 # vcom -reportprogress 300 -93 -work work C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_feature_calc/lpm_mult_sign27bit_sign15bit_to_sign42bit.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity lpm_mult_sign27bit_sign15bit_to_sign42bit
 # -- Compiling architecture SYN of lpm_mult_sign27bit_sign15bit_to_sign42bit
-# End time: 11:09:20 on Nov 28,2015, Elapsed time: 0:00:01
+# End time: 15:52:34 on Nov 28,2015, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_feature_calc/lpm_add_sign43bit_to_sign43bitWithCarry.vhd}
 # Model Technology ModelSim ALTERA vcom 10.3c Compiler 2014.09 Sep 20 2014
-# Start time: 11:09:20 on Nov 28,2015
+# Start time: 15:52:34 on Nov 28,2015
 # vcom -reportprogress 300 -93 -work work C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_feature_calc/lpm_add_sign43bit_to_sign43bitWithCarry.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity lpm_add_sign43bit_to_sign43bitWithCarry
 # -- Compiling architecture SYN of lpm_add_sign43bit_to_sign43bitwithcarry
-# End time: 11:09:20 on Nov 28,2015, Elapsed time: 0:00:00
+# End time: 15:52:34 on Nov 28,2015, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_feature_calc/lpm_add_sign42bit_to_sign42bitWithCarry.vhd}
 # Model Technology ModelSim ALTERA vcom 10.3c Compiler 2014.09 Sep 20 2014
-# Start time: 11:09:20 on Nov 28,2015
+# Start time: 15:52:34 on Nov 28,2015
 # vcom -reportprogress 300 -93 -work work C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_feature_calc/lpm_add_sign42bit_to_sign42bitWithCarry.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity lpm_add_sign42bit_to_sign42bitWithCarry
 # -- Compiling architecture SYN of lpm_add_sign42bit_to_sign42bitwithcarry
-# End time: 11:09:21 on Nov 28,2015, Elapsed time: 0:00:01
+# End time: 15:52:35 on Nov 28,2015, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_feature_calc/feature_calc.vhd}
 # Model Technology ModelSim ALTERA vcom 10.3c Compiler 2014.09 Sep 20 2014
-# Start time: 11:09:21 on Nov 28,2015
+# Start time: 15:52:35 on Nov 28,2015
 # vcom -reportprogress 300 -93 -work work C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/_release_feature_calc/feature_calc.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -408,11 +408,11 @@
 # -- Loading package NUMERIC_STD
 # -- Compiling entity feature_calc
 # -- Compiling architecture behavior of feature_calc
-# End time: 11:09:21 on Nov 28,2015, Elapsed time: 0:00:00
+# End time: 15:52:35 on Nov 28,2015, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/register_file.vhd}
 # Model Technology ModelSim ALTERA vcom 10.3c Compiler 2014.09 Sep 20 2014
-# Start time: 11:09:21 on Nov 28,2015
+# Start time: 15:52:35 on Nov 28,2015
 # vcom -reportprogress 300 -93 -work work C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/register_file.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -420,11 +420,11 @@
 # -- Loading package NUMERIC_STD
 # -- Compiling entity register_file
 # -- Compiling architecture behavior of register_file
-# End time: 11:09:22 on Nov 28,2015, Elapsed time: 0:00:01
+# End time: 15:52:36 on Nov 28,2015, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/ram.vhd}
 # Model Technology ModelSim ALTERA vcom 10.3c Compiler 2014.09 Sep 20 2014
-# Start time: 11:09:22 on Nov 28,2015
+# Start time: 15:52:36 on Nov 28,2015
 # vcom -reportprogress 300 -93 -work work C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/ram.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -432,11 +432,11 @@
 # -- Loading package NUMERIC_STD
 # -- Compiling entity ram
 # -- Compiling architecture rtl of ram
-# End time: 11:09:22 on Nov 28,2015, Elapsed time: 0:00:00
+# End time: 15:52:36 on Nov 28,2015, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/top_faceDetect.vhd}
 # Model Technology ModelSim ALTERA vcom 10.3c Compiler 2014.09 Sep 20 2014
-# Start time: 11:09:22 on Nov 28,2015
+# Start time: 15:52:36 on Nov 28,2015
 # vcom -reportprogress 300 -93 -work work C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/top_faceDetect.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -446,12 +446,12 @@
 # -- Loading package STD_LOGIC_UNSIGNED
 # -- Compiling entity top_faceDetect
 # -- Compiling architecture behavior of top_faceDetect
-# End time: 11:09:23 on Nov 28,2015, Elapsed time: 0:00:01
+# End time: 15:52:37 on Nov 28,2015, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # 
 # vcom -93 -work work {C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/tb_top_faceDetect.vhd}
 # Model Technology ModelSim ALTERA vcom 10.3c Compiler 2014.09 Sep 20 2014
-# Start time: 11:09:23 on Nov 28,2015
+# Start time: 15:52:37 on Nov 28,2015
 # vcom -reportprogress 300 -93 -work work C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/tb_top_faceDetect.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -459,12 +459,12 @@
 # -- Loading package NUMERIC_STD
 # -- Compiling entity tb_top_faceDetect
 # -- Compiling architecture behavior of tb_top_faceDetect
-# End time: 11:09:23 on Nov 28,2015, Elapsed time: 0:00:00
+# End time: 15:52:38 on Nov 28,2015, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # 
 # vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneive -L rtl_work -L work -voptargs="+acc"  tb_top_faceDetect
 # vsim -gui "+altera" -l msim_transcript -do "top_faceDetect_run_msim_rtl_vhdl.do" 
-# Start time: 11:09:23 on Nov 28,2015
+# Start time: 15:52:38 on Nov 28,2015
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
@@ -2507,78 +2507,7 @@
 #    Time: 10 ns  Iteration: 8  Instance: /tb_top_facedetect/test_top_faceDetect/ii_address_decoder0/ii_addr3/add0/LPM_ADD_SUB_component/L1/U
 # ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
 #    Time: 10 ns  Iteration: 8  Instance: /tb_top_facedetect/test_top_faceDetect/ii_address_decoder0/ii_addr3/add0/LPM_ADD_SUB_component/L1/U
-add wave -position end  sim:/tb_top_facedetect/test_top_faceDetect/clk
-add wave -position end  sim:/tb_top_facedetect/test_top_faceDetect/clk_memRead
-add wave -position end  sim:/tb_top_facedetect/test_top_faceDetect/en_strongAccum0
-add wave -position end  sim:/tb_top_facedetect/test_top_faceDetect/face_detected
-add wave -position end  sim:/tb_top_facedetect/test_top_faceDetect/face_detected0
-add wave -position end  sim:/tb_top_facedetect/test_top_faceDetect/fail
-add wave -position end  sim:/tb_top_facedetect/test_top_faceDetect/h_rect0
-add wave -position end  sim:/tb_top_facedetect/test_top_faceDetect/h_rect1
-add wave -position end  sim:/tb_top_facedetect/test_top_faceDetect/h_rect2
-add wave -position end  sim:/tb_top_facedetect/test_top_faceDetect/ii_address0
-add wave -position end  sim:/tb_top_facedetect/test_top_faceDetect/ii_address_decoder_en
-add wave -position end  sim:/tb_top_facedetect/test_top_faceDetect/ii_data0
-add wave -position end  sim:/tb_top_facedetect/test_top_faceDetect/ii_reg_address
-add wave -position end  sim:/tb_top_facedetect/test_top_faceDetect/ii_reg_address_count_en
-add wave -position end  sim:/tb_top_facedetect/test_top_faceDetect/ii_reg_address_count_reset
-add wave -position end  sim:/tb_top_facedetect/test_top_faceDetect/ii_reg_index
-add wave -position end  sim:/tb_top_facedetect/test_top_faceDetect/ii_reg_index_count_en
-add wave -position end  sim:/tb_top_facedetect/test_top_faceDetect/ii_reg_index_count_reset
-add wave -position end  sim:/tb_top_facedetect/test_top_faceDetect/ii_reg_we0
-add wave -position end  sim:/tb_top_facedetect/test_top_faceDetect/left_tree
-add wave -position end  sim:/tb_top_facedetect/test_top_faceDetect/p0
-add wave -position end  sim:/tb_top_facedetect/test_top_faceDetect/p1
-add wave -position end  sim:/tb_top_facedetect/test_top_faceDetect/p2
-add wave -position end  sim:/tb_top_facedetect/test_top_faceDetect/p3
-add wave -position end  sim:/tb_top_facedetect/test_top_faceDetect/p_offset0
-add wave -position end  sim:/tb_top_facedetect/test_top_faceDetect/r0
-add wave -position end  sim:/tb_top_facedetect/test_top_faceDetect/r1
-add wave -position end  sim:/tb_top_facedetect/test_top_faceDetect/r10
-add wave -position end  sim:/tb_top_facedetect/test_top_faceDetect/r11
-add wave -position end  sim:/tb_top_facedetect/test_top_faceDetect/r2
-add wave -position end  sim:/tb_top_facedetect/test_top_faceDetect/r3
-add wave -position end  sim:/tb_top_facedetect/test_top_faceDetect/r4
-add wave -position end  sim:/tb_top_facedetect/test_top_faceDetect/r5
-add wave -position end  sim:/tb_top_facedetect/test_top_faceDetect/r6
-add wave -position end  sim:/tb_top_facedetect/test_top_faceDetect/r7
-add wave -position end  sim:/tb_top_facedetect/test_top_faceDetect/r8
-add wave -position end  sim:/tb_top_facedetect/test_top_faceDetect/r9
-add wave -position end  sim:/tb_top_facedetect/test_top_faceDetect/reset
-add wave -position end  sim:/tb_top_facedetect/test_top_faceDetect/right_tree
-add wave -position end  sim:/tb_top_facedetect/test_top_faceDetect/ssp0
-add wave -position end  sim:/tb_top_facedetect/test_top_faceDetect/ssp1
-add wave -position end  sim:/tb_top_facedetect/test_top_faceDetect/ssp2
-add wave -position end  sim:/tb_top_facedetect/test_top_faceDetect/ssp3
-add wave -position end  sim:/tb_top_facedetect/test_top_faceDetect/strongStage_count
-add wave -position end  sim:/tb_top_facedetect/test_top_faceDetect/strongStage_count_en
-add wave -position end  sim:/tb_top_facedetect/test_top_faceDetect/strongStage_count_reset
-add wave -position end  sim:/tb_top_facedetect/test_top_faceDetect/strong_thresh
-add wave -position end  sim:/tb_top_facedetect/test_top_faceDetect/top_cs
-add wave -position end  sim:/tb_top_facedetect/test_top_faceDetect/top_ns
-add wave -position end  sim:/tb_top_facedetect/test_top_faceDetect/w_rect0
-add wave -position end  sim:/tb_top_facedetect/test_top_faceDetect/w_rect1
-add wave -position end  sim:/tb_top_facedetect/test_top_faceDetect/w_rect2
-add wave -position end  sim:/tb_top_facedetect/test_top_faceDetect/weakNode_count
-add wave -position end  sim:/tb_top_facedetect/test_top_faceDetect/weakNode_count_en
-add wave -position end  sim:/tb_top_facedetect/test_top_faceDetect/weakNode_count_reset
-add wave -position end  sim:/tb_top_facedetect/test_top_faceDetect/weak_count
-add wave -position end  sim:/tb_top_facedetect/test_top_faceDetect/weak_count_en
-add wave -position end  sim:/tb_top_facedetect/test_top_faceDetect/weak_count_reset
-add wave -position end  sim:/tb_top_facedetect/test_top_faceDetect/weak_stage_num
-add wave -position end  sim:/tb_top_facedetect/test_top_faceDetect/weak_thresh
-add wave -position end  sim:/tb_top_facedetect/test_top_faceDetect/weight_rect0
-add wave -position end  sim:/tb_top_facedetect/test_top_faceDetect/weight_rect1
-add wave -position end  sim:/tb_top_facedetect/test_top_faceDetect/weight_rect2
-add wave -position end  sim:/tb_top_facedetect/test_top_faceDetect/width_scale_img
-add wave -position end  sim:/tb_top_facedetect/test_top_faceDetect/x_pos_subwin0
-add wave -position end  sim:/tb_top_facedetect/test_top_faceDetect/x_rect0
-add wave -position end  sim:/tb_top_facedetect/test_top_faceDetect/x_rect1
-add wave -position end  sim:/tb_top_facedetect/test_top_faceDetect/x_rect2
-add wave -position end  sim:/tb_top_facedetect/test_top_faceDetect/y_pos_subwin0
-add wave -position end  sim:/tb_top_facedetect/test_top_faceDetect/y_rect0
-add wave -position end  sim:/tb_top_facedetect/test_top_faceDetect/y_rect1
-add wave -position end  sim:/tb_top_facedetect/test_top_faceDetect/y_rect2
+do C:/Users/Peter/Desktop/Senior_Design/97_altera_workspace/FaceDetectionFPGA/top_faceDetect/simulation/modelsim/wave.do
 restart
 run
 # ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
@@ -4559,10 +4488,5 @@ run
 #    Time: 10 ns  Iteration: 8  Instance: /tb_top_facedetect/test_top_faceDetect/ii_address_decoder0/ii_addr3/add0/LPM_ADD_SUB_component/L1/U
 # ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
 #    Time: 10 ns  Iteration: 8  Instance: /tb_top_facedetect/test_top_faceDetect/ii_address_decoder0/ii_addr3/add0/LPM_ADD_SUB_component/L1/U
-run
-run
-run
-run
-run
-# End time: 11:19:20 on Nov 28,2015, Elapsed time: 0:09:57
+# End time: 15:53:54 on Nov 28,2015, Elapsed time: 0:01:16
 # Errors: 0, Warnings: 1978
