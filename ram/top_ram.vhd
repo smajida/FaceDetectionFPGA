@@ -1,13 +1,3 @@
--- STATUS: WORKING ... *** rena
--- 
--- 24x24 pixel memor
--- 576 memory addresses ... 0 to 575 ... 10bit address
--- **For now use 32 bit data width
--- Assuming 24x24 x255 gray max value ... max int image value=146880 ... 18 bit data
--- 
--- This ram will be initilized by a text file loaded with integral
--- image values which are indexed 
-
 library ieee, altera;
 use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
