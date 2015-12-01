@@ -1,19 +1,23 @@
 |ii_address_calc
-x_pos_point[0] => lpm_add_unsign10bit_to_unsign10bit:add0.datab[0]
-x_pos_point[1] => lpm_add_unsign10bit_to_unsign10bit:add0.datab[1]
-x_pos_point[2] => lpm_add_unsign10bit_to_unsign10bit:add0.datab[2]
-x_pos_point[3] => lpm_add_unsign10bit_to_unsign10bit:add0.datab[3]
-x_pos_point[4] => lpm_add_unsign10bit_to_unsign10bit:add0.datab[4]
-y_pos_point[0] => lpm_mult_unsign5bit_unsign5bit_to_unsign10bit:mult0.dataa[0]
-y_pos_point[1] => lpm_mult_unsign5bit_unsign5bit_to_unsign10bit:mult0.dataa[1]
-y_pos_point[2] => lpm_mult_unsign5bit_unsign5bit_to_unsign10bit:mult0.dataa[2]
-y_pos_point[3] => lpm_mult_unsign5bit_unsign5bit_to_unsign10bit:mult0.dataa[3]
-y_pos_point[4] => lpm_mult_unsign5bit_unsign5bit_to_unsign10bit:mult0.dataa[4]
-width_subwin[0] => lpm_mult_unsign5bit_unsign5bit_to_unsign10bit:mult0.datab[0]
-width_subwin[1] => lpm_mult_unsign5bit_unsign5bit_to_unsign10bit:mult0.datab[1]
-width_subwin[2] => lpm_mult_unsign5bit_unsign5bit_to_unsign10bit:mult0.datab[2]
-width_subwin[3] => lpm_mult_unsign5bit_unsign5bit_to_unsign10bit:mult0.datab[3]
-width_subwin[4] => lpm_mult_unsign5bit_unsign5bit_to_unsign10bit:mult0.datab[4]
+x_pos_point[0] => lpm_add_unsign14bit_to_unsign14bit:add0.datab[0]
+x_pos_point[1] => lpm_add_unsign14bit_to_unsign14bit:add0.datab[1]
+x_pos_point[2] => lpm_add_unsign14bit_to_unsign14bit:add0.datab[2]
+x_pos_point[3] => lpm_add_unsign14bit_to_unsign14bit:add0.datab[3]
+x_pos_point[4] => lpm_add_unsign14bit_to_unsign14bit:add0.datab[4]
+y_pos_point[0] => lpm_mult_unsign5bit_unsign9bit_to_unsign14bit:mult0.dataa[0]
+y_pos_point[1] => lpm_mult_unsign5bit_unsign9bit_to_unsign14bit:mult0.dataa[1]
+y_pos_point[2] => lpm_mult_unsign5bit_unsign9bit_to_unsign14bit:mult0.dataa[2]
+y_pos_point[3] => lpm_mult_unsign5bit_unsign9bit_to_unsign14bit:mult0.dataa[3]
+y_pos_point[4] => lpm_mult_unsign5bit_unsign9bit_to_unsign14bit:mult0.dataa[4]
+width_scale_img[0] => lpm_mult_unsign5bit_unsign9bit_to_unsign14bit:mult0.datab[0]
+width_scale_img[1] => lpm_mult_unsign5bit_unsign9bit_to_unsign14bit:mult0.datab[1]
+width_scale_img[2] => lpm_mult_unsign5bit_unsign9bit_to_unsign14bit:mult0.datab[2]
+width_scale_img[3] => lpm_mult_unsign5bit_unsign9bit_to_unsign14bit:mult0.datab[3]
+width_scale_img[4] => lpm_mult_unsign5bit_unsign9bit_to_unsign14bit:mult0.datab[4]
+width_scale_img[5] => lpm_mult_unsign5bit_unsign9bit_to_unsign14bit:mult0.datab[5]
+width_scale_img[6] => lpm_mult_unsign5bit_unsign9bit_to_unsign14bit:mult0.datab[6]
+width_scale_img[7] => lpm_mult_unsign5bit_unsign9bit_to_unsign14bit:mult0.datab[7]
+width_scale_img[8] => lpm_mult_unsign5bit_unsign9bit_to_unsign14bit:mult0.datab[8]
 p_offset[0] => lpm_add_unsign17bit_to_unsign17bit:add1.datab[0]
 p_offset[1] => lpm_add_unsign17bit_to_unsign17bit:add1.datab[1]
 p_offset[2] => lpm_add_unsign17bit_to_unsign17bit:add1.datab[2]
@@ -31,26 +35,26 @@ p_offset[13] => lpm_add_unsign17bit_to_unsign17bit:add1.datab[13]
 p_offset[14] => lpm_add_unsign17bit_to_unsign17bit:add1.datab[14]
 p_offset[15] => lpm_add_unsign17bit_to_unsign17bit:add1.datab[15]
 p_offset[16] => lpm_add_unsign17bit_to_unsign17bit:add1.datab[16]
-ii_address[0] <= lpm_add_unsign17bit_to_unsign17bit:add1.result[0]
-ii_address[1] <= lpm_add_unsign17bit_to_unsign17bit:add1.result[1]
-ii_address[2] <= lpm_add_unsign17bit_to_unsign17bit:add1.result[2]
-ii_address[3] <= lpm_add_unsign17bit_to_unsign17bit:add1.result[3]
-ii_address[4] <= lpm_add_unsign17bit_to_unsign17bit:add1.result[4]
-ii_address[5] <= lpm_add_unsign17bit_to_unsign17bit:add1.result[5]
-ii_address[6] <= lpm_add_unsign17bit_to_unsign17bit:add1.result[6]
-ii_address[7] <= lpm_add_unsign17bit_to_unsign17bit:add1.result[7]
-ii_address[8] <= lpm_add_unsign17bit_to_unsign17bit:add1.result[8]
-ii_address[9] <= lpm_add_unsign17bit_to_unsign17bit:add1.result[9]
-ii_address[10] <= lpm_add_unsign17bit_to_unsign17bit:add1.result[10]
-ii_address[11] <= lpm_add_unsign17bit_to_unsign17bit:add1.result[11]
-ii_address[12] <= lpm_add_unsign17bit_to_unsign17bit:add1.result[12]
-ii_address[13] <= lpm_add_unsign17bit_to_unsign17bit:add1.result[13]
-ii_address[14] <= lpm_add_unsign17bit_to_unsign17bit:add1.result[14]
-ii_address[15] <= lpm_add_unsign17bit_to_unsign17bit:add1.result[15]
-ii_address[16] <= lpm_add_unsign17bit_to_unsign17bit:add1.result[16]
+ii_address[0] << lpm_add_unsign17bit_to_unsign17bit:add1.result[0]
+ii_address[1] << lpm_add_unsign17bit_to_unsign17bit:add1.result[1]
+ii_address[2] << lpm_add_unsign17bit_to_unsign17bit:add1.result[2]
+ii_address[3] << lpm_add_unsign17bit_to_unsign17bit:add1.result[3]
+ii_address[4] << lpm_add_unsign17bit_to_unsign17bit:add1.result[4]
+ii_address[5] << lpm_add_unsign17bit_to_unsign17bit:add1.result[5]
+ii_address[6] << lpm_add_unsign17bit_to_unsign17bit:add1.result[6]
+ii_address[7] << lpm_add_unsign17bit_to_unsign17bit:add1.result[7]
+ii_address[8] << lpm_add_unsign17bit_to_unsign17bit:add1.result[8]
+ii_address[9] << lpm_add_unsign17bit_to_unsign17bit:add1.result[9]
+ii_address[10] << lpm_add_unsign17bit_to_unsign17bit:add1.result[10]
+ii_address[11] << lpm_add_unsign17bit_to_unsign17bit:add1.result[11]
+ii_address[12] << lpm_add_unsign17bit_to_unsign17bit:add1.result[12]
+ii_address[13] << lpm_add_unsign17bit_to_unsign17bit:add1.result[13]
+ii_address[14] << lpm_add_unsign17bit_to_unsign17bit:add1.result[14]
+ii_address[15] << lpm_add_unsign17bit_to_unsign17bit:add1.result[15]
+ii_address[16] << lpm_add_unsign17bit_to_unsign17bit:add1.result[16]
 
 
-|ii_address_calc|lpm_mult_unsign5bit_unsign5bit_to_unsign10bit:mult0
+|ii_address_calc|lpm_mult_unsign5bit_unsign9bit_to_unsign14bit:mult0
 dataa[0] => lpm_mult:lpm_mult_component.dataa[0]
 dataa[1] => lpm_mult:lpm_mult_component.dataa[1]
 dataa[2] => lpm_mult:lpm_mult_component.dataa[2]
@@ -61,6 +65,10 @@ datab[1] => lpm_mult:lpm_mult_component.datab[1]
 datab[2] => lpm_mult:lpm_mult_component.datab[2]
 datab[3] => lpm_mult:lpm_mult_component.datab[3]
 datab[4] => lpm_mult:lpm_mult_component.datab[4]
+datab[5] => lpm_mult:lpm_mult_component.datab[5]
+datab[6] => lpm_mult:lpm_mult_component.datab[6]
+datab[7] => lpm_mult:lpm_mult_component.datab[7]
+datab[8] => lpm_mult:lpm_mult_component.datab[8]
 result[0] <= lpm_mult:lpm_mult_component.result[0]
 result[1] <= lpm_mult:lpm_mult_component.result[1]
 result[2] <= lpm_mult:lpm_mult_component.result[2]
@@ -71,36 +79,48 @@ result[6] <= lpm_mult:lpm_mult_component.result[6]
 result[7] <= lpm_mult:lpm_mult_component.result[7]
 result[8] <= lpm_mult:lpm_mult_component.result[8]
 result[9] <= lpm_mult:lpm_mult_component.result[9]
+result[10] <= lpm_mult:lpm_mult_component.result[10]
+result[11] <= lpm_mult:lpm_mult_component.result[11]
+result[12] <= lpm_mult:lpm_mult_component.result[12]
+result[13] <= lpm_mult:lpm_mult_component.result[13]
 
 
-|ii_address_calc|lpm_mult_unsign5bit_unsign5bit_to_unsign10bit:mult0|lpm_mult:lpm_mult_component
-dataa[0] => mult_gcn:auto_generated.dataa[0]
-dataa[1] => mult_gcn:auto_generated.dataa[1]
-dataa[2] => mult_gcn:auto_generated.dataa[2]
-dataa[3] => mult_gcn:auto_generated.dataa[3]
-dataa[4] => mult_gcn:auto_generated.dataa[4]
-datab[0] => mult_gcn:auto_generated.datab[0]
-datab[1] => mult_gcn:auto_generated.datab[1]
-datab[2] => mult_gcn:auto_generated.datab[2]
-datab[3] => mult_gcn:auto_generated.datab[3]
-datab[4] => mult_gcn:auto_generated.datab[4]
+|ii_address_calc|lpm_mult_unsign5bit_unsign9bit_to_unsign14bit:mult0|lpm_mult:lpm_mult_component
+dataa[0] => mult_ocn:auto_generated.dataa[0]
+dataa[1] => mult_ocn:auto_generated.dataa[1]
+dataa[2] => mult_ocn:auto_generated.dataa[2]
+dataa[3] => mult_ocn:auto_generated.dataa[3]
+dataa[4] => mult_ocn:auto_generated.dataa[4]
+datab[0] => mult_ocn:auto_generated.datab[0]
+datab[1] => mult_ocn:auto_generated.datab[1]
+datab[2] => mult_ocn:auto_generated.datab[2]
+datab[3] => mult_ocn:auto_generated.datab[3]
+datab[4] => mult_ocn:auto_generated.datab[4]
+datab[5] => mult_ocn:auto_generated.datab[5]
+datab[6] => mult_ocn:auto_generated.datab[6]
+datab[7] => mult_ocn:auto_generated.datab[7]
+datab[8] => mult_ocn:auto_generated.datab[8]
 sum[0] => ~NO_FANOUT~
 aclr => ~NO_FANOUT~
 clock => ~NO_FANOUT~
 clken => ~NO_FANOUT~
-result[0] <= mult_gcn:auto_generated.result[0]
-result[1] <= mult_gcn:auto_generated.result[1]
-result[2] <= mult_gcn:auto_generated.result[2]
-result[3] <= mult_gcn:auto_generated.result[3]
-result[4] <= mult_gcn:auto_generated.result[4]
-result[5] <= mult_gcn:auto_generated.result[5]
-result[6] <= mult_gcn:auto_generated.result[6]
-result[7] <= mult_gcn:auto_generated.result[7]
-result[8] <= mult_gcn:auto_generated.result[8]
-result[9] <= mult_gcn:auto_generated.result[9]
+result[0] <= mult_ocn:auto_generated.result[0]
+result[1] <= mult_ocn:auto_generated.result[1]
+result[2] <= mult_ocn:auto_generated.result[2]
+result[3] <= mult_ocn:auto_generated.result[3]
+result[4] <= mult_ocn:auto_generated.result[4]
+result[5] <= mult_ocn:auto_generated.result[5]
+result[6] <= mult_ocn:auto_generated.result[6]
+result[7] <= mult_ocn:auto_generated.result[7]
+result[8] <= mult_ocn:auto_generated.result[8]
+result[9] <= mult_ocn:auto_generated.result[9]
+result[10] <= mult_ocn:auto_generated.result[10]
+result[11] <= mult_ocn:auto_generated.result[11]
+result[12] <= mult_ocn:auto_generated.result[12]
+result[13] <= mult_ocn:auto_generated.result[13]
 
 
-|ii_address_calc|lpm_mult_unsign5bit_unsign5bit_to_unsign10bit:mult0|lpm_mult:lpm_mult_component|mult_gcn:auto_generated
+|ii_address_calc|lpm_mult_unsign5bit_unsign9bit_to_unsign14bit:mult0|lpm_mult:lpm_mult_component|mult_ocn:auto_generated
 dataa[0] => mac_mult1.DATAA
 dataa[1] => mac_mult1.DATAA1
 dataa[2] => mac_mult1.DATAA2
@@ -111,6 +131,10 @@ datab[1] => mac_mult1.DATAB1
 datab[2] => mac_mult1.DATAB2
 datab[3] => mac_mult1.DATAB3
 datab[4] => mac_mult1.DATAB4
+datab[5] => mac_mult1.DATAB5
+datab[6] => mac_mult1.DATAB6
+datab[7] => mac_mult1.DATAB7
+datab[8] => mac_mult1.DATAB8
 result[0] <= mac_out2.DATAOUT
 result[1] <= mac_out2.DATAOUT1
 result[2] <= mac_out2.DATAOUT2
@@ -121,9 +145,13 @@ result[6] <= mac_out2.DATAOUT6
 result[7] <= mac_out2.DATAOUT7
 result[8] <= mac_out2.DATAOUT8
 result[9] <= mac_out2.DATAOUT9
+result[10] <= mac_out2.DATAOUT10
+result[11] <= mac_out2.DATAOUT11
+result[12] <= mac_out2.DATAOUT12
+result[13] <= mac_out2.DATAOUT13
 
 
-|ii_address_calc|lpm_add_unsign10bit_to_unsign10bit:add0
+|ii_address_calc|lpm_add_unsign14bit_to_unsign14bit:add0
 dataa[0] => lpm_add_sub:LPM_ADD_SUB_component.dataa[0]
 dataa[1] => lpm_add_sub:LPM_ADD_SUB_component.dataa[1]
 dataa[2] => lpm_add_sub:LPM_ADD_SUB_component.dataa[2]
@@ -134,6 +162,10 @@ dataa[6] => lpm_add_sub:LPM_ADD_SUB_component.dataa[6]
 dataa[7] => lpm_add_sub:LPM_ADD_SUB_component.dataa[7]
 dataa[8] => lpm_add_sub:LPM_ADD_SUB_component.dataa[8]
 dataa[9] => lpm_add_sub:LPM_ADD_SUB_component.dataa[9]
+dataa[10] => lpm_add_sub:LPM_ADD_SUB_component.dataa[10]
+dataa[11] => lpm_add_sub:LPM_ADD_SUB_component.dataa[11]
+dataa[12] => lpm_add_sub:LPM_ADD_SUB_component.dataa[12]
+dataa[13] => lpm_add_sub:LPM_ADD_SUB_component.dataa[13]
 datab[0] => lpm_add_sub:LPM_ADD_SUB_component.datab[0]
 datab[1] => lpm_add_sub:LPM_ADD_SUB_component.datab[1]
 datab[2] => lpm_add_sub:LPM_ADD_SUB_component.datab[2]
@@ -144,6 +176,10 @@ datab[6] => lpm_add_sub:LPM_ADD_SUB_component.datab[6]
 datab[7] => lpm_add_sub:LPM_ADD_SUB_component.datab[7]
 datab[8] => lpm_add_sub:LPM_ADD_SUB_component.datab[8]
 datab[9] => lpm_add_sub:LPM_ADD_SUB_component.datab[9]
+datab[10] => lpm_add_sub:LPM_ADD_SUB_component.datab[10]
+datab[11] => lpm_add_sub:LPM_ADD_SUB_component.datab[11]
+datab[12] => lpm_add_sub:LPM_ADD_SUB_component.datab[12]
+datab[13] => lpm_add_sub:LPM_ADD_SUB_component.datab[13]
 result[0] <= lpm_add_sub:LPM_ADD_SUB_component.result[0]
 result[1] <= lpm_add_sub:LPM_ADD_SUB_component.result[1]
 result[2] <= lpm_add_sub:LPM_ADD_SUB_component.result[2]
@@ -154,69 +190,93 @@ result[6] <= lpm_add_sub:LPM_ADD_SUB_component.result[6]
 result[7] <= lpm_add_sub:LPM_ADD_SUB_component.result[7]
 result[8] <= lpm_add_sub:LPM_ADD_SUB_component.result[8]
 result[9] <= lpm_add_sub:LPM_ADD_SUB_component.result[9]
+result[10] <= lpm_add_sub:LPM_ADD_SUB_component.result[10]
+result[11] <= lpm_add_sub:LPM_ADD_SUB_component.result[11]
+result[12] <= lpm_add_sub:LPM_ADD_SUB_component.result[12]
+result[13] <= lpm_add_sub:LPM_ADD_SUB_component.result[13]
 
 
-|ii_address_calc|lpm_add_unsign10bit_to_unsign10bit:add0|lpm_add_sub:LPM_ADD_SUB_component
-dataa[0] => add_sub_7qh:auto_generated.dataa[0]
-dataa[1] => add_sub_7qh:auto_generated.dataa[1]
-dataa[2] => add_sub_7qh:auto_generated.dataa[2]
-dataa[3] => add_sub_7qh:auto_generated.dataa[3]
-dataa[4] => add_sub_7qh:auto_generated.dataa[4]
-dataa[5] => add_sub_7qh:auto_generated.dataa[5]
-dataa[6] => add_sub_7qh:auto_generated.dataa[6]
-dataa[7] => add_sub_7qh:auto_generated.dataa[7]
-dataa[8] => add_sub_7qh:auto_generated.dataa[8]
-dataa[9] => add_sub_7qh:auto_generated.dataa[9]
-datab[0] => add_sub_7qh:auto_generated.datab[0]
-datab[1] => add_sub_7qh:auto_generated.datab[1]
-datab[2] => add_sub_7qh:auto_generated.datab[2]
-datab[3] => add_sub_7qh:auto_generated.datab[3]
-datab[4] => add_sub_7qh:auto_generated.datab[4]
-datab[5] => add_sub_7qh:auto_generated.datab[5]
-datab[6] => add_sub_7qh:auto_generated.datab[6]
-datab[7] => add_sub_7qh:auto_generated.datab[7]
-datab[8] => add_sub_7qh:auto_generated.datab[8]
-datab[9] => add_sub_7qh:auto_generated.datab[9]
+|ii_address_calc|lpm_add_unsign14bit_to_unsign14bit:add0|lpm_add_sub:LPM_ADD_SUB_component
+dataa[0] => add_sub_bqh:auto_generated.dataa[0]
+dataa[1] => add_sub_bqh:auto_generated.dataa[1]
+dataa[2] => add_sub_bqh:auto_generated.dataa[2]
+dataa[3] => add_sub_bqh:auto_generated.dataa[3]
+dataa[4] => add_sub_bqh:auto_generated.dataa[4]
+dataa[5] => add_sub_bqh:auto_generated.dataa[5]
+dataa[6] => add_sub_bqh:auto_generated.dataa[6]
+dataa[7] => add_sub_bqh:auto_generated.dataa[7]
+dataa[8] => add_sub_bqh:auto_generated.dataa[8]
+dataa[9] => add_sub_bqh:auto_generated.dataa[9]
+dataa[10] => add_sub_bqh:auto_generated.dataa[10]
+dataa[11] => add_sub_bqh:auto_generated.dataa[11]
+dataa[12] => add_sub_bqh:auto_generated.dataa[12]
+dataa[13] => add_sub_bqh:auto_generated.dataa[13]
+datab[0] => add_sub_bqh:auto_generated.datab[0]
+datab[1] => add_sub_bqh:auto_generated.datab[1]
+datab[2] => add_sub_bqh:auto_generated.datab[2]
+datab[3] => add_sub_bqh:auto_generated.datab[3]
+datab[4] => add_sub_bqh:auto_generated.datab[4]
+datab[5] => add_sub_bqh:auto_generated.datab[5]
+datab[6] => add_sub_bqh:auto_generated.datab[6]
+datab[7] => add_sub_bqh:auto_generated.datab[7]
+datab[8] => add_sub_bqh:auto_generated.datab[8]
+datab[9] => add_sub_bqh:auto_generated.datab[9]
+datab[10] => add_sub_bqh:auto_generated.datab[10]
+datab[11] => add_sub_bqh:auto_generated.datab[11]
+datab[12] => add_sub_bqh:auto_generated.datab[12]
+datab[13] => add_sub_bqh:auto_generated.datab[13]
 cin => ~NO_FANOUT~
 add_sub => ~NO_FANOUT~
 clock => ~NO_FANOUT~
 aclr => ~NO_FANOUT~
 clken => ~NO_FANOUT~
-result[0] <= add_sub_7qh:auto_generated.result[0]
-result[1] <= add_sub_7qh:auto_generated.result[1]
-result[2] <= add_sub_7qh:auto_generated.result[2]
-result[3] <= add_sub_7qh:auto_generated.result[3]
-result[4] <= add_sub_7qh:auto_generated.result[4]
-result[5] <= add_sub_7qh:auto_generated.result[5]
-result[6] <= add_sub_7qh:auto_generated.result[6]
-result[7] <= add_sub_7qh:auto_generated.result[7]
-result[8] <= add_sub_7qh:auto_generated.result[8]
-result[9] <= add_sub_7qh:auto_generated.result[9]
+result[0] <= add_sub_bqh:auto_generated.result[0]
+result[1] <= add_sub_bqh:auto_generated.result[1]
+result[2] <= add_sub_bqh:auto_generated.result[2]
+result[3] <= add_sub_bqh:auto_generated.result[3]
+result[4] <= add_sub_bqh:auto_generated.result[4]
+result[5] <= add_sub_bqh:auto_generated.result[5]
+result[6] <= add_sub_bqh:auto_generated.result[6]
+result[7] <= add_sub_bqh:auto_generated.result[7]
+result[8] <= add_sub_bqh:auto_generated.result[8]
+result[9] <= add_sub_bqh:auto_generated.result[9]
+result[10] <= add_sub_bqh:auto_generated.result[10]
+result[11] <= add_sub_bqh:auto_generated.result[11]
+result[12] <= add_sub_bqh:auto_generated.result[12]
+result[13] <= add_sub_bqh:auto_generated.result[13]
 cout <= <GND>
 overflow <= <GND>
 
 
-|ii_address_calc|lpm_add_unsign10bit_to_unsign10bit:add0|lpm_add_sub:LPM_ADD_SUB_component|add_sub_7qh:auto_generated
-dataa[0] => op_1.IN18
-dataa[1] => op_1.IN16
-dataa[2] => op_1.IN14
-dataa[3] => op_1.IN12
-dataa[4] => op_1.IN10
-dataa[5] => op_1.IN8
-dataa[6] => op_1.IN6
-dataa[7] => op_1.IN4
-dataa[8] => op_1.IN2
-dataa[9] => op_1.IN0
-datab[0] => op_1.IN19
-datab[1] => op_1.IN17
-datab[2] => op_1.IN15
-datab[3] => op_1.IN13
-datab[4] => op_1.IN11
-datab[5] => op_1.IN9
-datab[6] => op_1.IN7
-datab[7] => op_1.IN5
-datab[8] => op_1.IN3
-datab[9] => op_1.IN1
+|ii_address_calc|lpm_add_unsign14bit_to_unsign14bit:add0|lpm_add_sub:LPM_ADD_SUB_component|add_sub_bqh:auto_generated
+dataa[0] => op_1.IN26
+dataa[1] => op_1.IN24
+dataa[2] => op_1.IN22
+dataa[3] => op_1.IN20
+dataa[4] => op_1.IN18
+dataa[5] => op_1.IN16
+dataa[6] => op_1.IN14
+dataa[7] => op_1.IN12
+dataa[8] => op_1.IN10
+dataa[9] => op_1.IN8
+dataa[10] => op_1.IN6
+dataa[11] => op_1.IN4
+dataa[12] => op_1.IN2
+dataa[13] => op_1.IN0
+datab[0] => op_1.IN27
+datab[1] => op_1.IN25
+datab[2] => op_1.IN23
+datab[3] => op_1.IN21
+datab[4] => op_1.IN19
+datab[5] => op_1.IN17
+datab[6] => op_1.IN15
+datab[7] => op_1.IN13
+datab[8] => op_1.IN11
+datab[9] => op_1.IN9
+datab[10] => op_1.IN7
+datab[11] => op_1.IN5
+datab[12] => op_1.IN3
+datab[13] => op_1.IN1
 result[0] <= op_1.DB_MAX_OUTPUT_PORT_TYPE
 result[1] <= op_1.DB_MAX_OUTPUT_PORT_TYPE
 result[2] <= op_1.DB_MAX_OUTPUT_PORT_TYPE
@@ -227,6 +287,10 @@ result[6] <= op_1.DB_MAX_OUTPUT_PORT_TYPE
 result[7] <= op_1.DB_MAX_OUTPUT_PORT_TYPE
 result[8] <= op_1.DB_MAX_OUTPUT_PORT_TYPE
 result[9] <= op_1.DB_MAX_OUTPUT_PORT_TYPE
+result[10] <= op_1.DB_MAX_OUTPUT_PORT_TYPE
+result[11] <= op_1.DB_MAX_OUTPUT_PORT_TYPE
+result[12] <= op_1.DB_MAX_OUTPUT_PORT_TYPE
+result[13] <= op_1.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |ii_address_calc|lpm_add_unsign17bit_to_unsign17bit:add1

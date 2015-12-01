@@ -1,0 +1,12 @@
+
+State Machine - |top_faceDetect|top_cs
+Name top_cs.s8 top_cs.s7 top_cs.s6 top_cs.s5 top_cs.s4 top_cs.s3 top_cs.s2 top_cs.s1 top_cs.s0 
+top_cs.s0 0 0 0 0 0 0 0 0 0 
+top_cs.s1 0 0 0 0 0 0 0 1 1 
+top_cs.s2 0 0 0 0 0 0 1 0 1 
+top_cs.s3 0 0 0 0 0 1 0 0 1 
+top_cs.s4 0 0 0 0 1 0 0 0 1 
+top_cs.s5 0 0 0 1 0 0 0 0 1 
+top_cs.s6 0 0 1 0 0 0 0 0 1 
+top_cs.s7 0 1 0 0 0 0 0 0 1 
+top_cs.s8 1 0 0 0 0 0 0 0 1 
